@@ -34,6 +34,10 @@ def get(url, tries=5):
             wait = 2 ** k; print("  retry", k + 1, e, "attente", wait, "s", file=sys.stderr); time.sleep(wait)
     raise RuntimeError("echec reseau apres %d essais : %s" % (tries, url))
 
+def _j(sep, xs):
+    """Joint seulement des chaines (Europe PMC renvoie parfois null dans les listes)."""
+    return sep.join(str(x) for x in (xs or []) if x is not None and str(x) != "")
+
 def parse_record(rec):
     """Normalise un enregistrement 'core' de Europe PMC. Tolerant aux champs absents."""
     al = (rec.get("authorList") or {}).get("author") or []
@@ -41,18 +45,18 @@ def parse_record(rec):
     for a in al:
         names.append(a.get("fullName") or ((a.get("firstName") or "") + " " + (a.get("lastName") or "")).strip())
         det = ((a.get("authorAffiliationDetailsList") or {}).get("authorAffiliation")) or []
-        affs.append(" ; ".join(d.get("affiliation", "") for d in det if isinstance(d, dict)) or (a.get("affiliation") or ""))
+        affs.append(" ; ".join((d.get("affiliation") or "") for d in det if isinstance(d, dict)) or (a.get("affiliation") or ""))
     if not names and rec.get("authorString"):
         names = [x.strip() for x in rec["authorString"].rstrip(".").split(",") if x.strip()]; affs = [""] * len(names)
-    pt = [x for x in ((rec.get("pubTypeList") or {}).get("pubType") or [])]
+    pt = [x for x in ((rec.get("pubTypeList") or {}).get("pubType") or []) if x]
     fl = (rec.get("fullTextUrlList") or {}).get("fullTextUrl") or []
     d = dict(epmc_id=rec.get("id", ""), source=rec.get("source", ""), pmid=rec.get("pmid", ""), pmcid=rec.get("pmcid", ""), doi=rec.get("doi", ""),
-             title=R.clean(rec.get("title", "")), abstract=R.clean(rec.get("abstractText", "")), journal=((rec.get("journalInfo") or {}).get("journal") or {}).get("title", ""),
+             title=R.clean(rec.get("title") or ""), abstract=R.clean(rec.get("abstractText") or ""), journal=((rec.get("journalInfo") or {}).get("journal") or {}).get("title", ""),
              first_pub_date=rec.get("firstPublicationDate", ""), pub_year=rec.get("pubYear", ""), cited_by=rec.get("citedByCount", 0), is_open_access=rec.get("isOpenAccess", ""),
-             pub_types="|".join(pt), is_preprint=(rec.get("source") == "PPR") or ("Preprint" in pt),
-             is_retracted=("Retracted Publication" in pt) or ("retraction" in R.clean(rec.get("title", "")).lower()[:40]),
-             grants="|".join(sorted({g.get("agency", "") for g in ((rec.get("grantsList") or {}).get("grant") or []) if g.get("agency")})),
-             keywords="|".join((rec.get("keywordList") or {}).get("keyword") or []), has_fulltext_oa=any(f.get("availability") == "Open access" for f in fl),
+             pub_types=_j("|", pt), is_preprint=(rec.get("source") == "PPR") or ("Preprint" in pt),
+             is_retracted=("Retracted Publication" in pt) or ("retraction" in R.clean(rec.get("title") or "").lower()[:40]),
+             grants="|".join(sorted({(g.get("agency") or "") for g in ((rec.get("grantsList") or {}).get("grant") or []) if g.get("agency")})),
+             keywords=_j("|", (rec.get("keywordList") or {}).get("keyword")), has_fulltext_oa=any(f.get("availability") == "Open access" for f in fl),
              url=("https://doi.org/" + rec["doi"]) if rec.get("doi") else ("https://europepmc.org/article/%s/%s" % (rec.get("source", ""), rec.get("id", ""))),
              authors="; ".join(names))
     d.update(R.author_info(names, affs)); return d
@@ -66,14 +70,18 @@ def main():
     if os.path.exists(outcsv):   # incremental : on garde l'existant
         import pandas as pd
         for r in pd.read_csv(outcsv, dtype=str, keep_default_na=False).to_dict("records"): seen[(r["source"], r["epmc_id"])] = r
-    n_new = 0
+    n_new = 0; n_err = 0
     for qi, q in enumerate(build_queries(a.start, a.since)):
         cursor = "*"
         while True:
             url = BASE + "?" + urllib.parse.urlencode(dict(query=q, resultType="core", pageSize=a.page, cursorMark=cursor, format="json"))
             j = get(url); res = (j.get("resultList") or {}).get("result") or []
             for rec in res:
-                jf.write(json.dumps(rec, ensure_ascii=False) + "\n"); d = parse_record(rec); k = (d["source"], d["epmc_id"])
+                jf.write(json.dumps(rec, ensure_ascii=False) + "\n")
+                try: d = parse_record(rec)
+                except Exception as e:
+                    n_err += 1; print("  notice ignoree (%s) : %s/%s" % (type(e).__name__, rec.get("source"), rec.get("id")), file=sys.stderr); continue
+                k = (d["source"], d["epmc_id"])
                 if k not in seen: n_new += 1
                 seen[k] = d
             nxt = j.get("nextCursorMark")
@@ -84,6 +92,7 @@ def main():
     rows = list(seen.values()); cols = list(rows[0].keys()) if rows else []
     with open(outcsv, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=cols); w.writeheader(); w.writerows(rows)
+    if n_err > max(5, 0.005 * max(len(rows), 1)): raise SystemExit("trop de notices illisibles : %d" % n_err)
     print("OK : %d articles (%d nouveaux) -> %s" % (len(rows), n_new, outcsv))
 
 if __name__ == "__main__": main()

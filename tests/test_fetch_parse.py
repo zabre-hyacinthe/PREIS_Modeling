@@ -10,3 +10,8 @@ d2 = F.parse_record({"id": "9", "source": "MED", "title": "x", "authorString": "
 rec3 = dict(rec, authorList={"author": [{"fullName": "A", "authorAffiliationDetailsList": {"authorAffiliation": [{"affiliation": "Oxford, UK"}]}}]}); assert F.parse_record(rec3)["no_african_affiliation"]
 qs = F.build_queries("2015-01-01", None); assert all(len(q) < 6000 for q in qs), max(len(q) for q in qs)
 print("test fetch/parse OK;", len(qs), "requetes, longueur max", max(len(q) for q in qs))
+
+# regression 27/11/2026 : Europe PMC renvoie parfois null dans les listes (mots-cles, types, affiliations)
+_r = {"id": "1", "source": "MED", "title": None, "abstractText": None, "keywordList": {"keyword": ["a", None, "b"]}, "pubTypeList": {"pubType": ["x", None]},
+      "authorList": {"author": [{"fullName": "A B", "authorAffiliationDetailsList": {"authorAffiliation": [{"affiliation": None}]}}]}, "grantsList": {"grant": [{"agency": None}]}}
+_d = F.parse_record(_r); assert _d["keywords"] == "a|b" and _d["pub_types"] == "x"; print("test valeurs null OK")
