@@ -1,0 +1,201 @@
+,is_model,infectious,africa_setting,model_class,predictive_output,evidence_tier_cons,truth_in_scope,truth_core,disagreement,rid,stratum,pop,in_scope,core_africa_scope,is_predictive_model,model_class_v2,pathogen_v2,africa_relevance,domain_v2,evidence_tier_trk
+V001,N,Y,non_africa,none,none,T0,False,False,False,3931,C_quasi_exclus,332,False,False,False,Compartimental / mécaniste,Mpox,Hors Afrique / non précisé,Maladie infectieuse,T0
+V002,N,N,non_africa,none,none,T0,False,False,False,2947,D_hasard,4101,False,False,False,Non classé,Non précisé,Afrique (cadre à confirmer),Hors périmètre (maladies non transmissibles),T0
+V003,N,Y,non_africa,none,none,T0,False,False,False,2640,D_hasard,4101,False,False,False,Non classé,Non précisé,Hors Afrique / non précisé,Non précisé,T0
+V004,N,N,global_incl_africa,none,none,T0,False,False,False,1515,D_hasard,4101,False,False,False,Non classé,Non précisé,Mondial (Afrique mentionnée),Hors périmètre (maladies non transmissibles),T0
+V005,Y,N,non_africa,burden_projection,projection,T2,False,False,False,3835,C_quasi_exclus,332,False,False,True,Séries temporelles / prévision,COVID-19,Hors Afrique / non précisé,Maladie infectieuse,T2
+V006,Y,Y,global_incl_africa,burden_projection,projection,T2,True,False,False,546,B_in_scope_autre,29,True,False,True,Projection de charge / tendances,Tuberculose,Mondial (Afrique mentionnée),Maladie infectieuse,T2
+V007,Y,Y,africa_specific,phylodynamic,mechanistic_inference,T2,True,True,False,1790,A_core_africa,75,True,True,True,Compartimental / mécaniste,COVID-19,Afrique,Maladie infectieuse,T2
+V008,N,Y,global_incl_africa,none,none,T1,False,False,True,2325,C_quasi_exclus,332,False,False,False,Apprentissage automatique / IA,COVID-19,Hors Afrique / non précisé,Maladie infectieuse,T1
+V009,N,Y,global_incl_africa,none,none,T1,False,False,False,269,B_in_scope_autre,29,True,False,True,Compartimental / mécaniste,Mpox,Afrique (cadre à confirmer),Maladie infectieuse,T2
+V010,N,Y,africa_specific,none,none,T1,False,False,False,4363,D_hasard,4101,False,False,False,Non classé,Anthrax,Afrique,Maladie infectieuse,T1
+V011,Y,Y,africa_specific,mechanistic_compartmental,mechanistic_inference,T3,True,True,False,2986,A_core_africa,75,True,True,True,Compartimental / mécaniste,Ebola / filovirus,Afrique,Maladie infectieuse,T2
+V012,Y,Y,global_incl_africa,burden_projection,projection,T2,True,False,False,894,B_in_scope_autre,29,True,False,True,Séries temporelles / prévision,Leishmaniose,Mondial (Afrique mentionnée),Maladie infectieuse,T2
+V013,N,Y,NO_MAJORITY,none,none,T1,False,False,True,1594,D_hasard,4101,False,False,False,Non classé,Non précisé,Hors Afrique / non précisé,Non précisé,T0
+V014,Y,Y,global_incl_africa,phylodynamic,mechanistic_inference,T2,True,False,False,2132,C_quasi_exclus,332,False,False,False,Phylodynamique / génomique,Chikungunya,Mondial (Afrique mentionnée),Maladie infectieuse,T0
+V015,N,Y,global_incl_africa,none,none,T0,False,False,False,693,C_quasi_exclus,332,False,False,False,Projection de charge / tendances,Infections respiratoires,Mondial (Afrique mentionnée),Maladie infectieuse,T0
+V016,Y,Y,africa_specific,spatial_risk,risk_map,T2,True,True,False,4977,A_core_africa,75,True,True,True,Spatial / cartographie du risque,Grippe,Afrique,Maladie infectieuse,T3
+V017,Y,Y,multi_incl_africa,agent_based,scenario,T2,True,False,True,2688,A_core_africa,75,True,True,True,Simulation / scénarios,Paludisme,Afrique,Maladie infectieuse,T2
+V018,N,Y,africa_specific,none,none,T1,False,False,False,821,A_core_africa,75,True,True,True,Compartimental / mécaniste,Chikungunya,Afrique,Maladie infectieuse,T2
+V019,N,N,global_incl_africa,none,none,T0,False,False,False,1153,C_quasi_exclus,332,False,False,False,Projection de charge / tendances,Non précisé (infectieux générique),Hors Afrique / non précisé,Maladie infectieuse,T0
+V020,Y,Y,africa_specific,mechanistic_compartmental,scenario,T2,True,True,True,3284,A_core_africa,75,True,True,True,Compartimental / mécaniste,Paludisme,Afrique,Maladie infectieuse,T3
+V021,Y,Y,africa_specific,burden_projection,projection,T2,True,True,False,2723,A_core_africa,75,True,True,True,Projection de charge / tendances,Résistance antimicrobienne,Afrique,Maladie infectieuse,T2
+V022,Y,Y,africa_specific,mechanistic_compartmental,scenario,T2,True,True,False,3933,A_core_africa,75,True,True,True,Compartimental / mécaniste,Non précisé (infectieux générique),Afrique,Maladie infectieuse,T2
+V023,N,Y,africa_specific,none,none,T0,False,False,False,2719,C_quasi_exclus,332,False,False,False,Compartimental / mécaniste,Mpox,Afrique,Maladie infectieuse,T0
+V024,N,Y,global_incl_africa,none,none,T1,False,False,True,1261,C_quasi_exclus,332,False,False,False,Régression / prédiction statistique,Non précisé (infectieux générique),Hors Afrique / non précisé,Maladie infectieuse,T0
+V025,N,Y,africa_specific,none,none,T0,False,False,False,3239,D_hasard,4101,False,False,False,Non classé,Non précisé (infectieux générique),Afrique,Maladie infectieuse,T0
+V026,U,Y,multi_incl_africa,none,none,T0,False,False,True,2972,D_hasard,4101,False,False,False,Non classé,VIH/sida,Afrique,Maladie infectieuse,T0
+V027,Y,Y,global_incl_africa,burden_projection,projection,T2,True,False,False,2876,C_quasi_exclus,332,False,False,False,Projection de charge / tendances,Paludisme,Mondial (Afrique mentionnée),Maladie infectieuse,T0
+V028,Y,Y,africa_specific,time_series_forecast,forecast,T2,True,True,False,2563,A_core_africa,75,True,True,True,Séries temporelles / prévision,Paludisme,Afrique,Maladie infectieuse,T2
+V029,N,Y,non_africa,none,none,T1,False,False,False,1407,C_quasi_exclus,332,False,False,False,Compartimental / mécaniste,VIH/sida,Hors Afrique / non précisé,Maladie infectieuse,T0
+V030,NO_MAJORITY,Y,unclear,none,none,T0,False,False,True,4507,D_hasard,4101,False,False,False,Non classé,Résistance antimicrobienne,Afrique,Maladie infectieuse,T0
+V031,Y,Y,africa_specific,time_series_forecast,forecast,T2,True,True,False,4542,A_core_africa,75,True,True,True,Séries temporelles / prévision,Paludisme,Afrique,Maladie infectieuse,T2
+V032,Y,Y,africa_specific,time_series_forecast,forecast,T2,True,True,False,2855,A_core_africa,75,True,True,True,Séries temporelles / prévision,Non précisé (infectieux générique),Afrique,Maladie infectieuse,T3
+V033,Y,Y,africa_specific,time_series_forecast,mechanistic_inference,T2,True,True,False,3540,A_core_africa,75,True,True,True,Séries temporelles / prévision,COVID-19,Afrique,Maladie infectieuse,T2
+V034,Y,Y,africa_specific,mechanistic_compartmental,scenario,T3,True,True,False,2638,A_core_africa,75,True,True,True,Compartimental / mécaniste,Paludisme,Afrique,Maladie infectieuse,T3
+V035,N,Y,global_incl_africa,none,none,T0,False,False,True,2290,B_in_scope_autre,29,True,False,True,Projection de charge / tendances,Dengue,Mondial (Afrique mentionnée),Maladie infectieuse,T2
+V036,Y,Y,africa_specific,spatial_risk,risk_map,T2,True,True,False,3078,A_core_africa,75,True,True,True,Spatial / cartographie du risque,Paludisme,Afrique,Maladie infectieuse,T4
+V037,N,Y,africa_specific,none,none,T0,False,False,False,1055,C_quasi_exclus,332,False,False,False,Compartimental / mécaniste,Ebola / filovirus,Afrique,Maladie infectieuse,T0
+V038,N,Y,africa_specific,none,none,T1,False,False,True,4555,B_in_scope_autre,29,True,False,True,Économique / décisionnel,VIH/sida,Afrique (cadre à confirmer),Maladie infectieuse,T2
+V039,Y,Y,global_incl_africa,statistical_prediction,mechanistic_inference,T2,True,False,False,2925,B_in_scope_autre,29,True,False,True,Simulation / scénarios,Tuberculose,Mondial (Afrique mentionnée),Maladie infectieuse,T3
+V040,Y,Y,africa_specific,mechanistic_compartmental,scenario,T2,True,True,True,958,A_core_africa,75,True,True,True,Économique / décisionnel,Polio,Afrique,Maladie infectieuse,T2
+V041,Y,N,africa_specific,mechanistic_compartmental,mechanistic_inference,T2,False,False,True,2126,A_core_africa,75,True,True,True,Compartimental / mécaniste,Non précisé (infectieux générique),Afrique,Maladie infectieuse,T2
+V042,N,N,africa_specific,none,none,T0,False,False,False,586,D_hasard,4101,False,False,False,Non classé,Non précisé,Afrique,Hors périmètre (maladies non transmissibles),T0
+V043,Y,Y,multi_incl_africa,machine_learning,prognostic,T3,True,False,True,2894,A_core_africa,75,True,True,True,Apprentissage automatique / IA,Infections respiratoires,Afrique,Maladie infectieuse,T3
+V044,Y,Y,africa_specific,mechanistic_compartmental,scenario,T3,True,True,False,229,C_quasi_exclus,332,False,False,False,Compartimental / mécaniste,Mpox,Afrique,Maladie infectieuse,T0
+V045,Y,Y,multi_incl_africa,machine_learning,none,T3,True,False,True,397,A_core_africa,75,True,True,True,Apprentissage automatique / IA,Paludisme,Afrique,Maladie infectieuse,T3
+V046,Y,Y,unclear,mechanistic_compartmental,scenario,T2,False,False,False,1340,C_quasi_exclus,332,False,False,True,Compartimental / mécaniste,Hépatites,Hors Afrique / non précisé,Maladie infectieuse,T3
+V047,Y,Y,global_incl_africa,burden_projection,projection,T2,True,False,False,1997,B_in_scope_autre,29,True,False,True,Projection de charge / tendances,Tuberculose,Mondial (Afrique mentionnée),Maladie infectieuse,T2
+V048,Y,Y,africa_specific,spatial_risk,NO_MAJORITY,T2,True,True,True,690,C_quasi_exclus,332,False,False,False,Économique / décisionnel,Paludisme,Afrique,Maladie infectieuse,T0
+V049,N,Y,non_africa,none,none,T1,False,False,False,4648,C_quasi_exclus,332,False,False,False,Économique / décisionnel,Non précisé (infectieux générique),Hors Afrique / non précisé,Maladie infectieuse,T1
+V050,Y,Y,africa_specific,phylodynamic,mechanistic_inference,T2,True,True,False,3399,A_core_africa,75,True,True,True,Phylodynamique / génomique,COVID-19,Afrique,Maladie infectieuse,T2
+V051,N,Y,unclear,none,none,T1,False,False,True,697,B_in_scope_autre,29,True,False,True,Spatial / cartographie du risque,Non précisé (infectieux générique),Mondial (Afrique mentionnée),Maladie infectieuse,T2
+V052,Y,Y,africa_specific,mechanistic_compartmental,scenario,T3,True,True,False,4858,A_core_africa,75,True,True,True,Compartimental / mécaniste,HPV,Afrique,Maladie infectieuse,T3
+V053,N,N,global_incl_africa,none,none,T0,False,False,False,1161,D_hasard,4101,False,False,False,Non classé,Non précisé,Mondial (Afrique mentionnée),Non précisé,T0
+V054,Y,Y,africa_specific,machine_learning,none,T3,True,True,True,13,A_core_africa,75,True,True,True,Apprentissage automatique / IA,Paludisme,Afrique,Maladie infectieuse,T3
+V055,N,Y,africa_specific,none,none,T1,False,False,False,4202,C_quasi_exclus,332,False,False,False,Spatial / cartographie du risque,Fièvre CCHF,Afrique,Maladie infectieuse,T0
+V056,N,N,africa_specific,none,none,T0,False,False,False,1855,D_hasard,4101,False,False,False,Non classé,Non précisé,Afrique,"Hors périmètre (santé maternelle, infantile, nutrition)",T0
+V057,Y,Y,africa_specific,mechanistic_compartmental,scenario,T2,True,True,False,1975,A_core_africa,75,True,True,True,Compartimental / mécaniste,Méningite,Afrique,Maladie infectieuse,T2
+V058,Y,Y,africa_specific,time_series_forecast,forecast,T3,True,True,False,668,A_core_africa,75,True,True,True,Séries temporelles / prévision,Paludisme,Afrique,Maladie infectieuse,T4
+V059,N,Y,unclear,none,none,T1,False,False,True,541,D_hasard,4101,False,False,False,Non classé,Non précisé,Afrique (cadre à confirmer),Non précisé,T1
+V060,Y,Y,africa_specific,spatial_risk,projection,T2,True,True,False,3307,A_core_africa,75,True,True,True,Simulation / scénarios,Fièvre de la vallée du Rift,Afrique,Maladie infectieuse,T2
+V061,Y,N,global_incl_africa,burden_projection,projection,T2,False,False,False,2354,D_hasard,4101,False,False,False,Non classé,Non précisé,Hors Afrique / non précisé,Hors périmètre (maladies non transmissibles),T0
+V062,N,Y,africa_specific,none,none,T0,False,False,False,4074,C_quasi_exclus,332,False,False,False,Séries temporelles / prévision,Ebola / filovirus,Afrique,Maladie infectieuse,T0
+V063,N,N,africa_specific,none,none,T0,False,False,False,3804,D_hasard,4101,False,False,False,Non classé,Non précisé,Afrique,"Hors périmètre (santé maternelle, infantile, nutrition)",T0
+V064,N,Y,africa_specific,none,none,T0,False,False,True,2418,C_quasi_exclus,332,False,False,False,Apprentissage automatique / IA,VIH/sida,Afrique,Maladie infectieuse,T0
+V065,Y,Y,africa_specific,agent_based,mechanistic_inference,NO_MAJORITY,True,True,True,4898,C_quasi_exclus,332,False,False,False,Compartimental / mécaniste,VIH/sida,Afrique,Maladie infectieuse,T0
+V066,Y,Y,africa_specific,statistical_prediction,forecast,T3,True,True,False,4674,A_core_africa,75,True,True,True,Séries temporelles / prévision,Paludisme,Afrique,Maladie infectieuse,T3
+V067,N,Y,global_incl_africa,none,none,T1,False,False,False,4346,C_quasi_exclus,332,False,False,True,Compartimental / mécaniste,Non précisé (infectieux générique),Hors Afrique / non précisé,Maladie infectieuse,T2
+V068,Y,Y,unclear,agent_based,scenario,T2,False,False,False,395,C_quasi_exclus,332,False,False,False,Agent / individu-centré,Onchocercose,Hors Afrique / non précisé,Maladie infectieuse,T0
+V069,Y,Y,africa_specific,mechanistic_compartmental,scenario,T2,True,True,False,617,A_core_africa,75,True,True,True,Compartimental / mécaniste,COVID-19,Afrique,Maladie infectieuse,T2
+V070,N,Y,africa_specific,none,none,T0,False,False,False,522,C_quasi_exclus,332,False,False,False,Économique / décisionnel,Non précisé (infectieux générique),Afrique,Maladie infectieuse,T1
+V071,N,Y,africa_specific,none,none,T1,False,False,False,3470,A_core_africa,75,True,True,True,Compartimental / mécaniste,Paludisme,Afrique,Maladie infectieuse,T2
+V072,Y,Y,non_africa,statistical_prediction,mechanistic_inference,T2,False,False,False,2231,C_quasi_exclus,332,False,False,False,Compartimental / mécaniste,Mpox,Hors Afrique / non précisé,Maladie infectieuse,T0
+V073,Y,Y,africa_specific,time_series_forecast,forecast,T3,True,True,False,2647,A_core_africa,75,True,True,True,Séries temporelles / prévision,COVID-19,Afrique,Maladie infectieuse,T3
+V074,Y,Y,global_incl_africa,burden_projection,projection,T2,True,False,False,647,B_in_scope_autre,29,True,False,True,Projection de charge / tendances,Tuberculose,Mondial (Afrique mentionnée),Maladie infectieuse,T2
+V075,Y,Y,non_africa,mechanistic_compartmental,scenario,T3,False,False,True,4343,C_quasi_exclus,332,False,False,False,Compartimental / mécaniste,Mpox,Hors Afrique / non précisé,Maladie infectieuse,T0
+V076,Y,Y,africa_specific,time_series_forecast,forecast,T2,True,True,False,3221,C_quasi_exclus,332,False,False,False,Régression / prédiction statistique,Paludisme,Afrique,Maladie infectieuse,T0
+V077,N,N,non_africa,none,none,T1,False,False,False,2969,D_hasard,4101,False,False,False,Non classé,Non précisé,Hors Afrique / non précisé,"Hors périmètre (santé maternelle, infantile, nutrition)",T0
+V078,Y,Y,africa_specific,mechanistic_compartmental,scenario,T3,True,True,False,3465,A_core_africa,75,True,True,True,Compartimental / mécaniste,Dengue,Afrique,Maladie infectieuse,T3
+V079,N,N,africa_specific,none,none,T0,False,False,False,4586,D_hasard,4101,False,False,False,Non classé,Non précisé,Afrique,Hors périmètre (maladies non transmissibles),T0
+V080,Y,Y,africa_specific,spatial_risk,risk_map,T2,True,True,False,992,A_core_africa,75,True,True,True,Spatial / cartographie du risque,Paludisme,Afrique,Maladie infectieuse,T2
+V081,Y,Y,global_incl_africa,burden_projection,projection,T2,True,False,False,912,B_in_scope_autre,29,True,False,True,Séries temporelles / prévision,Schistosomiase,Mondial (Afrique mentionnée),Maladie infectieuse,T2
+V082,Y,Y,africa_specific,mechanistic_compartmental,mechanistic_inference,T3,True,True,True,355,A_core_africa,75,True,True,True,Compartimental / mécaniste,Choléra,Afrique,Maladie infectieuse,T2
+V083,N,Y,NO_MAJORITY,none,none,T1,False,False,True,1970,C_quasi_exclus,332,False,False,False,Compartimental / mécaniste,Non précisé (infectieux générique),Afrique,Maladie infectieuse,T1
+V084,N,Y,africa_specific,none,none,T0,False,False,False,3261,C_quasi_exclus,332,False,False,False,Compartimental / mécaniste,Fièvre jaune,Afrique,Maladie infectieuse,T0
+V085,Y,Y,global_incl_africa,burden_projection,projection,T2,True,False,False,1404,B_in_scope_autre,29,True,False,True,Séries temporelles / prévision,Coqueluche,Mondial (Afrique mentionnée),Maladie infectieuse,T2
+V086,Y,Y,global_incl_africa,burden_projection,projection,T2,True,False,False,1111,B_in_scope_autre,29,True,False,True,Projection de charge / tendances,Infections respiratoires,Mondial (Afrique mentionnée),Maladie infectieuse,T2
+V087,N,Y,global_incl_africa,none,none,T0,False,False,False,782,C_quasi_exclus,332,False,False,False,Séries temporelles / prévision,Coqueluche,Hors Afrique / non précisé,Maladie infectieuse,T0
+V088,Y,Y,global_incl_africa,spatial_risk,risk_map,T2,True,False,False,2056,C_quasi_exclus,332,False,False,True,Spatial / cartographie du risque,Dengue,Hors Afrique / non précisé,Maladie infectieuse,T2
+V089,N,Y,africa_specific,none,none,T0,False,False,True,2682,A_core_africa,75,True,True,True,Phylodynamique / génomique,Non précisé (infectieux générique),Afrique,Maladie infectieuse,T2
+V090,Y,Y,global_incl_africa,statistical_prediction,projection,T2,True,False,False,1851,B_in_scope_autre,29,True,False,True,Séries temporelles / prévision,COVID-19,Mondial (Afrique mentionnée),Maladie infectieuse,T2
+V091,U,Y,africa_specific,statistical_prediction,none,NO_MAJORITY,False,False,True,3466,C_quasi_exclus,332,False,False,False,Régression / prédiction statistique,Dengue,Afrique,Maladie infectieuse,T1
+V092,Y,Y,africa_specific,mechanistic_compartmental,mechanistic_inference,T2,True,True,False,1210,A_core_africa,75,True,True,True,Compartimental / mécaniste,COVID-19,Afrique,Maladie infectieuse,T2
+V093,N,Y,africa_specific,none,none,T1,False,False,False,187,C_quasi_exclus,332,False,False,False,Séries temporelles / prévision,Paludisme,Afrique,Maladie infectieuse,T0
+V094,N,Y,global_incl_africa,none,none,T0,False,False,False,3479,D_hasard,4101,False,False,False,Non classé,Tuberculose,Mondial (Afrique mentionnée),Maladie infectieuse,T0
+V095,Y,Y,africa_specific,NO_MAJORITY,NO_MAJORITY,T3,True,True,True,3287,A_core_africa,75,True,True,True,Apprentissage automatique / IA,Typhoïde,Afrique,Maladie infectieuse,T3
+V096,N,Y,global_incl_africa,none,none,T1,False,False,True,3052,C_quasi_exclus,332,False,False,False,Apprentissage automatique / IA,Non précisé (infectieux générique),Hors Afrique / non précisé,Maladie infectieuse,T0
+V097,N,Y,global_incl_africa,none,none,T1,False,False,False,1162,C_quasi_exclus,332,False,False,False,Compartimental / mécaniste,VIH/sida,Mondial (Afrique mentionnée),Maladie infectieuse,T1
+V098,N,Y,africa_specific,none,none,T0,False,False,True,1418,D_hasard,4101,False,False,False,Non classé,Non précisé,Afrique,Non précisé,T0
+V099,N,Y,africa_specific,none,none,T0,False,False,False,335,A_core_africa,75,True,True,True,Régression / prédiction statistique,Mpox,Afrique,Maladie infectieuse,T2
+V100,Y,Y,unclear,mechanistic_compartmental,scenario,T2,False,False,False,4292,B_in_scope_autre,29,True,False,True,Compartimental / mécaniste,Ebola / filovirus,Afrique (cadre à confirmer),Maladie infectieuse,T3
+V101,Y,Y,africa_specific,statistical_prediction,prognostic,T2,True,True,False,2341,A_core_africa,75,True,True,True,Régression / prédiction statistique,Ebola / filovirus,Afrique,Maladie infectieuse,T3
+V102,N,Y,global_incl_africa,none,none,T0,False,False,False,588,D_hasard,4101,False,False,False,Non classé,Tuberculose,Hors Afrique / non précisé,Maladie infectieuse,T0
+V103,Y,Y,africa_specific,machine_learning,forecast,T3,True,True,False,23,A_core_africa,75,True,True,True,Séries temporelles / prévision,COVID-19,Afrique,Maladie infectieuse,T3
+V104,N,Y,unclear,none,none,T1,False,False,True,2820,D_hasard,4101,False,False,False,Non classé,Non précisé (infectieux générique),Hors Afrique / non précisé,Maladie infectieuse,T0
+V105,N,Y,global_incl_africa,none,none,T0,False,False,False,28,C_quasi_exclus,332,False,False,False,Projection de charge / tendances,Fièvre jaune,Mondial (Afrique mentionnée),Maladie infectieuse,T0
+V106,Y,Y,africa_specific,spatial_risk,risk_map,T2,True,True,True,2517,A_core_africa,75,True,True,True,Spatial / cartographie du risque,Helminthiases,Afrique,Maladie infectieuse,T3
+V107,Y,Y,global_incl_africa,burden_projection,projection,T2,True,False,False,618,B_in_scope_autre,29,True,False,True,Projection de charge / tendances,Hépatites,Mondial (Afrique mentionnée),Maladie infectieuse,T2
+V108,N,Y,global_incl_africa,none,none,T0,False,False,False,3980,C_quasi_exclus,332,False,False,False,Séries temporelles / prévision,Infections respiratoires,Mondial (Afrique mentionnée),Maladie infectieuse,T0
+V109,Y,Y,africa_specific,statistical_prediction,forecast,T3,True,True,True,116,A_core_africa,75,True,True,True,Séries temporelles / prévision,Choléra,Afrique,Maladie infectieuse,T3
+V110,N,Y,non_africa,none,none,T1,False,False,False,1244,C_quasi_exclus,332,False,False,False,Simulation / scénarios,Mpox,Afrique (cadre à confirmer),Maladie infectieuse,T1
+V111,N,Y,NO_MAJORITY,none,none,T1,False,False,True,1337,C_quasi_exclus,332,False,False,True,Compartimental / mécaniste,Leishmaniose,Hors Afrique / non précisé,Maladie infectieuse,T2
+V112,N,Y,africa_specific,none,none,T0,False,False,False,330,A_core_africa,75,True,True,True,Séries temporelles / prévision,Paludisme,Afrique,Maladie infectieuse,T2
+V113,Y,Y,global_incl_africa,burden_projection,projection,T2,True,False,False,1097,C_quasi_exclus,332,False,False,True,Projection de charge / tendances,Tuberculose,Hors Afrique / non précisé,Maladie infectieuse,T2
+V114,N,Y,africa_specific,none,none,T1,False,False,True,147,C_quasi_exclus,332,False,False,False,Régression / prédiction statistique,Fièvre CCHF,Afrique,Maladie infectieuse,T0
+V115,Y,Y,non_africa,mechanistic_compartmental,scenario,T3,False,False,False,3003,C_quasi_exclus,332,False,False,True,Compartimental / mécaniste,Dengue,Hors Afrique / non précisé,Maladie infectieuse,T2
+V116,Y,Y,africa_specific,burden_projection,projection,T2,True,True,False,61,A_core_africa,75,True,True,True,Projection de charge / tendances,Hépatites,Afrique,Maladie infectieuse,T2
+V117,Y,Y,africa_specific,machine_learning,prognostic,T3,True,True,True,3290,A_core_africa,75,True,True,True,Apprentissage automatique / IA,VIH/sida,Afrique,Maladie infectieuse,T3
+V118,N,Y,africa_specific,none,none,T0,False,False,True,394,D_hasard,4101,False,False,False,Non classé,Non précisé (infectieux générique),Afrique,Maladie infectieuse,T1
+V119,Y,N,global_incl_africa,burden_projection,projection,T2,False,False,False,489,C_quasi_exclus,332,False,False,True,Séries temporelles / prévision,Hépatites,Hors Afrique / non précisé,Maladie infectieuse,T2
+V120,N,Y,africa_specific,none,none,T0,False,False,False,1944,A_core_africa,75,True,True,True,Spatial / cartographie du risque,Paludisme,Afrique,Maladie infectieuse,T2
+V121,N,Y,africa_specific,none,none,T0,False,False,False,4228,D_hasard,4101,False,False,False,Non classé,Infections respiratoires,Afrique,Maladie infectieuse,T0
+V122,N,N,africa_specific,none,none,T0,False,False,False,4187,D_hasard,4101,False,False,False,Non classé,Non précisé,Afrique,Non précisé,T1
+V123,Y,Y,global_incl_africa,burden_projection,projection,T2,True,False,False,3040,C_quasi_exclus,332,False,False,False,Séries temporelles / prévision,Paludisme,Mondial (Afrique mentionnée),Maladie infectieuse,T0
+V124,N,Y,non_africa,none,none,T1,False,False,False,4901,D_hasard,4101,False,False,False,Non classé,Non précisé,Hors Afrique / non précisé,Non précisé,T0
+V125,N,Y,africa_specific,none,none,T1,False,False,False,1347,A_core_africa,75,True,True,True,Économique / décisionnel,Tuberculose,Afrique,Maladie infectieuse,T2
+V126,Y,Y,africa_specific,time_series_forecast,forecast,T2,True,True,False,2386,A_core_africa,75,True,True,True,Séries temporelles / prévision,Mpox,Afrique,Maladie infectieuse,T3
+V127,Y,Y,africa_specific,economic,scenario,T2,True,True,False,2762,A_core_africa,75,True,True,True,Économique / décisionnel,VRS,Afrique,Maladie infectieuse,T2
+V128,N,N,global_incl_africa,none,none,T0,False,False,False,4115,D_hasard,4101,False,False,False,Non classé,Non précisé,Hors Afrique / non précisé,Hors périmètre (maladies non transmissibles),T0
+V129,Y,Y,africa_specific,time_series_forecast,forecast,T3,True,True,False,1637,A_core_africa,75,True,True,True,Séries temporelles / prévision,Paludisme,Afrique,Maladie infectieuse,T4
+V130,N,Y,africa_specific,none,none,T0,False,False,True,3613,A_core_africa,75,True,True,True,Économique / décisionnel,VIH/sida,Afrique,Maladie infectieuse,T3
+V131,Y,Y,global_incl_africa,burden_projection,projection,T2,True,False,False,487,B_in_scope_autre,29,True,False,True,Séries temporelles / prévision,Tuberculose,Mondial (Afrique mentionnée),Maladie infectieuse,T2
+V132,N,Y,global_incl_africa,none,none,T1,False,False,False,2026,C_quasi_exclus,332,False,False,False,Apprentissage automatique / IA,VIH/sida,Hors Afrique / non précisé,Maladie infectieuse,T1
+V133,N,Y,global_incl_africa,none,none,T0,False,False,True,1188,C_quasi_exclus,332,False,False,False,Projection de charge / tendances,Hépatites,Hors Afrique / non précisé,Maladie infectieuse,T0
+V134,N,Y,africa_specific,none,none,T0,False,False,True,62,D_hasard,4101,False,False,False,Non classé,Polio,Afrique,Maladie infectieuse,T0
+V135,Y,Y,africa_specific,statistical_prediction,forecast,T3,True,True,False,4979,C_quasi_exclus,332,False,False,False,Séries temporelles / prévision,Paludisme,Afrique,Maladie infectieuse,T0
+V136,Y,Y,unclear,machine_learning,none,T3,False,False,True,4605,C_quasi_exclus,332,False,False,True,Apprentissage automatique / IA,Mpox,Hors Afrique / non précisé,Maladie infectieuse,T3
+V137,N,Y,global_incl_africa,none,none,T1,False,False,True,375,A_core_africa,75,True,True,True,Économique / décisionnel,Paludisme,Afrique,Maladie infectieuse,T2
+V138,Y,Y,unclear,mechanistic_compartmental,scenario,T2,False,False,False,4240,C_quasi_exclus,332,False,False,False,Compartimental / mécaniste,COVID-19,Hors Afrique / non précisé,Maladie infectieuse,T0
+V139,Y,N,global_incl_africa,spatial_risk,risk_map,T2,False,False,True,2867,A_core_africa,75,True,True,True,Spatial / cartographie du risque,Non précisé (infectieux générique),Afrique,Maladie infectieuse,T3
+V140,Y,Y,africa_specific,machine_learning,prognostic,T3,True,True,True,4209,A_core_africa,75,True,True,True,Apprentissage automatique / IA,Infections respiratoires,Afrique,Maladie infectieuse,T3
+V141,Y,Y,africa_specific,spatial_risk,risk_map,T2,True,True,False,1079,A_core_africa,75,True,True,True,Simulation / scénarios,Dengue,Afrique,Maladie infectieuse,T2
+V142,N,N,africa_specific,none,none,T1,False,False,False,622,C_quasi_exclus,332,False,False,False,Phylodynamique / génomique,Non précisé (infectieux générique),Afrique,Maladie infectieuse,T0
+V143,N,Y,global_incl_africa,none,none,T0,False,False,True,52,A_core_africa,75,True,True,True,Apprentissage automatique / IA,VIH/sida,Afrique,Maladie infectieuse,T2
+V144,N,Y,africa_specific,none,none,T1,False,False,False,1051,C_quasi_exclus,332,False,False,False,Compartimental / mécaniste,Mpox,Afrique,Maladie infectieuse,T0
+V145,Y,Y,africa_specific,simulation_scenario,scenario,T2,True,True,False,2578,A_core_africa,75,True,True,True,Simulation / scénarios,Paludisme,Afrique,Maladie infectieuse,T2
+V146,N,Y,global_incl_africa,none,none,T1,False,False,True,2489,B_in_scope_autre,29,True,False,True,Spatial / cartographie du risque,Tuberculose,Mondial (Afrique mentionnée),Maladie infectieuse,T2
+V147,N,Y,africa_specific,none,none,T1,False,False,False,4880,C_quasi_exclus,332,False,False,False,Régression / prédiction statistique,Choléra,Afrique,Maladie infectieuse,T0
+V148,Y,Y,non_africa,simulation_scenario,scenario,T2,False,False,False,3451,A_core_africa,75,True,True,True,Simulation / scénarios,COVID-19,Afrique,Maladie infectieuse,T4
+V149,N,Y,africa_specific,none,none,T0,False,False,False,1468,A_core_africa,75,True,True,True,Spatial / cartographie du risque,Paludisme,Afrique,Maladie infectieuse,T2
+V150,N,N,africa_specific,none,none,T1,False,False,False,4713,D_hasard,4101,False,False,False,Non classé,Non précisé,Afrique,Non précisé,T0
+V151,Y,Y,africa_specific,statistical_prediction,none,T3,True,True,True,996,A_core_africa,75,True,True,True,Régression / prédiction statistique,Paludisme,Afrique,Maladie infectieuse,T2
+V152,Y,Y,africa_specific,burden_projection,projection,T2,True,True,False,272,A_core_africa,75,True,True,True,Projection de charge / tendances,Tuberculose,Afrique,Maladie infectieuse,T2
+V153,Y,Y,global_incl_africa,burden_projection,projection,T2,True,False,False,999,B_in_scope_autre,29,True,False,True,Projection de charge / tendances,VIH/sida,Mondial (Afrique mentionnée),Maladie infectieuse,T2
+V154,Y,Y,non_africa,phylodynamic,mechanistic_inference,T2,False,False,False,2062,C_quasi_exclus,332,False,False,True,Phylodynamique / génomique,Non précisé (infectieux générique),Hors Afrique / non précisé,Maladie infectieuse,T2
+V155,N,Y,global_incl_africa,none,none,T0,False,False,True,2554,C_quasi_exclus,332,False,False,False,Projection de charge / tendances,Tuberculose,Afrique,Maladie infectieuse,T0
+V156,N,Y,africa_specific,none,none,T0,False,False,True,3921,B_in_scope_autre,29,True,False,True,Simulation / scénarios,Ebola / filovirus,Afrique (cadre à confirmer),Maladie infectieuse,T2
+V157,Y,Y,global_incl_africa,burden_projection,projection,T2,True,False,False,4659,B_in_scope_autre,29,True,False,True,Séries temporelles / prévision,VIH/sida,Mondial (Afrique mentionnée),Maladie infectieuse,T3
+V158,N,Y,global_incl_africa,none,none,T0,False,False,False,216,C_quasi_exclus,332,False,False,False,Séries temporelles / prévision,VIH/sida,Hors Afrique / non précisé,Maladie infectieuse,T0
+V159,Y,Y,global_incl_africa,burden_projection,projection,T2,True,False,True,1472,B_in_scope_autre,29,True,False,True,Projection de charge / tendances,Hépatites,Mondial (Afrique mentionnée),Maladie infectieuse,T2
+V160,Y,Y,global_incl_africa,burden_projection,projection,T2,True,False,False,1714,B_in_scope_autre,29,True,False,True,Projection de charge / tendances,Hépatites,Mondial (Afrique mentionnée),Maladie infectieuse,T2
+V161,Y,Y,global_incl_africa,machine_learning,risk_map,T3,True,False,False,4570,B_in_scope_autre,29,True,False,True,Apprentissage automatique / IA,Paludisme,Mondial (Afrique mentionnée),Maladie infectieuse,T3
+V162,Y,Y,africa_specific,phylodynamic,mechanistic_inference,T2,True,True,False,925,A_core_africa,75,True,True,True,Phylodynamique / génomique,Non précisé (infectieux générique),Afrique,Maladie infectieuse,T2
+V163,Y,Y,africa_specific,machine_learning,prognostic,T3,True,True,True,2721,A_core_africa,75,True,True,True,Apprentissage automatique / IA,Infections respiratoires,Afrique,Maladie infectieuse,T3
+V164,Y,Y,africa_specific,statistical_prediction,prognostic,T3,True,True,False,4405,A_core_africa,75,True,True,True,Régression / prédiction statistique,VIH/sida,Afrique,Maladie infectieuse,T3
+V165,N,N,africa_specific,none,none,T0,False,False,True,77,A_core_africa,75,True,True,True,Séries temporelles / prévision,Trypanosomiase,Afrique,Maladie infectieuse,T2
+V166,Y,Y,africa_specific,economic,scenario,T2,True,True,False,1130,A_core_africa,75,True,True,True,Économique / décisionnel,Paludisme,Afrique,Maladie infectieuse,T2
+V167,N,Y,africa_specific,none,none,T0,False,False,True,2556,A_core_africa,75,True,True,True,Apprentissage automatique / IA,VIH/sida,Afrique,Maladie infectieuse,T3
+V168,Y,Y,global_incl_africa,burden_projection,projection,T2,True,False,False,3395,C_quasi_exclus,332,False,False,False,Projection de charge / tendances,Infections respiratoires,Mondial (Afrique mentionnée),Maladie infectieuse,T0
+V169,N,Y,global_incl_africa,none,none,T1,False,False,False,259,C_quasi_exclus,332,False,False,False,Compartimental / mécaniste,Schistosomiase,Mondial (Afrique mentionnée),Maladie infectieuse,T1
+V170,N,Y,africa_specific,none,none,T0,False,False,True,3949,A_core_africa,75,True,True,True,Économique / décisionnel,VIH/sida,Afrique,Maladie infectieuse,T2
+V171,Y,Y,africa_specific,simulation_scenario,forecast,T2,True,True,True,4859,A_core_africa,75,True,True,True,Séries temporelles / prévision,Paludisme,Afrique,Maladie infectieuse,T2
+V172,Y,Y,global_incl_africa,economic,none,T2,True,False,False,1351,C_quasi_exclus,332,False,False,False,Économique / décisionnel,Typhoïde,Afrique,Maladie infectieuse,T0
+V173,Y,Y,africa_specific,phylodynamic,mechanistic_inference,T2,True,True,False,1408,A_core_africa,75,True,True,True,Phylodynamique / génomique,Fièvre jaune,Afrique,Maladie infectieuse,T2
+V174,N,N,africa_specific,none,none,T0,False,False,False,4097,D_hasard,4101,False,False,False,Non classé,Non précisé,Afrique,Non précisé,T0
+V175,Y,U,africa_specific,spatial_risk,risk_map,T2,False,False,True,353,C_quasi_exclus,332,False,False,False,Spatial / cartographie du risque,Non précisé (infectieux générique),Afrique,Maladie infectieuse,T0
+V176,Y,Y,africa_specific,spatial_risk,risk_map,T2,True,True,False,2369,A_core_africa,75,True,True,True,Simulation / scénarios,Typhoïde,Afrique,Maladie infectieuse,T2
+V177,Y,Y,non_africa,mechanistic_compartmental,scenario,T2,False,False,False,4851,C_quasi_exclus,332,False,False,True,Compartimental / mécaniste,Mpox,Hors Afrique / non précisé,Maladie infectieuse,T2
+V178,N,Y,africa_specific,none,none,T1,False,False,False,1017,C_quasi_exclus,332,False,False,False,Compartimental / mécaniste,Rage,Afrique,Maladie infectieuse,T1
+V179,N,N,unclear,none,none,T1,False,False,False,3792,D_hasard,4101,False,False,False,Non classé,Non précisé,Hors Afrique / non précisé,Hors périmètre (maladies non transmissibles),T1
+V180,Y,Y,non_africa,statistical_prediction,forecast,T3,False,False,False,2108,C_quasi_exclus,332,False,False,True,Séries temporelles / prévision,Non précisé (infectieux générique),Hors Afrique / non précisé,Maladie infectieuse,T2
+V181,Y,Y,africa_specific,phylodynamic,mechanistic_inference,T2,True,True,False,1425,A_core_africa,75,True,True,True,Phylodynamique / génomique,Tuberculose,Afrique,Maladie infectieuse,T2
+V182,N,Y,africa_specific,none,none,T0,False,False,False,503,C_quasi_exclus,332,False,False,False,Phylodynamique / génomique,Lassa,Afrique,Maladie infectieuse,T0
+V183,N,N,global_incl_africa,none,none,T0,False,False,False,1958,D_hasard,4101,False,False,False,Non classé,Non précisé,Hors Afrique / non précisé,Non précisé,T0
+V184,N,N,global_incl_africa,none,none,T0,False,False,False,1608,D_hasard,4101,False,False,False,Non classé,Non précisé,Hors Afrique / non précisé,Non précisé,T0
+V185,N,Y,africa_specific,none,none,T0,False,False,False,3740,D_hasard,4101,False,False,False,Non classé,Hépatites,Afrique,Maladie infectieuse,T0
+V186,N,N,africa_specific,none,none,T0,False,False,False,1816,D_hasard,4101,False,False,False,Non classé,Non précisé,Afrique,Hors périmètre (maladies non transmissibles),T0
+V187,N,Y,non_africa,none,none,T0,False,False,False,3904,D_hasard,4101,False,False,False,Non classé,COVID-19,Hors Afrique / non précisé,Maladie infectieuse,T0
+V188,Y,Y,africa_specific,statistical_prediction,mechanistic_inference,T2,True,True,True,3667,D_hasard,4101,False,False,False,Non classé,Ebola / filovirus,Afrique,Maladie infectieuse,T0
+V189,Y,Y,non_africa,time_series_forecast,forecast,T2,False,False,False,4420,B_in_scope_autre,29,True,False,True,Séries temporelles / prévision,Paludisme,Afrique (cadre à confirmer),Maladie infectieuse,T2
+V190,Y,N,global_incl_africa,burden_projection,projection,T2,False,False,False,2937,D_hasard,4101,False,False,False,Non classé,Non précisé,Hors Afrique / non précisé,Hors périmètre (maladies non transmissibles),T0
+V191,Y,Y,global_incl_africa,burden_projection,projection,T2,True,False,False,517,B_in_scope_autre,29,True,False,True,Séries temporelles / prévision,VIH/sida,Mondial (Afrique mentionnée),Maladie infectieuse,T2
+V192,Y,Y,africa_specific,spatial_risk,risk_map,T2,True,True,False,261,A_core_africa,75,True,True,True,Spatial / cartographie du risque,Fièvre CCHF,Afrique,Maladie infectieuse,T2
+V193,N,Y,africa_specific,none,none,T1,False,False,False,131,C_quasi_exclus,332,False,False,False,Économique / décisionnel,Résistance antimicrobienne,Afrique,Maladie infectieuse,T1
+V194,N,Y,global_incl_africa,none,none,T1,False,False,False,828,C_quasi_exclus,332,False,False,False,Compartimental / mécaniste,Mpox,Mondial (Afrique mentionnée),Maladie infectieuse,T0
+V195,N,Y,unclear,none,none,T1,False,False,False,723,D_hasard,4101,False,False,False,Non classé,COVID-19,Hors Afrique / non précisé,Maladie infectieuse,T1
+V196,N,Y,unclear,none,none,T0,False,False,False,352,D_hasard,4101,False,False,False,Non classé,Paludisme,Afrique,Maladie infectieuse,T0
+V197,N,N,africa_specific,none,none,T1,False,False,False,2912,D_hasard,4101,False,False,False,Non classé,Non précisé,Afrique,Non précisé,T0
+V198,N,Y,africa_specific,none,none,T1,False,False,False,32,C_quasi_exclus,332,False,False,False,Compartimental / mécaniste,Dengue,Afrique,Maladie infectieuse,T1
+V199,Y,Y,non_africa,mechanistic_compartmental,mechanistic_inference,T3,False,False,False,4629,C_quasi_exclus,332,False,False,True,Compartimental / mécaniste,Mpox,Hors Afrique / non précisé,Maladie infectieuse,T2
+V200,N,Y,unclear,none,none,T1,False,False,True,4550,D_hasard,4101,False,False,False,Non classé,Non précisé (infectieux générique),Hors Afrique / non précisé,Maladie infectieuse,T0

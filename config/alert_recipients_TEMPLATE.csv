@@ -1,0 +1,5 @@
+email,name,audience,tiers,min_level,countries,pathogens,include_continental
+prenom.nom@exemple.invalid,Point focal Africa CDC,africa_cdc,,,,,yes
+point.focal@exemple.invalid,Point focal MS (exemple),moh,immediate;weekly,medium,Nigeria,Mpox;Choléra,no
+rcc.est@exemple.invalid,RCC (exemple),rcc,,,Kenya;Ethiopia;Uganda;Rwanda;Tanzania,,yes
+partenaire@exemple.invalid,Partenaire (exemple),partner,,,,,yes

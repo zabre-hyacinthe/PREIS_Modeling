@@ -1,0 +1,37 @@
+{
+ "n_reviewers": 3,
+ "reviewers": [
+  "R1",
+  "R2",
+  "R3"
+ ],
+ "n_articles": 200,
+ "kappa_is_model": 0.92,
+ "agree_is_model": 0.96,
+ "kappa_infectious": 0.93,
+ "agree_infectious": 0.98,
+ "kappa_africa_setting": 0.79,
+ "agree_africa_setting": 0.86,
+ "kappa_model_class": 0.89,
+ "agree_model_class": 0.92,
+ "kappa_predictive_output": 0.91,
+ "agree_predictive_output": 0.94,
+ "kappa_evidence_tier": 0.8,
+ "agree_evidence_tier": 0.86,
+ "tracker_vs_consensus_in_scope": {
+  "precision_w": 0.74,
+  "recall_w": 0.32,
+  "TP_est": 77,
+  "FP_est": 27,
+  "FN_est": 164
+ },
+ "tracker_vs_consensus_core": {
+  "precision_w": 0.71,
+  "recall_w": 0.29,
+  "TP_est": 54,
+  "FP_est": 21,
+  "FN_est": 128
+ },
+ "articles_en_desaccord_a_adjuger_par_humains": 55,
+ "tier_tracker_vs_consensus_exact": 0.7
+}

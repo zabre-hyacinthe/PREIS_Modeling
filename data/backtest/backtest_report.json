@@ -1,0 +1,115 @@
+{
+ "n": 25,
+ "statuts": {
+  "evalue": 25
+ },
+ "par_pathogene": [
+  {
+   "pathogen": "Ebola",
+   "fiches": 25,
+   "evaluees": 25,
+   "part_confirmee": 0.56,
+   "biais_median_log_ratio": -0.32,
+   "couverture_intervalle": 0.33
+  }
+ ],
+ "par_classe": [
+  {
+   "model_class": "ABM (small-world network)",
+   "fiches": 1,
+   "evaluees": 1,
+   "part_confirmee": 0.0,
+   "biais_median_log_ratio": -0.46,
+   "couverture_intervalle": null
+  },
+  {
+   "model_class": "ABM (spatial)",
+   "fiches": 1,
+   "evaluees": 1,
+   "part_confirmee": 1.0,
+   "biais_median_log_ratio": -0.37,
+   "couverture_intervalle": null
+  },
+  {
+   "model_class": "Branching process",
+   "fiches": 1,
+   "evaluees": 1,
+   "part_confirmee": 0.0,
+   "biais_median_log_ratio": -2.78,
+   "couverture_intervalle": null
+  },
+  {
+   "model_class": "Compartmental",
+   "fiches": 8,
+   "evaluees": 8,
+   "part_confirmee": 0.5,
+   "biais_median_log_ratio": -0.26,
+   "couverture_intervalle": null
+  },
+  {
+   "model_class": "Exponential projection (phenomenological)",
+   "fiches": 4,
+   "evaluees": 4,
+   "part_confirmee": 0.25,
+   "biais_median_log_ratio": -1.45,
+   "couverture_intervalle": null
+  },
+  {
+   "model_class": "Gott's rule (extrapolation naive)",
+   "fiches": 1,
+   "evaluees": 1,
+   "part_confirmee": 1.0,
+   "biais_median_log_ratio": 0.69,
+   "couverture_intervalle": 1.0
+  },
+  {
+   "model_class": "Incidence decay",
+   "fiches": 1,
+   "evaluees": 1,
+   "part_confirmee": 1.0,
+   "biais_median_log_ratio": -0.2,
+   "couverture_intervalle": null
+  },
+  {
+   "model_class": "Logistic growth (saturation effect)",
+   "fiches": 1,
+   "evaluees": 1,
+   "part_confirmee": 1.0,
+   "biais_median_log_ratio": 0.26,
+   "couverture_intervalle": null
+  },
+  {
+   "model_class": "Network",
+   "fiches": 2,
+   "evaluees": 2,
+   "part_confirmee": 1.0,
+   "biais_median_log_ratio": -0.11,
+   "couverture_intervalle": null
+  },
+  {
+   "model_class": "Piecewise exponential",
+   "fiches": 3,
+   "evaluees": 3,
+   "part_confirmee": 1.0,
+   "biais_median_log_ratio": -0.27,
+   "couverture_intervalle": null
+  },
+  {
+   "model_class": "Stochastic model",
+   "fiches": 1,
+   "evaluees": 1,
+   "part_confirmee": 0.0,
+   "biais_median_log_ratio": 1.25,
+   "couverture_intervalle": 0.0
+  },
+  {
+   "model_class": "Theil-Sen regression",
+   "fiches": 1,
+   "evaluees": 1,
+   "part_confirmee": 0.0,
+   "biais_median_log_ratio": 1.29,
+   "couverture_intervalle": 0.0
+  }
+ ],
+ "avertissement": "Seuils = propositions; echantillon de fiches choisies = biais de selection possible (on retient les cas celebres). Ne jamais citer sans panel."
+}

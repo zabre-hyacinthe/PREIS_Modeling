@@ -1,0 +1,8 @@
+{
+ "precision": 0.67,
+ "recall": 0.49,
+ "tp": 97,
+ "fp": 48,
+ "fn": 102,
+ "note": "etiquettes IA (3+2 relecteurs), regles ajustees apres la 1ere evaluation: valeurs optimistes"
+}

@@ -1,0 +1,22 @@
+PREIS-Modeling : mise en ligne et planification (comme PREIS AI Tracker / PREIS Polio)
+
+OU TOURNE LA PLANIFICATION ?  Sur GitHub Actions (nuage), pas sur Windows.
+- PREIS AI Tracker : le pipeline R tourne sur le PC (Planificateur de tâches 07h00), puis publish_alert_candidates.bat pousse les candidats ;
+  GitHub Actions (preis_ai_alerts.yml, 06h30 UTC) envoie les alertes. Si le PC est éteint, les données vieillissent (garde-fou à 8 jours).
+- PREIS Polio : tout tourne sur GitHub Actions (05h00 UTC), sans PC.
+- PREIS-Modeling suit le modèle Polio : collecte + classification + alertes + envoi tournent TOUS sur GitHub Actions à 05h30 UTC (08h30 EAT),
+  en Python standard + pandas (aucun R). Même sécurité qu'AI : simulation par défaut, secrets, paliers immediate/weekly/monthly, journal anti-doublons.
+  Windows (run_all.bat) reste une solution de secours manuelle.
+
+ETAPES (une seule fois)
+1. Créer un dépôt GitHub (ex. PREIS_Modeling). Public = comme AI ; dans ce cas JAMAIS d'adresses e-mail dans un fichier.
+2. Dans D:\PREIS_MODEL_TRACKER : git init ; git add -A ; git commit -m "PREIS Modeling v3" ; git branch -M main ; git remote add origin <URL> ; git push -u origin main
+   (.gitignore exclut pack/_KEY*, pack/labels*, results/raw. Vérifier qu'aucun fichier alert_recipients* n'est présent.)
+3. Réglages du dépôt > Secrets and variables > Actions :
+   Secrets : SMTP_USER, SMTP_PASS, ALERT_FROM (les mêmes que PREIS AI), ALERT_RECIPIENTS_CSV (CSV avec colonne "email").
+   Variable : PREIS_ALERTS_LIVE = false (laisser false tant que le panel humain n'a pas validé).
+4. Onglet Actions > "PREIS Modeling Daily Pipeline" > Run workflow : dry_run=true, full_refresh=true (première collecte complète depuis 2015, 10 à 30 min).
+5. Lire le résumé de l'exécution (étapes + GITHUB_STEP_SUMMARY). Si OK : le calendrier quotidien (cron 05:30 UTC) prend le relais, toujours en simulation.
+6. Premier envoi réel : variable PREIS_ALERTS_LIVE = true. La première exécution réelle crée un BASELINE (corpus historique marqué "vu", aucun e-mail) ; seules les publications NOUVELLES déclenchent ensuite des alertes.
+
+NE PAS activer l'envoi réel avant : (a) validation humaine d'un échantillon (docs/PANEL_EXPERTS.md), (b) accord du Dr Zabré sur la liste des destinataires.

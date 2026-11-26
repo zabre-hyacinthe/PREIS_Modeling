@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+_to_delete/
+pack/_KEY*
+pack/labels*/
+data/outputs/alerting/preview_*/
+results/raw/
+config/alert_recipients.csv
+*recipients*.csv
+!config/alert_recipients_TEMPLATE.csv
+
+# donnees brutes d adresses courriel d auteurs (affiliations PubMed) : ne pas publier
+data/raw_v4/
+results/archive_v10_base/
+dashboard_shiny/*.bak*
+dashboard_shiny/www/*.bak*
+config/*.bak*

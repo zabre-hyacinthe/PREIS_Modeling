@@ -1,0 +1,41 @@
+sid,index,in_scope,core_africa_scope,model_class_v2,pathogen_v2,africa_relevance,domain_v2,modelling_confidence,truth_loose,truth_core,unclear
+1,2522,False,False,Compartimental / mécaniste,Leishmaniose,Afrique,Maladie infectieuse,faible,False,False,False
+2,2556,True,True,Apprentissage automatique / IA,VIH/sida,Afrique,Maladie infectieuse,moyenne,False,False,False
+3,3451,True,True,Simulation / scénarios,COVID-19,Afrique,Maladie infectieuse,élevée,False,False,False
+4,4880,False,False,Régression / prédiction statistique,Choléra,Afrique,Maladie infectieuse,faible,False,False,False
+5,330,True,True,Séries temporelles / prévision,Paludisme,Afrique,Maladie infectieuse,moyenne,False,False,False
+6,52,True,True,Apprentissage automatique / IA,VIH/sida,Afrique,Maladie infectieuse,élevée,False,False,False
+7,957,False,False,Séries temporelles / prévision,Hépatites,Afrique,Maladie infectieuse,faible,False,False,False
+8,419,False,False,Séries temporelles / prévision,Paludisme,Afrique,Maladie infectieuse,faible,False,False,False
+9,894,True,False,Séries temporelles / prévision,Leishmaniose,Mondial (Afrique mentionnée),Maladie infectieuse,élevée,True,False,False
+10,4148,False,False,Compartimental / mécaniste,Choléra,Afrique,Maladie infectieuse,faible,False,False,True
+11,4022,False,False,Compartimental / mécaniste,Rougeole,Afrique,Maladie infectieuse,faible,True,True,False
+12,4570,True,False,Apprentissage automatique / IA,Paludisme,Mondial (Afrique mentionnée),Maladie infectieuse,élevée,True,False,False
+13,2429,False,False,Économique / décisionnel,Typhoïde,Afrique,Maladie infectieuse,faible,True,True,False
+14,522,False,False,Économique / décisionnel,Non précisé (infectieux générique),Afrique,Maladie infectieuse,faible,False,False,False
+15,996,True,True,Régression / prédiction statistique,Paludisme,Afrique,Maladie infectieuse,élevée,False,False,False
+16,4841,False,False,Économique / décisionnel,Paludisme,Afrique,Maladie infectieuse,faible,False,False,False
+17,1017,False,False,Compartimental / mécaniste,Rage,Afrique,Maladie infectieuse,faible,False,False,False
+18,4074,False,False,Séries temporelles / prévision,Ebola / filovirus,Afrique,Maladie infectieuse,faible,False,False,False
+19,2721,True,True,Apprentissage automatique / IA,Infections respiratoires,Afrique,Maladie infectieuse,élevée,False,False,False
+20,4209,True,True,Apprentissage automatique / IA,Infections respiratoires,Afrique,Maladie infectieuse,élevée,True,True,False
+21,2719,False,False,Compartimental / mécaniste,Mpox,Afrique,Maladie infectieuse,faible,False,False,False
+22,1111,True,False,Projection de charge / tendances,Infections respiratoires,Mondial (Afrique mentionnée),Maladie infectieuse,élevée,True,False,False
+23,3465,True,True,Compartimental / mécaniste,Dengue,Afrique,Maladie infectieuse,élevée,True,True,False
+24,3005,True,True,Économique / décisionnel,VIH/sida,Afrique,Maladie infectieuse,élevée,False,False,True
+25,3307,True,True,Simulation / scénarios,Fièvre de la vallée du Rift,Afrique,Maladie infectieuse,élevée,True,True,False
+26,2563,True,True,Séries temporelles / prévision,Paludisme,Afrique,Maladie infectieuse,élevée,True,True,False
+27,4542,True,True,Séries temporelles / prévision,Paludisme,Afrique,Maladie infectieuse,moyenne,True,True,False
+28,2986,True,True,Compartimental / mécaniste,Ebola / filovirus,Afrique,Maladie infectieuse,élevée,True,True,False
+29,1351,False,False,Économique / décisionnel,Typhoïde,Afrique,Maladie infectieuse,faible,False,False,False
+30,2867,True,True,Spatial / cartographie du risque,Non précisé (infectieux générique),Afrique,Maladie infectieuse,élevée,False,False,False
+31,272,True,True,Projection de charge / tendances,Tuberculose,Afrique,Maladie infectieuse,élevée,False,False,True
+32,3965,False,False,Compartimental / mécaniste,Mpox,Afrique,Maladie infectieuse,faible,False,False,False
+33,1068,False,False,Économique / décisionnel,COVID-19,Afrique,Maladie infectieuse,faible,False,False,False
+34,407,True,True,Simulation / scénarios,Mpox,Afrique,Maladie infectieuse,élevée,True,True,False
+35,4405,True,True,Régression / prédiction statistique,VIH/sida,Afrique,Maladie infectieuse,élevée,True,True,False
+36,4292,True,False,Compartimental / mécaniste,Ebola / filovirus,Afrique (cadre à confirmer),Maladie infectieuse,élevée,True,True,False
+37,546,True,False,Projection de charge / tendances,Tuberculose,Mondial (Afrique mentionnée),Maladie infectieuse,élevée,True,False,False
+38,261,True,True,Spatial / cartographie du risque,Fièvre CCHF,Afrique,Maladie infectieuse,élevée,True,True,False
+39,3399,True,True,Phylodynamique / génomique,COVID-19,Afrique,Maladie infectieuse,élevée,False,False,False
+40,2290,True,False,Projection de charge / tendances,Dengue,Mondial (Afrique mentionnée),Maladie infectieuse,élevée,False,False,True

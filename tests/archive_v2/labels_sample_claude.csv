@@ -1,0 +1,61 @@
+sid,index,stratum,truth_core,truth_loose,unclear,in_scope,core_africa_scope,in_v1_tracker,africa_relevance,model_class_v2,pathogen_v2,domain_v2
+1,1110,out,False,False,False,False,False,True,Mondial (Afrique mentionnée),Projection de charge / tendances,Non précisé,Hors périmètre (maladies non transmissibles)
+2,4836,out,False,False,False,False,False,True,Afrique,Régression / prédiction statistique,Hépatites,Maladie infectieuse
+3,3454,out,False,False,False,False,False,False,Afrique,Non classé,Non précisé,Non précisé
+4,4439,out,False,False,True,False,False,True,Hors Afrique / non précisé,Spatial / cartographie du risque,Non précisé,Non précisé
+5,1340,out,False,False,False,False,False,True,Hors Afrique / non précisé,Compartimental / mécaniste,Hépatites,Maladie infectieuse
+6,960,in,False,False,False,True,True,True,Afrique,Régression / prédiction statistique,VIH/sida,Maladie infectieuse
+7,1752,out,False,False,False,False,False,False,Mondial (Afrique mentionnée),Non classé,Non précisé,Non précisé
+8,824,in,False,False,False,True,True,True,Afrique,Compartimental / mécaniste,VIH/sida,Maladie infectieuse
+9,4541,in,False,False,False,True,False,False,Mondial (Afrique mentionnée),Compartimental / mécaniste,Mpox,Maladie infectieuse
+10,1122,in,False,False,False,True,True,True,Afrique,Compartimental / mécaniste,Paludisme,Maladie infectieuse
+11,1005,in,False,False,False,True,True,False,Afrique,Économique / décisionnel,VIH/sida,Maladie infectieuse
+12,1497,out,False,False,False,False,False,False,Afrique,Non classé,Non précisé,Non précisé
+13,3206,in,False,False,False,True,True,False,Afrique,Spatial / cartographie du risque,Leishmaniose,Maladie infectieuse
+14,618,in,False,True,False,True,False,True,Mondial (Afrique mentionnée),Séries temporelles / prévision,Hépatites,Maladie infectieuse
+15,3136,in,False,True,False,True,False,True,Mondial (Afrique mentionnée),Apprentissage automatique / IA,Mpox,Maladie infectieuse
+16,2763,out,False,False,False,False,False,False,Hors Afrique / non précisé,Non classé,Non précisé,Non précisé
+17,2161,in,False,False,False,True,False,True,Mondial (Afrique mentionnée),Spatial / cartographie du risque,Chikungunya,Maladie infectieuse
+18,4617,in,False,False,False,True,False,False,Mondial (Afrique mentionnée),Spatial / cartographie du risque,Rougeole,Maladie infectieuse
+19,3428,out,False,False,False,False,False,False,Hors Afrique / non précisé,Non classé,Non précisé,Non précisé
+20,3980,in,False,False,False,True,False,True,Mondial (Afrique mentionnée),Séries temporelles / prévision,Infections respiratoires,Maladie infectieuse
+21,3655,in,True,True,False,True,True,True,Afrique,Simulation / scénarios,VIH/sida,Maladie infectieuse
+22,4858,in,True,True,False,True,True,True,Afrique,Compartimental / mécaniste,HPV,Maladie infectieuse
+23,396,in,False,False,False,True,True,False,Afrique,Régression / prédiction statistique,Paludisme,Maladie infectieuse
+24,2549,in,False,False,False,True,True,True,Afrique,Séries temporelles / prévision,VIH/sida,Maladie infectieuse
+25,476,out,False,False,False,False,False,True,Hors Afrique / non précisé,Régression / prédiction statistique,Non précisé,Non précisé
+26,3560,out,False,False,False,False,False,True,Hors Afrique / non précisé,Séries temporelles / prévision,Grippe,Maladie infectieuse
+27,4098,out,False,False,False,False,False,False,Mondial (Afrique mentionnée),Non classé,VIH/sida,Maladie infectieuse
+28,1891,out,False,False,False,False,False,False,Afrique,Non classé,Non précisé,Non précisé
+29,103,out,False,False,False,False,False,True,Afrique,Non classé,Paludisme,Maladie infectieuse
+30,4305,out,False,False,False,False,False,False,Afrique,Non classé,Filariose lymphatique,Maladie infectieuse
+31,1923,out,False,False,False,False,False,False,Afrique,Non classé,Rougeole,Maladie infectieuse
+32,1552,in,True,True,False,True,True,True,Afrique,Apprentissage automatique / IA,Ebola / filovirus,Maladie infectieuse
+33,84,out,False,False,False,False,False,False,Afrique,Non classé,Non précisé,Hors périmètre (maladies non transmissibles)
+34,4851,in,False,False,False,True,True,True,Afrique,Compartimental / mécaniste,Mpox,Maladie infectieuse
+35,61,in,False,False,False,True,True,True,Afrique,Projection de charge / tendances,Hépatites,Maladie infectieuse
+36,4619,in,False,False,False,True,True,True,Afrique,Spatial / cartographie du risque,Rougeole,Maladie infectieuse
+37,566,out,False,False,False,False,False,False,Afrique,Non classé,Résistance antimicrobienne,Maladie infectieuse
+38,3040,in,False,True,False,True,False,True,Mondial (Afrique mentionnée),Séries temporelles / prévision,Paludisme,Maladie infectieuse
+39,2260,in,False,False,False,True,True,True,Afrique,Phylodynamique / génomique,COVID-19,Maladie infectieuse
+40,1732,in,False,False,False,True,True,False,Afrique,Spatial / cartographie du risque,Rougeole,Maladie infectieuse
+41,1463,out,False,False,False,False,False,True,Afrique,Apprentissage automatique / IA,Non précisé,Non précisé
+42,1327,out,False,False,False,False,False,False,Hors Afrique / non précisé,Non classé,Non précisé,Non précisé
+43,4559,out,False,False,False,False,False,False,Hors Afrique / non précisé,Non classé,Non précisé,Non précisé
+44,4954,in,False,True,False,True,False,True,Mondial (Afrique mentionnée),Apprentissage automatique / IA,Dengue,Maladie infectieuse
+45,1927,in,False,False,False,True,True,True,Afrique,Régression / prédiction statistique,Paludisme,Maladie infectieuse
+46,94,in,False,False,False,True,True,True,Afrique,Séries temporelles / prévision,Tuberculose,Maladie infectieuse
+47,3248,out,False,False,False,False,False,False,Hors Afrique / non précisé,Compartimental / mécaniste,Rage,Maladie infectieuse
+48,3737,out,False,False,False,False,False,True,Afrique,Économique / décisionnel,Non précisé,Hors périmètre (maladies non transmissibles)
+49,4646,out,False,False,False,False,False,True,Hors Afrique / non précisé,Non classé,Non précisé,Hors périmètre (maladies non transmissibles)
+50,3933,in,False,False,True,True,True,True,Afrique,Compartimental / mécaniste,COVID-19,Maladie infectieuse
+51,862,out,False,False,False,False,False,False,Afrique,Non classé,Non précisé,Non précisé
+52,1271,out,False,False,False,False,False,False,Hors Afrique / non précisé,Non classé,Tuberculose,Maladie infectieuse
+53,1259,in,True,True,False,True,True,True,Afrique,Phylodynamique / génomique,Dengue,Maladie infectieuse
+54,1193,in,False,False,False,True,True,True,Afrique,Régression / prédiction statistique,VIH/sida,Maladie infectieuse
+55,1997,in,False,True,False,True,False,True,Mondial (Afrique mentionnée),Séries temporelles / prévision,Tuberculose,Maladie infectieuse
+56,2005,out,False,False,False,False,False,False,Hors Afrique / non précisé,Non classé,Non précisé,Non précisé
+57,2689,out,False,False,False,False,False,True,Hors Afrique / non précisé,Projection de charge / tendances,Hépatites,Hors périmètre (maladies non transmissibles)
+58,4800,out,False,False,False,False,False,False,Afrique,Régression / prédiction statistique,Non précisé,Non précisé
+59,1878,in,False,False,False,True,False,True,Mondial (Afrique mentionnée),Apprentissage automatique / IA,Choléra,Maladie infectieuse
+60,3683,out,False,False,False,False,False,False,Afrique,Non classé,Ebola / filovirus,Maladie infectieuse

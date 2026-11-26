@@ -1,0 +1,10 @@
+{
+ "_doc": "Règles d'alerte PREIS-Modeling : transparentes, modifiables sans code. Inspirées du tri de l'intelligence épidémique (priorité pathogène x pertinence Afrique x type de sortie x preuve x fraîcheur).",
+ "priority_pathogens": ["Ebola / filovirus", "Mpox", "Choléra", "Rougeole", "Polio", "Fièvre jaune", "Lassa", "Fièvre de la vallée du Rift", "Fièvre CCHF", "Méningite", "Peste", "Anthrax", "Grippe", "Dengue", "Rage"],
+ "active_outbreak_pathogens": ["Ebola / filovirus", "Mpox", "Choléra", "Rougeole", "Polio"],
+ "points": {"priority_pathogen": 2, "active_outbreak": 2, "core_africa": 3, "global_incl_africa": 1, "predictive_output": 2, "tier_T3": 2, "tier_T4": 3, "recent_30d": 2, "recent_90d": 1, "africa_led": 1, "near_target_year": 1, "low_transparency_penalty": -1},
+ "levels": {"high": 9, "medium": 6},
+ "tiers": {"high": "immediate", "medium": "weekly", "low": "monthly"},
+ "recent_window_days_default": 90,
+ "min_status": "retenu (règles, non validé humain)"
+}

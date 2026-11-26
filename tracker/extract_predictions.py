@@ -1,0 +1,65 @@
+# -*- coding: utf-8 -*-
+"""PREIS-Modeling : extraction AUTOMATIQUE (regles lisibles) des valeurs predites dans les resumes.
+Sortie : data/derived/prediction_extract.csv  (une ligne par phrase candidate)
+Ce n'est PAS une fiche de prediction validee : tout est 'a verifier par un humain'.
+Types : prevision (valeur future sans condition apparente) | scenario (conditionnel / intervention) | rapport (valeur deja observee/estimee, hors prevision).
+"""
+import csv, re, sys, os, json, collections
+
+CUE = re.compile(r"\b(project(?:ed|s|ion|ions)?|predict(?:ed|s|ion|ions)? (?:number|cases|deaths|incidence|prevalence|burden|mortality|that)|forecast(?:ed|s|ing)?|expected to|estimated to|anticipated|will (?:reach|exceed|result|cause|lead|avert|prevent|be)|could (?:reach|avert|prevent|result|cause|lead)|would (?:avert|prevent|reduce|result|cause|reach)|by (?:the year )?(20[2-6]\d)|peak(?:ing|s|ed)? (?:in|at|around|by))\b", re.I)
+SCEN = re.compile(r"\b(scenario|if |assuming|under (?:the )?(?:assumption|condition)|would|intervention|vaccination (?:coverage|campaign)|strategy|strategies|compared (?:with|to) (?:no|the)|counterfactual)\b", re.I)
+QTY = re.compile(r"((?<![\w\-])\d[\d,\.]*\s?(?:%|per ?cent|percent)|(?<![\w\-])\d[\d,\.]*\s?(?:million|billion|thousand|k)?\s?(?:new |additional |cumulative |total |severe |clinical )?(?:cases|deaths|infections|hospitali[sz]ations|doses|people|children|women|individuals|DALYs|lives|incidence|prevalence)|\bR0?\s?(?:=|of)\s?\d[\d\.]*|\bRt\s?(?:=|of)\s?\d[\d\.]*|\b(?:reproduction number)[^.;]{0,25}\d[\d\.]*)", re.I)
+YEAR = re.compile(r"\b(20[2-6]\d)\b")
+PAST = re.compile(r"\b(was|were|had been|observed|reported|during (?:the )?(?:period|study)|between 20[01]\d)\b", re.I)
+SPLIT = re.compile(r"(?<=[\.\?\!])\s+(?=[A-Z\(])")
+
+PERF = re.compile(r"\b(accuracy|AUC|AUROC|sensitivity|specificity|algorithm|classifier|machine learning|records were|patients were|participants|RMSE|MAE|F1|are used to|were used to|we used|we aimed|aims? to|aimed to|this study|this target|goals? (?:have|has) been|targets? (?:aims?|stipulat))\b", re.I)
+TAG = re.compile(r"<[^>]+>")
+
+def clean(a):
+    a = re.sub(r"</?(h\d|p|br|li|ul|ol|div)[^>]*>", ". ", a or "", flags=re.I)
+    a = re.sub(r"(?<=\d)\u00b7(?=\d)", ".", a)
+    return re.sub(r"\s+", " ", TAG.sub("", a))
+
+def sentences(abs_):
+    abs_ = clean(abs_)
+    return [s.strip() for s in SPLIT.split(abs_ or "") if s.strip()]
+
+def classify(s):
+    if not (CUE.search(s) and QTY.search(s)) or PERF.search(s): return None
+    if SCEN.search(s): return "scenario"
+    if PAST.search(s) and not re.search(r"\b(project|predict|forecast|expected|will|could|by 20[2-6]\d)", s, re.I): return "rapport"
+    return "prevision"
+
+def extract(abs_):
+    out = []
+    for s in sentences(abs_):
+        k = classify(s)
+        if k:
+            out.append({"type": k, "sentence": s[:400], "quantities": " ; ".join(dict.fromkeys(q for q in (m.group(0).strip() for m in QTY.finditer(s)) if q not in ("95%","99%","95 %")))[:200],
+                        "years": ",".join(dict.fromkeys(YEAR.findall(s)))})
+    return out
+
+def main(root="."):
+    src = os.path.join(root, "results", "model_tracker_v3.csv")
+    rows = list(csv.DictReader(open(src, encoding="utf-8-sig")))
+    outp = os.path.join(root, "data", "derived", "prediction_extract.csv")
+    os.makedirs(os.path.dirname(outp), exist_ok=True)
+    n_art = 0; cnt = collections.Counter(); cols = None
+    with open(outp, "w", encoding="utf-8-sig", newline="") as f:
+        w = csv.writer(f)
+        w.writerow(["url","doi","pmid","title","pathogen_v2","countries_name","evidence_tier","review_status","type","sentence","quantities","years","extraction","human_check"])
+        for r in rows:
+            if not r["review_status"].startswith(("retenu", "candidat")): continue
+            ex = extract(r["abstract"])
+            if ex: n_art += 1
+            for e in ex:
+                cnt[e["type"]] += 1
+                w.writerow([r["url"], r["doi"], r["pmid"], r["title"], r["pathogen_v2"], r["countries_name"], r["evidence_tier"], r["review_status"],
+                            e["type"], e["sentence"], e["quantities"], e["years"], "automatique (regles) - non valide", ""])
+    rep = {"articles_examines": sum(1 for r in rows if r["review_status"].startswith(("retenu", "candidat"))), "articles_avec_valeur_candidate": n_art, "phrases": dict(cnt)}
+    json.dump(rep, open(os.path.join(root, "data", "derived", "prediction_extract_report.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    print(rep)
+
+if __name__ == "__main__":
+    main(sys.argv[1] if len(sys.argv) > 1 else ".")
