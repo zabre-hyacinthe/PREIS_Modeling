@@ -21,5 +21,9 @@ assert S.route(N, partner, ["immediate"]).empty                                 
 for c,v in dict(url="https://x.invalid",title="T",model_class="Compartimental",evidence_tier="T3",signal_detail="d").items(): N[c]=v
 assert len(S.rcpt_hash("A@b.org")) == 10 and S.rcpt_hash("A@b.org") == S.rcpt_hash(" a@b.org ")
 subj, body, text = S.build_message(S.route(N, cdc, run), cdc, "2026-11-26", "contact@exemple.invalid")
-assert "priorité haute" in subj and "non validée par des humains" in body and "Mpox" in text
+assert "high priority" in subj and "not yet validated by humans" in body and "Mpox" in text
 print("routing tests ok")
+
+# anglais par defaut (27/11/2026)
+assert "Read before acting" in body and "Priorité" not in body and "Pourquoi" not in body, "email non anglais"
+print("english email OK")

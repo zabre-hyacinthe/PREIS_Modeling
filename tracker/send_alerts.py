@@ -8,7 +8,7 @@ Destinataires (CSV, jamais committe, colonnes) : email ; name ; audience (africa
   pathogens (liste separee par ; - optionnel) ; include_continental (yes|no, defaut yes : etudes multi-pays ou 'Afrique').
 Regles par defaut selon l'audience : voir DEFAULTS. Journal anti-doublons par (publication, destinataire hache) : aucune adresse n'est stockee.
 Variables : PREIS_DRY_RUN, PREIS_TIERS, PREIS_RECIPIENTS_PATH, SMTP_USER, SMTP_PASS, ALERT_FROM, SMTP_HOST, SMTP_PORT, PREIS_CONTACT."""
-import csv, datetime as dt, hashlib, html, os, smtplib, ssl, sys
+import csv, datetime as dt, hashlib, html, os, re, smtplib, ssl, sys
 from email.message import EmailMessage
 import pandas as pd
 
@@ -43,7 +43,8 @@ def profile(row):
     return dict(email=(row.get("email") or "").strip(), name=(row.get("name") or "").strip(), audience=aud,
                 tiers=_split(row.get("tiers") or d_tiers), min_level=(row.get("min_level") or d_lvl).strip().lower(),
                 countries=_split(row.get("countries")), pathogens=_split(row.get("pathogens")),
-                continental=(row.get("include_continental") or "yes").strip().lower() != "no")
+                continental=(row.get("include_continental") or "yes").strip().lower() != "no",
+                lang=(row.get("language") or "en").strip().lower()[:2])
 
 
 def route(N, p, run_tiers):
@@ -75,7 +76,7 @@ def card(r):
         html.escape(r.model_class), r.evidence_tier, TIER_FR.get(r.evidence_tier, ""), html.escape(r.signal_detail))
 
 
-def build_message(N, p, today, contact):
+def build_message_fr(N, p, today, contact):
     n_hi = int((N.priority_level == "high").sum())
     paths = ", ".join(list(dict.fromkeys(N.pathogen))[:3])
     subject = "[PREIS-Modeling] %d nouvelle(s) publication(s)%s · %s" % (len(N), (" dont %d priorité haute" % n_hi) if n_hi else "", paths)
@@ -89,13 +90,109 @@ def build_message(N, p, today, contact):
             + "".join(card(r) for r in N.itertuples()) +
             "<div style='border-top:1px solid #ddd;margin-top:14px;padding-top:8px;font-size:12px;color:#555;line-height:1.5'>"
             "<b>À lire avant d'agir.</b> Chaque ligne est une <b>publication</b>, pas un foyer épidémique ni une recommandation. "
-            "La classification est faite par règles et relecteurs IA, <b>non validée par des humains</b> ; le degré de preuve est lu sur le résumé. "
+            "La classification est faite par règles lisibles, <b>non validée par des humains</b> ; le degré de preuve est lu sur le résumé. "
             "Une prédiction isolée ne vaut pas une prédiction confirmée par plusieurs groupes ni par les observations.<br>%s<br>"
             "Pour modifier vos critères ou vous désabonner, répondez à ce message%s. Africa CDC · PREIS.</div></div>" % (
                 html.escape(crit), (" ou écrivez à " + html.escape(contact)) if contact else ""))
     lines = ["PREIS-Modeling — %s" % today, ""] + ["- [%s] %s | %s | preuve %s | %s" % (LVL_FR.get(r.priority_level, ""), r.pathogen, r.title, r.evidence_tier, r.url) for r in N.itertuples()] + \
             ["", "Chaque ligne est une publication, pas un foyer ni une recommandation. Classification non validée par des humains.", crit]
     return subject, body, "\n".join(lines)
+
+# ---------------------------------------------------------------- English (default) email ----------------------------------------------------------------
+LVL_EN = {"high": "High priority", "medium": "Medium priority", "low": "Low priority"}
+TIER_EN = {"T4": "external / prospective validation or multi-model", "T3": "internal validation or calibration",
+           "T2": "model, no validation described", "T1": "review, commentary or framework", "T0": "not a modelling study"}
+PATH_EN = {"VIH/sida": "HIV/AIDS", "Paludisme": "Malaria", "Tuberculose": "Tuberculosis", "Non précisé (infectieux générique)": "Infectious disease (unspecified)",
+           "Ebola / filovirus": "Ebola / filovirus", "Hépatites": "Hepatitis", "Schistosomiase": "Schistosomiasis", "Trypanosomiase": "Trypanosomiasis",
+           "Choléra": "Cholera", "Grippe": "Influenza", "Fièvre de la vallée du Rift": "Rift Valley fever", "Helminthiases": "Helminthiases", "Rougeole": "Measles",
+           "Typhoïde": "Typhoid", "Méningite": "Meningitis", "Leishmaniose": "Leishmaniasis", "Fièvre jaune": "Yellow fever", "Rage": "Rabies", "Peste": "Plague",
+           "Résistance antimicrobienne": "Antimicrobial resistance", "Filariose lymphatique": "Lymphatic filariasis", "Coqueluche": "Pertussis", "Fièvre CCHF": "CCHF",
+           "VRS": "RSV", "Onchocercose": "Onchocerciasis", "Infections respiratoires": "Respiratory infections", "Diphtérie": "Diphtheria"}
+MODEL_EN = {"Compartimental / mécaniste": "Compartmental / mechanistic", "Apprentissage automatique / IA": "Machine learning / AI", "Séries temporelles / prévision": "Time series / forecasting",
+            "Simulation / scénarios": "Simulation / scenarios", "Agent / individu-centré": "Agent-based / individual-based", "Économique / décisionnel": "Economic / decision analysis",
+            "Spatial / cartographie du risque": "Spatial / risk mapping", "Régression / prédiction statistique": "Regression / statistical prediction",
+            "Phylodynamique / génomique": "Phylodynamics / genomics", "Projection de charge / tendances": "Burden / trend projection"}
+SIG_EN = {"pathogène prioritaire": "priority pathogen", "épidémie active/surveillée": "active or monitored outbreak", "centré Afrique": "Africa-focused",
+          "sortie prédictive": "predictive output", "dirigé depuis l'Afrique": "led from Africa", "aucun critère de transparence": "no transparency criterion reported",
+          "mondial incl. Afrique": "global, incl. Africa", "horizon proche": "near-term horizon", "≤90 j": "target within 90 days", "≤30 j": "target within 30 days"}
+
+
+def _en(d, k):
+    return d.get(k, k)
+
+
+def sig_en(s):
+    out = []
+    for part in str(s or "").split(";"):
+        part = part.strip()
+        if not part:
+            continue
+        m = re.match(r"^(.*?)(\(\+?\d+\))?$", part)
+        base, pts = (m.group(1).strip(), m.group(2) or "") if m else (part, "")
+        label = SIG_EN.get(base) or ("evidence " + base.split()[-1] if base.startswith("preuve ") else base)
+        out.append((label + " " + pts).strip())
+    return "; ".join(out)
+
+
+GREEN, GOLD, INK = "#1A5632", "#F0B323", "#0F2E1B"
+PCOL = {"high": "#B42318", "medium": "#B54708", "low": "#5F6B66"}
+
+
+def card_en(r):
+    col = PCOL.get(r.priority_level, "#5F6B66")
+    pth = _en(PATH_EN, r.pathogen)
+    ctry = r.countries if r.countries else "Africa (not specified)"
+    jr = getattr(r, "journal", "") or ""
+    year = (" &middot; %s" % html.escape(jr)) if jr else ""
+    led = " &middot; led from Africa" if str(getattr(r, "africa_led", "")).lower() == "true" else ""
+    tier = "%s &ndash; %s" % (r.evidence_tier, TIER_EN.get(r.evidence_tier, ""))
+    return ("<tr><td style='padding:0 0 12px 0'><table role='presentation' width='100%%' cellpadding='0' cellspacing='0' style='border:1px solid #E1E7E3;border-left:5px solid %s;border-radius:6px;background:#FFFFFF'><tr><td style='padding:12px 14px'>"
+            "<div style='font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:%s;font-weight:bold'>%s &nbsp;&middot;&nbsp; %s</div>"
+            "<div style='font-size:16px;line-height:1.35;margin:5px 0 8px'><a href='%s' style='color:%s;text-decoration:none;font-weight:bold'>%s</a></div>"
+            "<table role='presentation' cellpadding='0' cellspacing='0' style='font-size:13px;color:#33413A;line-height:1.5'>"
+            "<tr><td style='padding-right:10px;color:#6B7A72'>Countries</td><td>%s</td></tr>"
+            "<tr><td style='padding-right:10px;color:#6B7A72'>Model</td><td>%s</td></tr>"
+            "<tr><td style='padding-right:10px;color:#6B7A72'>Evidence</td><td>%s</td></tr>"
+            "<tr><td style='padding-right:10px;color:#6B7A72'>Published</td><td>%s%s%s</td></tr></table>"
+            "<div style='font-size:12px;color:#5F6B66;margin-top:8px'><i>Why flagged: %s</i></div></td></tr></table></td></tr>") % (
+        col, col, LVL_EN.get(r.priority_level, ""), html.escape(pth), html.escape(r.url), GREEN, html.escape(r.title), html.escape(ctry),
+        html.escape(_en(MODEL_EN, r.model_class)), tier, html.escape(str(getattr(r, "pub_year", "") or "")), year, led, html.escape(sig_en(r.signal_detail)))
+
+
+def build_message_en(N, p, today, contact):
+    n_hi = int((N.priority_level == "high").sum())
+    paths = ", ".join(list(dict.fromkeys(_en(PATH_EN, x) for x in N.pathogen))[:3])
+    subject = "[PREIS-Modeling] %d new modelling publication%s%s · %s" % (len(N), "" if len(N) == 1 else "s", (" (%d high priority)" % n_hi) if n_hi else "", paths)
+    who = ("Dear %s," % html.escape(p["name"])) if p["name"] else "Hello,"
+    scope = []
+    if p["countries"]: scope.append("countries: " + ", ".join(p["countries"]))
+    if p["pathogens"]: scope.append("diseases: " + ", ".join(p["pathogens"]))
+    crit = "Your settings: audience %s, minimum level %s%s." % (p["audience"], LVL_EN.get(p["min_level"], p["min_level"]).lower(), (", " + "; ".join(scope)) if scope else "")
+    dash = os.environ.get("PREIS_DASHBOARD_URL", "").strip()
+    btn = ("<p style='margin:16px 0 4px'><a href='%s' style='background:%s;color:#FFFFFF;text-decoration:none;padding:10px 18px;border-radius:5px;font-weight:bold;font-size:14px;display:inline-block'>Open the PREIS-Modeling dashboard</a></p>" % (html.escape(dash), GREEN)) if dash.startswith("http") else ""
+    body = ("<div style='background:#F3F6F4;padding:16px 0;font-family:Arial,Helvetica,sans-serif'><table role='presentation' width='100%%' cellpadding='0' cellspacing='0'><tr><td align='center'>"
+            "<table role='presentation' width='640' cellpadding='0' cellspacing='0' style='max-width:640px;width:100%%'>"
+            "<tr><td style='background:%s;padding:16px 18px;border-bottom:4px solid %s;border-radius:6px 6px 0 0'>"
+            "<div style='color:#FFFFFF;font-size:19px;font-weight:bold'>PREIS-Modeling</div>"
+            "<div style='color:#DCEBE1;font-size:12px;margin-top:2px'>Pan-African Real-time Epidemiological Intelligence System &middot; Africa CDC</div></td></tr>"
+            "<tr><td style='background:#FFFFFF;padding:16px 18px'>"
+            "<div style='font-size:12px;color:#6B7A72'>%s</div>"
+            "<p style='font-size:14px;color:%s;margin:8px 0 4px'>%s here is what the tracker flagged for you: <b>%d new publication%s</b>%s.</p>%s"
+            "<table role='presentation' width='100%%' cellpadding='0' cellspacing='0' style='margin-top:12px'>%s</table>"
+            "<div style='border-top:1px solid #E1E7E3;margin-top:6px;padding-top:10px;font-size:12px;color:#5F6B66;line-height:1.55'>"
+            "<b>Read before acting.</b> Each item is a <b>publication</b>, not an outbreak and not a recommendation. Classification is rule-based and "
+            "<b>not yet validated by humans</b>; the evidence level is read from the abstract. A single prediction is not worth a prediction confirmed by several independent groups or by observed data.<br>%s<br>"
+            "To change your settings or unsubscribe, reply to this message%s. Africa CDC &middot; PREIS.</div></td></tr></table></td></tr></table></div>") % (
+        GREEN, GOLD, today, INK, who, len(N), "" if len(N) == 1 else "s", (", of which <b>%d high priority</b>" % n_hi) if n_hi else "", btn,
+        "".join(card_en(r) for r in N.itertuples()), html.escape(crit), (" or write to " + html.escape(contact)) if contact else "")
+    lines = ["PREIS-Modeling - %s" % today, ""] + ["- [%s] %s | %s | evidence %s | %s" % (LVL_EN.get(r.priority_level, ""), _en(PATH_EN, r.pathogen), r.title, r.evidence_tier, r.url) for r in N.itertuples()] + \
+            ["", "Each item is a publication, not an outbreak or a recommendation. Rule-based classification, not validated by humans.", crit] + (["Dashboard: " + dash] if dash.startswith("http") else [])
+    return subject, body, "\n".join(lines)
+
+
+def build_message(N, p, today, contact):
+    """Anglais par defaut ; francais si la colonne optionnelle `language` vaut fr."""
+    return (build_message_fr if p.get("lang") == "fr" else build_message_en)(N, p, today, contact)
 
 
 def main():
@@ -117,6 +214,8 @@ def main():
         print("BASELINE : %d publications marquees comme deja vues, aucun envoi." % len(C)); return
     base = set(L[L.rcpt == "all"].record_id)
     N = C if test else C[~C.record_id.isin(base)]
+    if test:   # essai : uniquement des publications des 12 derniers mois, pour un apercu representatif
+        N = N[N.first_pub_date >= (dt.date.today() - dt.timedelta(days=365)).isoformat()]
     rp = os.environ.get("PREIS_RECIPIENTS_PATH", "")
     profs = [profile(r) for r in csv.DictReader(open(rp, encoding="utf-8-sig"))] if rp and os.path.exists(rp) else []
     profs = [p for p in profs if p["email"]]

@@ -94,6 +94,7 @@ jobs:
           PREIS_DRY_RUN: ${{ steps.mode.outputs.dry }}
           PREIS_TIERS: ${{ steps.mode.outputs.tiers }}
           PREIS_TEST_SEND: ${{ github.event.inputs.test_send }}
+          PREIS_DASHBOARD_URL: ${{ vars.PREIS_DASHBOARD_URL }}
         run: python tracker/send_alerts.py
 
       - name: Resume (sans adresses)
