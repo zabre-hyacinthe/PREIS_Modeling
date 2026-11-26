@@ -1,32 +1,32 @@
 {
- "universe_articles": 3626,
+ "universe_articles": 3640,
  "duplicates_removed": 5,
- "v1_rows": 1571,
- "v2_predictive_models": 1908,
- "v2_in_scope_infectious": 1673,
- "v2_core_africa_infectious": 1285,
- "v1_in_v2_core": 50,
- "v1_not_in_v2_scope": 60,
- "v2_core_not_in_v1": 1235,
+ "v1_rows": 0,
+ "v2_predictive_models": 1914,
+ "v2_in_scope_infectious": 1679,
+ "v2_core_africa_infectious": 1288,
+ "v1_in_v2_core": 0,
+ "v1_not_in_v2_scope": 0,
+ "v2_core_not_in_v1": 1288,
  "by_class": {
-  "Compartimental / mécaniste": 595,
+  "Compartimental / mécaniste": 597,
   "Apprentissage automatique / IA": 251,
   "Séries temporelles / prévision": 212,
   "Simulation / scénarios": 200,
-  "Agent / individu-centré": 128,
-  "Économique / décisionnel": 120,
+  "Agent / individu-centré": 131,
+  "Économique / décisionnel": 121,
   "Spatial / cartographie du risque": 66,
   "Régression / prédiction statistique": 48,
   "Phylodynamique / génomique": 42,
   "Projection de charge / tendances": 11
  },
  "by_pathogen": {
-  "VIH/sida": 355,
-  "Paludisme": 292,
+  "VIH/sida": 358,
+  "Paludisme": 294,
   "COVID-19": 266,
   "Tuberculose": 151,
   "Non précisé (infectieux générique)": 142,
-  "Ebola / filovirus": 102,
+  "Ebola / filovirus": 103,
   "Hépatites": 37,
   "Schistosomiase": 31,
   "Trypanosomiase": 29,
@@ -38,10 +38,10 @@
   "Typhoïde": 16
  },
  "by_geo_scope": {
-  "national": 982,
+  "national": 987,
   "régional/continental": 328,
   "multi-pays": 234,
-  "mondial": 129
+  "mondial": 130
  },
  "by_year": {
   "2026": 219,
@@ -50,38 +50,38 @@
   "2021": 169,
   "2023": 152,
   "2022": 149,
-  "2020": 132,
-  "2016": 114,
-  "2019": 100,
-  "2018": 89,
-  "2015": 80,
+  "2020": 133,
+  "2016": 115,
+  "2019": 101,
+  "2018": 90,
+  "2015": 82,
   "2017": 79,
   "2027": 1
  },
  "input_source": "Europe PMC v3 (auteurs, preprints)",
  "review_status": {
-  "retenu (règles, non validé humain)": 1673,
-  "hors périmètre": 1142,
-  "candidat à revoir (humain)": 806
+  "retenu (règles, non validé humain)": 1679,
+  "hors périmètre": 1145,
+  "candidat à revoir (humain)": 811
  },
  "by_evidence_tier": {
-  "T2": 1064,
-  "T3": 531,
+  "T2": 1069,
+  "T3": 532,
   "T4": 78
  },
  "by_realization": {
-  "non applicable": 1469,
+  "non applicable": 1474,
   "en attente (année cible future)": 165,
-  "à vérifier (année cible atteinte)": 39
+  "à vérifier (année cible atteinte)": 40
  },
  "preprints_in_scope": 0,
  "africa_led_share_core": 0.44,
  "no_african_affiliation_core": 342,
- "target_year_filled": 204,
+ "target_year_filled": 205,
  "evidence_flags_dist": {
-  "0": 971,
-  "1": 537,
-  "2": 162,
+  "0": 974,
+  "1": 539,
+  "2": 163,
   "3": 3
  },
  "url_filled_pct": 100.0

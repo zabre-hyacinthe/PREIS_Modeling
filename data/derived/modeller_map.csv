@@ -2,31 +2,31 @@ modelisateur,publications,premier_auteur,dernier_auteur,domaines_maladies,method
 Hallett TB,21,1,20,VIH/sida; Tuberculose; Hépatites,Simulation / scénarios; Compartimental / mécaniste; Agent / individu-centré,MWI; KEN; ZWE,2015-2026
 Johnson LF,20,12,8,VIH/sida; Tuberculose; HPV,Compartimental / mécaniste; Agent / individu-centré; Simulation / scénarios,ZAF,2015-2026
 Bershteyn A,17,3,14,VIH/sida,Compartimental / mécaniste; Simulation / scénarios; Économique / décisionnel,KEN; ZAF; KEN|UGA|ZMB,2015-2026
-Phillips AN,13,8,5,VIH/sida,Économique / décisionnel; Simulation / scénarios,ZAF|ZMB|ZWE; KEN|UGA; MWI|ZAF,2018-2026
 White RG,13,0,13,Tuberculose; VIH/sida,Compartimental / mécaniste; Agent / individu-centré; Simulation / scénarios,ZAF; UGA; MWI,2015-2024
 Abu-Raddad LJ,12,0,12,Hépatites; VIH/sida; COVID-19,Compartimental / mécaniste; Simulation / scénarios,EGY; MAR,2015-2025
+Phillips AN,11,8,3,VIH/sida,Économique / décisionnel; Simulation / scénarios,ZAF|ZMB|ZWE; KEN|UGA; MWI,2018-2026
 McCreesh N,10,9,1,Tuberculose; VIH/sida; Paludisme,Agent / individu-centré; Compartimental / mécaniste; Économique / décisionnel,ZAF; UGA,2015-2026
 Barnabas RV,9,0,9,VIH/sida; HPV,Économique / décisionnel; Compartimental / mécaniste,KEN; ZAF; UGA|ZAF,2015-2024
+Selvaraj P,8,3,5,Paludisme,Agent / individu-centré; Simulation / scénarios; Compartimental / mécaniste,TZA; TZA|ZAF,2018-2026
 Meyer-Rath G,8,1,7,VIH/sida; Tuberculose; COVID-19,Compartimental / mécaniste; Économique / décisionnel; Simulation / scénarios,ZAF,2016-2026
 Dodd PJ,8,4,4,Tuberculose,Compartimental / mécaniste; Simulation / scénarios; Économique / décisionnel,ZAF; SWZ; ZMB,2016-2026
+Chowell G,8,2,6,Non précisé (infectieux générique); Ebola / filovirus; Tuberculose,Séries temporelles / prévision; Simulation / scénarios; Compartimental / mécaniste,inconnu,2016-2025
 Boily MC,7,0,7,VIH/sida,Compartimental / mécaniste,ZAF; CIV; KEN,2017-2026
-Selvaraj P,7,2,5,Paludisme,Agent / individu-centré; Simulation / scénarios; Compartimental / mécaniste,TZA; TZA|ZAF,2018-2026
 Sharma M,7,3,4,VIH/sida,Économique / décisionnel; Agent / individu-centré; Simulation / scénarios,KEN; ZAF,2016-2026
-Chowell G,7,1,6,Non précisé (infectieux générique); Ebola / filovirus; Tuberculose,Séries temporelles / prévision; Simulation / scénarios; Agent / individu-centré,inconnu,2016-2025
 Churcher TS,7,1,6,Paludisme,Compartimental / mécaniste; Agent / individu-centré; Simulation / scénarios,BFA|CIV|KEN|MOZ|TZA; BFA; MLI|ZMB,2021-2025
 Ghani AC,7,0,7,Paludisme,Simulation / scénarios; Compartimental / mécaniste; Économique / décisionnel,NAM|ZAF; BFA|MLI; COD|COG,2015-2025
 Vickerman P,7,0,7,VIH/sida; Hépatites,Compartimental / mécaniste; Simulation / scénarios; Économique / décisionnel,ZAF; KEN; KEN|TZA,2015-2025
-Anderson RM,7,0,7,Helminthiases; Schistosomiase,Agent / individu-centré; Compartimental / mécaniste; Séries temporelles / prévision,ETH|SDN|SWZ; KEN; MWI,2016-2024
+Anderson RM,7,0,7,Helminthiases; Schistosomiase,Agent / individu-centré; Compartimental / mécaniste; Séries temporelles / prévision,ETH|SDN|SWZ; KEN; BEN|MWI,2016-2024
 Galvani AP,7,0,7,Ebola / filovirus; Trypanosomiase; VIH/sida,Compartimental / mécaniste; Économique / décisionnel,LBR; ZAF,2015-2019
-Silhol R,6,5,1,VIH/sida,Compartimental / mécaniste,ZAF; CIV|MLI|SEN; CMR,2021-2026
 Glèlè Kakaï R,6,2,4,Paludisme; COVID-19,Compartimental / mécaniste; Simulation / scénarios,BEN,2020-2026
-Vounatsou P,6,0,6,Paludisme; Schistosomiase,Compartimental / mécaniste; Séries temporelles / prévision; Spatial / cartographie du risque,KEN; BFA; CIV|KEN|NGA|RWA|TGO|ZWE,2022-2026
+Braithwaite RS,6,0,6,VIH/sida,Compartimental / mécaniste; Économique / décisionnel,ZAF; SWZ; ZWE,2018-2026
+Vounatsou P,6,0,6,Paludisme; Schistosomiase,Compartimental / mécaniste; Séries temporelles / prévision; Spatial / cartographie du risque,KEN; BFA; CIV|CMR|COD|COG|KEN|MLI|NGA|RWA|SEN|TGO|UGA|ZWE,2022-2026
 Maheu-Giroux M,6,3,3,VIH/sida,Compartimental / mécaniste; Simulation / scénarios; Économique / décisionnel,CIV|MOZ|MWI|ZAF; CIV; BEN|COD|COG|LSO|MWI,2017-2026
 Kong JD,6,1,5,COVID-19; Paludisme; Choléra,Compartimental / mécaniste; Séries temporelles / prévision; Agent / individu-centré,ZAF; CMR|GHA|KEN; ETH|NGA,2021-2025
 Gerardin J,6,2,4,Paludisme,Simulation / scénarios; Compartimental / mécaniste; Économique / décisionnel,ZMB; NGA; COD|COG,2016-2023
 Vassall A,6,0,6,Tuberculose; COVID-19,Économique / décisionnel; Compartimental / mécaniste; Simulation / scénarios,ZAF; ETH|GHA|NGA|ZAF; TZA|ZAF,2016-2023
 Gumel AB,6,0,6,Paludisme; COVID-19; Leishmaniose,Compartimental / mécaniste,ZAF; NGA,2015-2020
-Braithwaite RS,5,0,5,VIH/sida,Compartimental / mécaniste; Économique / décisionnel,ZAF; SWZ; ZWE,2024-2026
+Silhol R,5,5,0,VIH/sida,Compartimental / mécaniste,ZAF; CIV|MLI|SEN; CMR,2021-2026
 Bakare EA,5,5,0,Paludisme; Mpox,Séries temporelles / prévision; Compartimental / mécaniste,NGA; BEN|NGA,2025-2026
 Rock KS,5,2,3,Trypanosomiase,Compartimental / mécaniste; Économique / décisionnel,COD|COG; TCD; UGA,2017-2026
 Jaiteh M,5,5,0,VIH/sida,Apprentissage automatique / IA,ZAF; KEN|ZAF; NGA|ZAF,2025-2026
@@ -37,22 +37,17 @@ Silal SP,5,3,2,Paludisme; Hépatites; COVID-19,Compartimental / mécaniste; Éco
 Ayoub HH,5,5,0,Hépatites; COVID-19,Compartimental / mécaniste; Simulation / scénarios,inconnu,2017-2023
 Cohen T,5,0,5,Tuberculose; Méningite,Compartimental / mécaniste; Simulation / scénarios,ZAF,2015-2023
 He D,5,0,5,COVID-19; Non précisé (infectieux générique); Fièvre jaune,Compartimental / mécaniste,NGA,2018-2022
-Smit M,5,3,2,VIH/sida,Simulation / scénarios; Agent / individu-centré,KEN; ZWE,2015-2020
 Ozawa S,5,2,3,Paludisme; Résistance antimicrobienne,Agent / individu-centré,UGA; ZMB; ETH,2019-2020
 Funk S,5,3,2,Ebola / filovirus; Non précisé (infectieux générique),Séries temporelles / prévision; Compartimental / mécaniste; Simulation / scénarios,LBR; SLE,2015-2019
 Mengistu AK,4,3,1,Paludisme; VIH/sida; Tuberculose,Apprentissage automatique / IA,ETH,2025-2026
 Arinaminpathy N,4,1,3,Tuberculose; Ebola / filovirus,Compartimental / mécaniste; Simulation / scénarios,BWA; KEN,2019-2026
 Andrews JR,4,1,3,Helminthiases; Ebola / filovirus; Tuberculose,Économique / décisionnel; Simulation / scénarios,CIV; COD; ZAF,2015-2026
-Goscé L,4,3,1,Tuberculose,Économique / décisionnel; Compartimental / mécaniste; Simulation / scénarios,ZAF; ETH|TZA|ZAF,2023-2026
-Revill P,4,0,4,VIH/sida,Simulation / scénarios; Économique / décisionnel,ZAF|ZMB|ZWE; UGA|ZMB; MWI|ZAF,2019-2026
+Revill P,4,0,4,VIH/sida,Simulation / scénarios; Économique / décisionnel,ZAF|ZMB|ZWE; UGA|ZMB; CIV|CMR|MWI|ZAF|ZWE,2019-2026
 Scott N,4,3,1,Hépatites; VIH/sida; Paludisme,Économique / décisionnel; Simulation / scénarios; Compartimental / mécaniste,TZA; NGA|ZAF,2018-2025
-Viboud C,4,2,2,Ebola / filovirus; COVID-19; Non précisé (infectieux générique),Séries temporelles / prévision; Compartimental / mécaniste,ZAF,2016-2025
 Ochieng FO,4,2,2,Tuberculose; Paludisme,Compartimental / mécaniste,KEN,2024-2025
 Sherrard-Smith E,4,2,2,Paludisme,Compartimental / mécaniste; Agent / individu-centré; Simulation / scénarios,BFA|CIV|KEN|MOZ|TZA; BEN|BFA|TZA; UGA,2022-2025
-Wesolowski A,4,1,3,Rougeole; Paludisme,Compartimental / mécaniste; Spatial / cartographie du risque,ZMB; ZAF|ZMB|ZWE,2022-2025
 Stone J,4,4,0,VIH/sida,Compartimental / mécaniste; Simulation / scénarios; Économique / décisionnel,ZAF; KEN,2022-2025
 Bärnighausen T,4,1,3,VIH/sida,Simulation / scénarios; Apprentissage automatique / IA; Compartimental / mécaniste,ZAF,2016-2025
-Pickles M,4,3,1,VIH/sida,Agent / individu-centré; Compartimental / mécaniste; Simulation / scénarios,ZAF|ZMB; KEN; ZWE,2021-2024
 Aldila D,4,3,1,Paludisme; Tuberculose; VIH/sida,Compartimental / mécaniste; Économique / décisionnel,inconnu,2022-2024
 Pitzer VE,4,2,2,Typhoïde; Non précisé (infectieux générique),Compartimental / mécaniste; Économique / décisionnel,MWI,2015-2024
 Zupko RJ,4,4,0,Paludisme,Agent / individu-centré,BFA; RWA,2022-2024
@@ -60,12 +55,13 @@ Boni MF,4,0,4,Paludisme,Agent / individu-centré,BFA; RWA,2022-2024
 Reddy KP,4,2,2,VIH/sida; COVID-19; Tuberculose,Simulation / scénarios; Économique / décisionnel,ZAF; MWI|ZAF,2019-2024
 Glass K,4,0,4,Non précisé (infectieux générique); COVID-19; Lassa,Compartimental / mécaniste; Économique / décisionnel,SLE,2019-2024
 Thompson KM,4,1,3,Polio,Compartimental / mécaniste,inconnu,2015-2023
+Kripke K,4,4,0,VIH/sida,Compartimental / mécaniste,TZA; SWZ,2016-2022
 Checchi F,4,1,3,COVID-19; Trypanosomiase,Compartimental / mécaniste; Apprentissage automatique / IA,SOM; ZAF,2018-2022
-Jewell BL,4,3,1,VIH/sida,Simulation / scénarios; Compartimental / mécaniste,MWI|ZAF|ZWE; UGA,2020-2021
 Smith JA,4,4,0,VIH/sida,Compartimental / mécaniste; Agent / individu-centré; Simulation / scénarios,ZAF,2015-2021
 McBryde ES,4,0,4,Tuberculose; COVID-19,Compartimental / mécaniste; Économique / décisionnel,NGA,2017-2021
 Dowdy DW,4,0,4,Tuberculose,Régression / prédiction statistique; Compartimental / mécaniste; Agent / individu-centré,UGA|ZAF; ZAF,2017-2020
 Mukandavire Z,4,3,1,Choléra; VIH/sida; COVID-19,Compartimental / mécaniste,ZAF|ZWE,2015-2020
+Smit M,4,3,1,VIH/sida,Simulation / scénarios; Agent / individu-centré,KEN; ZWE,2015-2020
 Edmunds WJ,4,0,4,Ebola / filovirus; Non précisé (infectieux générique); Fièvre de la vallée du Rift,Séries temporelles / prévision; Compartimental / mécaniste,inconnu,2015-2019
 Lessler J,4,1,3,Choléra; Rougeole,Simulation / scénarios; Séries temporelles / prévision,inconnu,2015-2019
 Vespignani A,4,0,4,Ebola / filovirus,Agent / individu-centré; Séries temporelles / prévision,inconnu,2015-2018
@@ -84,6 +80,7 @@ Omame A,3,2,1,COVID-19; Mpox,Compartimental / mécaniste,ETH|NGA; BEN|NGA|SEN; B
 Shoko C,3,3,0,COVID-19; VIH/sida,Séries temporelles / prévision; Simulation / scénarios,BWA|ZAF; ZAF|ZWE,2020-2026
 Haydon DT,3,0,3,Fièvre de la vallée du Rift; COVID-19; Trypanosomiase,Compartimental / mécaniste; Économique / décisionnel,GMB,2018-2026
 Nyabadza F,3,1,2,Paludisme; COVID-19; Tuberculose,Compartimental / mécaniste,ZAF; GHA|ZAF,2015-2026
+Goscé L,3,3,0,Tuberculose,Économique / décisionnel; Compartimental / mécaniste; Simulation / scénarios,ZAF; ETH|TZA|ZAF,2023-2026
 Faye LM,3,2,1,Tuberculose,Apprentissage automatique / IA,ZAF,2024-2026
 Lo Iacono G,3,2,1,Fièvre de la vallée du Rift; Non précisé (infectieux générique),Compartimental / mécaniste; Agent / individu-centré,KEN; SLE,2016-2026
 Menzies NA,3,2,1,Tuberculose,Compartimental / mécaniste; Simulation / scénarios,MWI; ZAF,2023-2026
@@ -91,12 +88,14 @@ Pascual M,3,0,3,Paludisme,Agent / individu-centré; Compartimental / mécaniste,
 Cohen C,3,0,3,Grippe,Simulation / scénarios; Compartimental / mécaniste,ZAF,2016-2026
 Wan Z,3,0,3,VIH/sida,Simulation / scénarios,inconnu,2023-2026
 Shaman J,3,0,3,Paludisme; COVID-19,Compartimental / mécaniste; Séries temporelles / prévision,MOZ,2022-2025
+Viboud C,3,2,1,COVID-19; Ebola / filovirus; Non précisé (infectieux générique),Séries temporelles / prévision; Compartimental / mécaniste,ZAF,2016-2025
 Liu Y,3,3,0,Schistosomiase; COVID-19; Non précisé (infectieux générique),Apprentissage automatique / IA; Économique / décisionnel; Compartimental / mécaniste,TZA; ETH|GHA|NGA|ZAF,2022-2025
 Ajelli M,3,3,0,Ebola / filovirus,Agent / individu-centré; Séries temporelles / prévision,COD|COG,2016-2025
 Chen S,3,2,1,VIH/sida; COVID-19,Apprentissage automatique / IA,inconnu,2025-2025
 Gathungu DK,3,2,1,COVID-19; VIH/sida,Compartimental / mécaniste,KEN,2020-2025
 Mwalili SM,3,1,2,VIH/sida; COVID-19,Simulation / scénarios; Compartimental / mécaniste; Agent / individu-centré,KEN,2018-2025
 Nyasulu PS,3,0,3,COVID-19; VIH/sida,Régression / prédiction statistique; Apprentissage automatique / IA,ZAF,2023-2025
+Wesolowski A,3,1,2,Rougeole; Paludisme,Compartimental / mécaniste; Spatial / cartographie du risque,ZMB; ZAF|ZMB|ZWE,2022-2025
 Gbaguidi GJ,3,3,0,Paludisme,Séries temporelles / prévision; Apprentissage automatique / IA,BEN|TGO,2024-2025
 Ketoh GK,3,0,3,Paludisme,Séries temporelles / prévision; Apprentissage automatique / IA,BEN|TGO,2024-2025
 Greenhalgh S,3,3,0,Paludisme,Séries temporelles / prévision; Économique / décisionnel; Compartimental / mécaniste,inconnu,2018-2025
@@ -108,9 +107,9 @@ Musa SS,3,2,1,COVID-19; Méningite,Compartimental / mécaniste,NGA,2021-2025
 Gething PW,3,0,3,Paludisme,Simulation / scénarios,TZA,2019-2025
 Schmit N,3,3,0,Paludisme; Hépatites,Économique / décisionnel,BFA|KEN|MLI|TZA; GMB,2023-2025
 Machado G,3,1,2,Non précisé (infectieux générique),Compartimental / mécaniste,inconnu,2022-2025
+Pickles M,3,3,0,VIH/sida,Compartimental / mécaniste; Simulation / scénarios; Agent / individu-centré,KEN; ZWE; ZAF|ZMB,2021-2024
 Mwanga EP,3,3,0,Paludisme,Apprentissage automatique / IA,TZA|ZAF,2024-2024
 Tonnang HEZ,3,0,3,Paludisme; COVID-19,Compartimental / mécaniste,KEN|ZAF; KEN; CMR|KEN|MOZ,2018-2024
-d'Elbée M,3,2,1,Tuberculose; VIH/sida,Économique / décisionnel; Séries temporelles / prévision,CIV|CMR|MOZ|SLE|UGA; MWI|ZAF|ZMB|ZWE,2021-2024
 Taylor D,3,0,3,Mpox; Schistosomiase,Compartimental / mécaniste,inconnu,2020-2024
 Witbooi P,3,2,1,Paludisme; Tuberculose,Compartimental / mécaniste,ZAF,2017-2024
 Xie Z,3,2,1,Ebola / filovirus; VIH/sida,Simulation / scénarios; Apprentissage automatique / IA,TZA,2019-2024
@@ -124,15 +123,15 @@ Merler S,3,2,1,Ebola / filovirus; COVID-19,Agent / individu-centré; Compartimen
 Okell LC,3,1,2,Paludisme,Compartimental / mécaniste; Simulation / scénarios; Agent / individu-centré,KEN|MWI|TZA|UGA; BFA,2016-2023
 Basáñez MG,3,0,3,Onchocercose,Compartimental / mécaniste; Agent / individu-centré,COD|COG|GHA|LBR; GHA,2016-2023
 Klein DJ,3,1,2,COVID-19; VIH/sida,Simulation / scénarios; Agent / individu-centré; Compartimental / mécaniste,ZAF,2015-2023
-Borlase A,3,2,1,COVID-19; Schistosomiase,Simulation / scénarios; Compartimental / mécaniste,inconnu,2018-2022
-Kripke K,3,3,0,VIH/sida,Compartimental / mécaniste,TZA,2016-2022
 Atangana A,3,2,1,COVID-19,Compartimental / mécaniste; Séries temporelles / prévision,ZAF,2020-2022
 Azman AS,3,1,2,Choléra,Simulation / scénarios,COD|COG|MOZ|NGA; TCD,2015-2022
 Ssematimba A,3,1,2,Non précisé (infectieux générique); COVID-19,Compartimental / mécaniste,UGA; KEN|UGA|ZAF,2016-2022
 Ndeffo-Mbah ML,3,1,2,Trypanosomiase; Grippe,Compartimental / mécaniste; Séries temporelles / prévision,CMR; GIN,2015-2021
 Herbeck JT,3,1,2,VIH/sida,Économique / décisionnel; Agent / individu-centré; Simulation / scénarios,inconnu,2016-2021
 Watson OJ,3,3,0,Paludisme; COVID-19,Compartimental / mécaniste,KEN|UGA; COD|COG,2017-2021
+Jewell BL,3,3,0,VIH/sida,Simulation / scénarios; Compartimental / mécaniste,UGA; MWI|ZAF|ZWE,2020-2021
 Zhao S,3,3,0,Fièvre jaune; COVID-19,Compartimental / mécaniste,NGA,2018-2021
+Smith DL,3,0,3,Paludisme; Non précisé (infectieux générique),Compartimental / mécaniste; Agent / individu-centré,SWZ,2015-2021
 Yaesoubi R,3,1,2,Méningite; Tuberculose,Économique / décisionnel; Compartimental / mécaniste,ZAF; MDG|NER,2018-2020
 Mushanyu J,3,1,2,VIH/sida; COVID-19,Compartimental / mécaniste,ZWE,2020-2020
 Eaton JW,3,1,2,VIH/sida,Compartimental / mécaniste,ZAF; CIV|MOZ|MWI|ZAF,2015-2020
@@ -150,7 +149,6 @@ Meyers LA,3,0,3,VIH/sida; Ebola / filovirus,Compartimental / mécaniste,inconnu,
 Eckhoff PA,3,1,2,Paludisme; VIH/sida,Agent / individu-centré,inconnu,2015-2017
 McCarthy KA,3,3,0,Polio; Paludisme,Agent / individu-centré; Compartimental / mécaniste,NGA,2015-2017
 Kucharski AJ,3,3,0,Ebola / filovirus; Zika,Compartimental / mécaniste,inconnu,2015-2016
-Hicks JT,2,1,1,Paludisme,Simulation / scénarios,MOZ|MWI,2026-2026
 Nantongo BA,2,2,0,Rougeole,Apprentissage automatique / IA,UGA,2024-2026
 Jin S,2,2,0,Mpox,Compartimental / mécaniste; Simulation / scénarios,BDI|ZAF; BDI|COD|ZAF,2025-2026
 Dickens BL,2,0,2,Mpox,Compartimental / mécaniste; Simulation / scénarios,BDI|ZAF; BDI|COD|ZAF,2025-2026
@@ -163,7 +161,7 @@ Shiddik MAB,2,1,1,Paludisme,Apprentissage automatique / IA,inconnu,2025-2026
 Asfaw ZG,2,0,2,COVID-19; Paludisme,Apprentissage automatique / IA; Séries temporelles / prévision,ETH,2023-2026
 Gervas HE,2,2,0,Paludisme,Agent / individu-centré; Compartimental / mécaniste,TZA,2025-2026
 Bogoch II,2,1,1,Ebola / filovirus; Zika,Simulation / scénarios,COD,2016-2026
-Whittaker C,2,1,1,Ebola / filovirus; Paludisme,Simulation / scénarios; Compartimental / mécaniste,UGA,2023-2026
+Whittaker C,2,1,1,Ebola / filovirus; Paludisme,Simulation / scénarios; Compartimental / mécaniste,COD|UGA,2023-2026
 Nadarajah S,2,0,2,COVID-19,Séries temporelles / prévision,GHA,2025-2026
 Colston JM,2,2,0,Non précisé (infectieux générique),Régression / prédiction statistique; Spatial / cartographie du risque,inconnu,2024-2026
 Kosek MN,2,0,2,Non précisé (infectieux générique),Régression / prédiction statistique; Spatial / cartographie du risque,inconnu,2024-2026
@@ -173,7 +171,7 @@ Andraud M,2,0,2,Non précisé (infectieux générique),Compartimental / mécanis
 Silal S,2,0,2,Paludisme,Compartimental / mécaniste; Simulation / scénarios,BEN|ZAF; ZAF|ZMB,2025-2026
 Simons D,2,1,1,Lassa,Compartimental / mécaniste,inconnu,2026-2026
 Rodó X,2,1,1,Leishmaniose; Paludisme,Séries temporelles / prévision; Compartimental / mécaniste,MAR|TUN,2021-2026
-Cauchemez S,2,0,2,Mpox; Fièvre jaune,Compartimental / mécaniste; Simulation / scénarios,NGA; COD|COG|SEN,2017-2026
+Cauchemez S,2,0,2,Mpox; Fièvre jaune,Compartimental / mécaniste; Simulation / scénarios,NGA; COD|COG|SEN|ZAF,2017-2026
 Masserey T,2,1,1,Paludisme,Simulation / scénarios,TZA,2024-2026
 LaBeaud AD,2,0,2,Fièvre de la vallée du Rift; Paludisme,Agent / individu-centré; Apprentissage automatique / IA,KEN|RWA,2023-2026
 Pillay MT,2,2,0,Paludisme,Séries temporelles / prévision; Apprentissage automatique / IA,ZAF,2023-2026
@@ -198,14 +196,9 @@ Vesga JF,2,2,0,Tuberculose,Économique / décisionnel; Compartimental / mécanis
 Bents SJ,2,2,0,COVID-19; VRS,Compartimental / mécaniste,ZAF,2023-2025
 Nia ZM,2,2,0,COVID-19,Séries temporelles / prévision,ZAF,2022-2025
 Najjuuko C,2,2,0,VIH/sida,Apprentissage automatique / IA,UGA,2025-2025
-Ippolito MM,2,1,1,Paludisme,Séries temporelles / prévision,ZMB,2025-2025
 Kim HY,2,2,0,VIH/sida,Compartimental / mécaniste; Agent / individu-centré,KEN; ZAF,2020-2025
-Kimmel AD,2,1,1,VIH/sida,Compartimental / mécaniste,RWA,2025-2025
 Kouyos RD,2,0,2,VIH/sida,Simulation / scénarios; Compartimental / mécaniste,ZAF,2019-2025
-Oniyelu DO,2,1,1,Paludisme,Séries temporelles / prévision,NGA|ZAF,2025-2025
-Di Lauro F,2,1,1,VIH/sida,Agent / individu-centré,ZAF|ZMB,2025-2025
 Shin J,2,1,1,Paludisme,Apprentissage automatique / IA,inconnu,2025-2025
-van Zyl DJ,2,1,1,Dengue,Apprentissage automatique / IA,ZAF,2025-2025
 Tsanou B,2,0,2,Typhoïde; COVID-19,Compartimental / mécaniste,CMR|ZAF,2020-2025
 Gebregergs GB,2,2,0,Tuberculose,Régression / prédiction statistique; Simulation / scénarios,ETH,2024-2025
 Mulugeta A,2,0,2,Tuberculose,Régression / prédiction statistique; Simulation / scénarios,ETH,2024-2025
@@ -215,7 +208,6 @@ Evans MV,2,2,0,Paludisme; Non précisé (infectieux générique),Séries tempore
 Jagadesh S,2,2,0,Non précisé (infectieux générique),Spatial / cartographie du risque,inconnu,2023-2025
 Arsevska E,2,1,1,Non précisé (infectieux générique); Fièvre de la vallée du Rift,Spatial / cartographie du risque,inconnu,2016-2025
 Deressa CT,2,0,2,VIH/sida,Apprentissage automatique / IA; Compartimental / mécaniste,ETH,2023-2025
-Espinosa da Silva C,2,1,1,VIH/sida,Apprentissage automatique / IA,UGA,2025-2025
 Thumbi SM,2,0,2,Non précisé (infectieux générique); Rage,Séries temporelles / prévision,KEN,2019-2025
 Bolaji B,2,1,1,COVID-19,Séries temporelles / prévision; Compartimental / mécaniste,NGA,2023-2025
 Bisanzio D,2,2,0,Ebola / filovirus,Agent / individu-centré,inconnu,2023-2025
@@ -252,6 +244,7 @@ Alie MS,2,2,0,COVID-19; VIH/sida,Apprentissage automatique / IA,ETH,2024-2024
 Okumu FO,2,0,2,Paludisme,Apprentissage automatique / IA,TZA|ZAF,2024-2024
 Galárraga O,2,0,2,VIH/sida,Simulation / scénarios; Agent / individu-centré,KEN|RWA; KEN|ZAF,2019-2024
 He Q,2,2,0,Paludisme,Compartimental / mécaniste; Apprentissage automatique / IA,inconnu,2016-2024
+d'Elbée M,2,2,0,Tuberculose; VIH/sida,Économique / décisionnel; Séries temporelles / prévision,CIV|CMR|MOZ|SLE|UGA; MWI|ZAF|ZMB|ZWE,2021-2024
 Breban R,2,1,1,Mpox,Compartimental / mécaniste,inconnu,2024-2024
 Montcho Y,2,2,0,COVID-19,Simulation / scénarios; Compartimental / mécaniste,BEN,2023-2024
 Ofori SK,2,2,0,COVID-19,Compartimental / mécaniste,inconnu,2023-2024
@@ -304,10 +297,8 @@ Kura K,2,2,0,Onchocercose; Schistosomiase,Agent / individu-centré,COD|COG|GHA|L
 Waked I,2,0,2,Hépatites,Économique / décisionnel; Régression / prédiction statistique,EGY,2016-2023
 Devine A,2,1,1,Paludisme,Compartimental / mécaniste; Simulation / scénarios,inconnu,2021-2023
 Bozzani FM,2,2,0,Tuberculose,Économique / décisionnel,ZAF,2020-2023
-Smith J,2,1,1,VIH/sida,Simulation / scénarios,MWI|ZAF|ZWE,2023-2023
 Tolcha TD,2,1,1,COVID-19,Séries temporelles / prévision,inconnu,2023-2023
 Colubri A,2,1,1,Ebola / filovirus,Apprentissage automatique / IA; Régression / prédiction statistique,COD|COG|LBR; SLE,2019-2022
-Domínguez-Rodríguez S,2,1,1,VIH/sida,Apprentissage automatique / IA,MLI|MOZ|ZAF,2022-2022
 Osmani V,2,0,2,COVID-19,Apprentissage automatique / IA,LBY,2022-2022
 Nkwayep CH,2,2,0,COVID-19,Compartimental / mécaniste; Séries temporelles / prévision,CMR|ZAF; CMR,2020-2022
 Kurths J,2,0,2,COVID-19,Compartimental / mécaniste; Séries temporelles / prévision,CMR|ZAF; CMR,2020-2022
@@ -321,10 +312,9 @@ Runge M,2,2,0,Paludisme,Compartimental / mécaniste; Simulation / scénarios,KEN
 Donnelly CA,2,0,2,Non précisé (infectieux générique); Filariose lymphatique,Compartimental / mécaniste; Spatial / cartographie du risque,NGA,2018-2022
 Obeng-Kusi M,2,2,0,Ebola / filovirus,Économique / décisionnel,inconnu,2021-2022
 Abraham I,2,0,2,Ebola / filovirus,Économique / décisionnel,inconnu,2021-2022
-Probert WJM,2,1,1,VIH/sida,Simulation / scénarios,ZAF|ZMB,2022-2022
+Borlase A,2,2,0,COVID-19; Schistosomiase,Simulation / scénarios; Compartimental / mécaniste,inconnu,2018-2022
 Napo S,2,1,1,COVID-19,Séries temporelles / prévision,CIV,2022-2022
 Stover J,2,0,2,VIH/sida,Compartimental / mécaniste,inconnu,2016-2022
-Streeck H,2,1,1,VIH/sida,Apprentissage automatique / IA,NGA|TZA,2022-2022
 Dlamini SN,2,2,0,Paludisme; COVID-19,Spatial / cartographie du risque,SWZ,2022-2022
 Matrajt L,2,1,1,COVID-19; Choléra,Simulation / scénarios,inconnu,2022-2022
 Riaz MB,2,0,2,COVID-19,Compartimental / mécaniste,DZA; ZAF,2022-2022
@@ -335,19 +325,15 @@ Culhane MR,2,0,2,Non précisé (infectieux générique),Compartimental / mécani
 Buabeng-Andoh C,2,1,1,COVID-19,Séries temporelles / prévision,GHA,2022-2022
 Okoyo C,2,2,0,Helminthiases,Compartimental / mécaniste,KEN,2021-2022
 Gervasi V,2,2,0,Non précisé (infectieux générique),Agent / individu-centré,inconnu,2021-2022
-Blassel L,2,1,1,VIH/sida,Apprentissage automatique / IA,inconnu,2021-2021
-Rouveau N,2,1,1,VIH/sida,Compartimental / mécaniste,CIV|MLI,2021-2021
 Nsoesie EO,2,2,0,Grippe; COVID-19,Séries temporelles / prévision; Simulation / scénarios,CMR,2020-2021
-Truscott JE,2,2,0,Helminthiases,Séries temporelles / prévision; Compartimental / mécaniste,MWI; KEN,2019-2021
+Truscott JE,2,2,0,Helminthiases,Séries temporelles / prévision; Compartimental / mécaniste,BEN|MWI; KEN,2019-2021
 De Leo GA,2,0,2,Schistosomiase,Apprentissage automatique / IA; Compartimental / mécaniste,SEN,2015-2021
 Ferrão JL,2,2,0,Paludisme,Séries temporelles / prévision; Spatial / cartographie du risque,MOZ,2021-2021
 Searle KM,2,0,2,Paludisme,Séries temporelles / prévision; Spatial / cartographie du risque,MOZ,2021-2021
 Welburn SC,2,0,2,Trypanosomiase,Compartimental / mécaniste,UGA; NGA,2020-2021
 Sichone J,2,2,0,COVID-19; Peste,Compartimental / mécaniste,ZMB,2020-2021
-Thomas R,2,1,1,VIH/sida,Économique / décisionnel,ZAF|ZMB,2021-2021
 Seddon JA,2,0,2,Tuberculose,Simulation / scénarios; Compartimental / mécaniste,UGA|ZAF,2016-2021
 Mosser JF,2,1,1,COVID-19; Diphtérie,Simulation / scénarios,inconnu,2019-2021
-Smith DL,2,0,2,Non précisé (infectieux générique); Paludisme,Compartimental / mécaniste,inconnu,2016-2021
 Balike Dieudonné Z,2,1,1,COVID-19,Compartimental / mécaniste,COD|COG,2021-2021
 O'Neill X,2,2,0,Tuberculose; Non précisé (infectieux générique),Compartimental / mécaniste,inconnu,2020-2021
 Gortázar C,2,0,2,Tuberculose; Non précisé (infectieux générique),Compartimental / mécaniste,inconnu,2020-2021
@@ -362,7 +348,6 @@ Chitnis N,2,0,2,Paludisme; Rage,Compartimental / mécaniste,KEN|TZA|ZAF; TCD,201
 Shaweno D,2,2,0,Tuberculose,Économique / décisionnel; Compartimental / mécaniste,inconnu,2018-2021
 İğret Araz S,2,0,2,COVID-19,Séries temporelles / prévision; Compartimental / mécaniste,ZAF,2020-2021
 Okuonghae D,2,1,1,COVID-19,Compartimental / mécaniste,BEN|NGA|SEN; BEN|NGA,2020-2021
-Saidi O,2,1,1,COVID-19,Compartimental / mécaniste,TUN,2021-2021
 Salvatore PP,2,2,0,VIH/sida; Tuberculose,Économique / décisionnel; Compartimental / mécaniste,inconnu,2019-2021
 Wu J,2,0,2,COVID-19; Ebola / filovirus,Apprentissage automatique / IA; Compartimental / mécaniste,ZAF,2016-2021
 Cihan P,2,1,1,COVID-19,Séries temporelles / prévision,inconnu,2021-2021
@@ -382,7 +367,6 @@ Gomez GB,2,2,0,Tuberculose,Compartimental / mécaniste; Économique / décisionn
 Mohammed-Awel J,2,2,0,Paludisme,Compartimental / mécaniste,ZAF,2019-2020
 Volz EM,2,1,1,VIH/sida,Phylodynamique / génomique,SEN; NGA,2017-2020
 Gill MS,2,2,0,Non précisé (infectieux générique); VIH/sida,Phylodynamique / génomique,inconnu,2017-2020
-Clark A,2,1,1,COVID-19,Simulation / scénarios,inconnu,2020-2020
 Adeola AM,2,2,0,Paludisme,Séries temporelles / prévision,ZAF,2017-2019
 Walensky RP,2,0,2,Tuberculose; VIH/sida,Économique / décisionnel; Simulation / scénarios,MWI|ZAF; ZAF,2019-2019
 Abuelezam NN,2,2,0,VIH/sida,Agent / individu-centré,inconnu,2016-2019
@@ -392,9 +376,10 @@ Beacroft L,2,2,0,VIH/sida,Compartimental / mécaniste; Simulation / scénarios,i
 Abbas UL,2,1,1,VIH/sida,Simulation / scénarios; Économique / décisionnel,inconnu,2016-2019
 Castro MC,2,0,2,VIH/sida; Paludisme,Simulation / scénarios; Spatial / cartographie du risque,inconnu,2015-2019
 Atun R,2,1,1,VIH/sida,Simulation / scénarios,ZAF,2016-2019
-Kraemer MUG,2,2,0,Non précisé (infectieux générique); Fièvre jaune,Compartimental / mécaniste; Simulation / scénarios,COD|COG|SEN,2017-2019
+Kraemer MUG,2,2,0,Non précisé (infectieux générique); Fièvre jaune,Compartimental / mécaniste; Simulation / scénarios,COD|COG|SEN|ZAF,2017-2019
 Evans DR,2,1,1,Paludisme,Agent / individu-centré,UGA,2019-2019
 Lee EC,2,2,0,Choléra,Simulation / scénarios; Séries temporelles / prévision,inconnu,2017-2019
+Kiskowski M,2,1,1,Ebola / filovirus,Compartimental / mécaniste; Agent / individu-centré,inconnu,2016-2019
 Marathe M,2,0,2,Non précisé (infectieux générique),Séries temporelles / prévision,inconnu,2015-2018
 Melegaro A,2,0,2,Hépatites; Rougeole,Compartimental / mécaniste,inconnu,2017-2018
 Vale GA,2,1,1,Trypanosomiase,Compartimental / mécaniste; Simulation / scénarios,ZAF,2015-2018
@@ -403,14 +388,11 @@ Awad SF,2,2,0,VIH/sida,Compartimental / mécaniste,inconnu,2018-2018
 Verguet S,2,1,1,Helminthiases; Tuberculose,Simulation / scénarios,MDG; ZAF,2017-2018
 Mir D,2,2,0,VIH/sida,Phylodynamique / génomique,ZAF,2016-2018
 Milne GJ,2,1,1,Grippe,Économique / décisionnel; Simulation / scénarios,ZAF,2016-2018
-Iuliano AD,2,1,1,Grippe,Simulation / scénarios,ZAF,2018-2018
 Thomas MB,2,0,2,Paludisme,Compartimental / mécaniste,CIV|ZAF,2016-2018
 Bellan SE,2,2,0,VIH/sida,Compartimental / mécaniste,inconnu,2015-2018
 Chamchod F,2,1,1,Non précisé (infectieux générique),Compartimental / mécaniste,inconnu,2018-2018
 Wenger EA,2,0,2,Paludisme,Simulation / scénarios; Agent / individu-centré,ZMB,2016-2017
-Sharma A,2,1,1,Tuberculose,Compartimental / mécaniste,ZAF,2017-2017
 Moolla H,2,0,2,VIH/sida,Compartimental / mécaniste,ZAF,2017-2017
-Nakagawa F,2,1,1,VIH/sida,Simulation / scénarios,inconnu,2017-2017
 Cremin I,2,2,0,VIH/sida,Compartimental / mécaniste,KEN|ZAF,2015-2017
 Blaizot S,2,2,0,VIH/sida,Simulation / scénarios,ZAF; KEN,2016-2017
 Lipsitch M,2,0,2,VIH/sida; Fièvre jaune,Agent / individu-centré; Simulation / scénarios,inconnu,2016-2017
@@ -421,10 +403,10 @@ Wood R,2,0,2,Tuberculose,Compartimental / mécaniste,ZAF; UGA|ZAF,2016-2017
 Fraser C,2,0,2,VIH/sida,Simulation / scénarios; Agent / individu-centré,UGA,2016-2016
 Yebra G,2,2,0,VIH/sida,Phylodynamique / génomique,UGA,2015-2016
 Mylonakis E,2,0,2,Ebola / filovirus,Séries temporelles / prévision; Agent / individu-centré,inconnu,2015-2016
-Kanyangarara M,2,1,1,Paludisme,Spatial / cartographie du risque,ZWE,2016-2016
 Gilbert JA,2,2,0,VIH/sida; Trypanosomiase,Économique / décisionnel; Compartimental / mécaniste,ZAF,2016-2016
 Cassels S,2,0,2,VIH/sida,Compartimental / mécaniste,inconnu,2016-2016
 Ying R,2,2,0,VIH/sida,Compartimental / mécaniste; Économique / décisionnel,ZAF; UGA,2015-2016
+Njeuhmeli E,2,0,2,VIH/sida,Compartimental / mécaniste,TZA; SWZ,2016-2016
 Lo NC,2,2,0,Helminthiases,Économique / décisionnel,CIV,2015-2016
 Qiu X,2,0,2,Ebola / filovirus,Compartimental / mécaniste; Apprentissage automatique / IA,inconnu,2015-2016
 White LJ,2,0,2,Paludisme,Compartimental / mécaniste,ZAF,2015-2015
@@ -435,6 +417,7 @@ Duintjer Tebbens RJ,2,1,1,Polio,Compartimental / mécaniste,inconnu,2015-2015
 Liu K,1,1,0,Paludisme,Compartimental / mécaniste,inconnu,2027-2027
 Shi W,1,0,1,Paludisme,Compartimental / mécaniste,inconnu,2027-2027
 Nyamekye KA,1,1,0,COVID-19,Séries temporelles / prévision,GHA,2026-2026
+Hicks JT,1,1,0,Paludisme,Simulation / scénarios,KEN|MOZ|MWI|TZA,2026-2026
 Chamla D,1,1,0,Ebola / filovirus,Compartimental / mécaniste,COG|KEN,2026-2026
 Atagbaza AO,1,0,1,Ebola / filovirus,Compartimental / mécaniste,COG|KEN,2026-2026
 Opue JA,1,1,0,Choléra,Apprentissage automatique / IA,NGA,2026-2026
@@ -589,15 +572,15 @@ Lerch A,1,1,0,Paludisme,Agent / individu-centré,UGA,2026-2026
 Besansky NJ,1,0,1,Paludisme,Agent / individu-centré,UGA,2026-2026
 Xavier SP,1,1,0,Tuberculose,Régression / prédiction statistique,MOZ,2026-2026
 Victor A,1,0,1,Tuberculose,Régression / prédiction statistique,MOZ,2026-2026
-Stapley JN,1,1,0,Ebola / filovirus,Simulation / scénarios,UGA,2026-2026
+Stapley JN,1,1,0,Ebola / filovirus,Simulation / scénarios,COD|UGA,2026-2026
 Sesay MM,1,1,0,Dengue,Séries temporelles / prévision,KEN,2026-2026
 Imboga H,1,0,1,Dengue,Séries temporelles / prévision,KEN,2026-2026
 Huang CI,1,1,0,Trypanosomiase,Économique / décisionnel,UGA,2026-2026
 Zawedde-Muyanja S,1,1,0,Tuberculose,Compartimental / mécaniste,UGA,2026-2026
 Ryckman T,1,0,1,Tuberculose,Compartimental / mécaniste,UGA,2026-2026
 Aboagye N,1,1,0,COVID-19,Séries temporelles / prévision,inconnu,2026-2026
-Fekadu G,1,1,0,Tuberculose,Économique / décisionnel,ETH|RWA,2026-2026
-Ming WK,1,0,1,Tuberculose,Économique / décisionnel,ETH|RWA,2026-2026
+Fekadu G,1,1,0,Tuberculose,Économique / décisionnel,ETH|RWA|ZAF,2026-2026
+Ming WK,1,0,1,Tuberculose,Économique / décisionnel,ETH|RWA|ZAF,2026-2026
 Ouzyou B,1,1,0,Leishmaniose,Séries temporelles / prévision,MAR,2026-2026
 Talbi FZ,1,0,1,Leishmaniose,Séries temporelles / prévision,MAR,2026-2026
 Aloni R,1,1,0,COVID-19,Séries temporelles / prévision,ZAF,2026-2026
@@ -782,8 +765,8 @@ Yota D,1,1,0,Choléra,Séries temporelles / prévision,CMR|KEN|SEN,2025-2025
 Tchikamgoua ON,1,0,1,Choléra,Séries temporelles / prévision,CMR|KEN|SEN,2025-2025
 Brink DT,1,1,0,VIH/sida,Simulation / scénarios,inconnu,2025-2025
 Campbell JR,1,0,1,Tuberculose,Économique / décisionnel,KEN|ZAF,2025-2025
-Samuels THA,1,1,0,Méningite,Simulation / scénarios,BWA|MWI|TZA|ZAF|ZMB,2025-2025
-Gupta RK,1,0,1,Méningite,Simulation / scénarios,BWA|MWI|TZA|ZAF|ZMB,2025-2025
+Samuels THA,1,1,0,Méningite,Simulation / scénarios,BWA|CMR|MWI|TZA|UGA|ZAF|ZMB|ZWE,2025-2025
+Gupta RK,1,0,1,Méningite,Simulation / scénarios,BWA|CMR|MWI|TZA|UGA|ZAF|ZMB|ZWE,2025-2025
 Asori M,1,1,0,Tuberculose,Apprentissage automatique / IA,GHA|KEN,2025-2025
 Gyasi RM,1,0,1,Tuberculose,Apprentissage automatique / IA,GHA|KEN,2025-2025
 Boer NA,1,1,0,Ebola / filovirus,Compartimental / mécaniste,ZAF,2025-2025
@@ -808,12 +791,15 @@ Dejene BE,1,0,1,Mpox,Apprentissage automatique / IA,ETH,2025-2025
 Reed AL,1,1,0,Schistosomiase,Compartimental / mécaniste,MWI,2025-2025
 Terefe B,1,1,0,VIH/sida,Apprentissage automatique / IA,ETH|NGA,2025-2025
 Worku A,1,0,1,VIH/sida,Apprentissage automatique / IA,ETH|NGA,2025-2025
+Ippolito MM,1,1,0,Paludisme,Séries temporelles / prévision,ZMB,2025-2025
 Huang Y,1,0,1,Schistosomiase,Apprentissage automatique / IA,TZA,2025-2025
 Ashaolu JO,1,1,0,Paludisme,Apprentissage automatique / IA,BFA|NGA,2025-2025
 Some SYM,1,0,1,Paludisme,Apprentissage automatique / IA,BFA|NGA,2025-2025
 Ouemba Tassé AJ,1,1,0,Mpox,Compartimental / mécaniste,CMR|ZAF,2025-2025
 Lubuma J,1,0,1,Mpox,Compartimental / mécaniste,CMR|ZAF,2025-2025
+Kimmel AD,1,1,0,VIH/sida,Compartimental / mécaniste,RWA,2025-2025
 Loosli T,1,1,0,VIH/sida,Simulation / scénarios,ZAF,2025-2025
+Oniyelu DO,1,1,0,Paludisme,Séries temporelles / prévision,NGA|ZAF,2025-2025
 Olwendo AO,1,1,0,VIH/sida,Régression / prédiction statistique,KEN,2025-2025
 Karanja S,1,0,1,VIH/sida,Régression / prédiction statistique,KEN,2025-2025
 Yamamoto N,1,1,0,VIH/sida,Compartimental / mécaniste,KEN,2025-2025
@@ -823,6 +809,7 @@ Fofanah AJ,1,1,0,Non précisé (infectieux générique),Séries temporelles / pr
 Conteh ZB,1,0,1,Non précisé (infectieux générique),Séries temporelles / prévision,SLE,2025-2025
 von Wedel C,1,1,0,Paludisme,Apprentissage automatique / IA,GAB,2025-2025
 Mischlinger J,1,0,1,Paludisme,Apprentissage automatique / IA,GAB,2025-2025
+Di Lauro F,1,1,0,VIH/sida,Agent / individu-centré,ZAF|ZMB,2025-2025
 Conteh IM,1,1,0,Paludisme,Apprentissage automatique / IA,SLE,2025-2025
 Du Q,1,0,1,Paludisme,Apprentissage automatique / IA,SLE,2025-2025
 Idisi IO,1,1,0,Mpox,Compartimental / mécaniste,NGA|ZAF,2025-2025
@@ -833,6 +820,7 @@ Iyaniwura SA,1,1,0,Paludisme,Compartimental / mécaniste,CMR|GHA|KEN,2025-2025
 Apollo T,1,1,0,VIH/sida,Compartimental / mécaniste,ZWE,2025-2025
 Legese B,1,1,0,Fièvre de la vallée du Rift,Apprentissage automatique / IA,ETH,2025-2025
 Mohanty MP,1,0,1,Fièvre de la vallée du Rift,Apprentissage automatique / IA,ETH,2025-2025
+van Zyl DJ,1,1,0,Dengue,Apprentissage automatique / IA,ZAF,2025-2025
 Mutema AB,1,1,0,VIH/sida,Apprentissage automatique / IA,UGA,2025-2025
 Kalungi A,1,0,1,VIH/sida,Apprentissage automatique / IA,UGA,2025-2025
 Tsafack TJ,1,1,0,Typhoïde,Compartimental / mécaniste,CMR|ZAF,2025-2025
@@ -863,6 +851,7 @@ Tadele MM,1,0,1,VIH/sida,Apprentissage automatique / IA,ETH,2025-2025
 Sado AE,1,1,0,VIH/sida,Apprentissage automatique / IA,ETH,2025-2025
 Kizito S,1,1,0,VIH/sida,Régression / prédiction statistique,UGA,2025-2025
 Brownson R,1,0,1,VIH/sida,Régression / prédiction statistique,UGA,2025-2025
+Espinosa da Silva C,1,1,0,VIH/sida,Apprentissage automatique / IA,UGA,2025-2025
 Nasir M,1,1,0,Méningite,Apprentissage automatique / IA,inconnu,2025-2025
 Bhat N,1,0,1,Méningite,Apprentissage automatique / IA,inconnu,2025-2025
 Kahariri S,1,1,0,Non précisé (infectieux générique),Séries temporelles / prévision,KEN,2025-2025
@@ -889,8 +878,8 @@ Salihu MO,1,0,1,COVID-19,Compartimental / mécaniste,NGA,2025-2025
 Ebenezer A,1,1,0,Choléra,Compartimental / mécaniste,ETH|NGA,2025-2025
 Ouédraogo JCRP,1,1,0,Dengue,Séries temporelles / prévision,BFA|GHA,2025-2025
 Savadogo LGB,1,0,1,Dengue,Séries temporelles / prévision,BFA|GHA,2025-2025
-Hontelez JAC,1,1,0,VIH/sida,Simulation / scénarios,ETH|KEN|MWI|ZAF|ZMB|ZWE,2025-2025
-Bärnighausen TW,1,0,1,VIH/sida,Simulation / scénarios,ETH|KEN|MWI|ZAF|ZMB|ZWE,2025-2025
+Hontelez JAC,1,1,0,VIH/sida,Simulation / scénarios,ETH|KEN|MWI|TZA|ZAF|ZMB|ZWE,2025-2025
+Bärnighausen TW,1,0,1,VIH/sida,Simulation / scénarios,ETH|KEN|MWI|TZA|ZAF|ZMB|ZWE,2025-2025
 Reithinger R,1,0,1,Ebola / filovirus,Agent / individu-centré,inconnu,2025-2025
 Ouédraogo AL,1,1,0,Paludisme,Séries temporelles / prévision,BFA|DJI,2025-2025
 Yaméogo P,1,0,1,Paludisme,Séries temporelles / prévision,BFA|DJI,2025-2025
@@ -1423,6 +1412,7 @@ Torad AA,1,1,0,COVID-19,Apprentissage automatique / IA,EGY,2023-2023
 Ahmed ZS,1,0,1,COVID-19,Apprentissage automatique / IA,EGY,2023-2023
 Claris S,1,1,0,COVID-19,Séries temporelles / prévision,ZAF,2023-2023
 Peter N,1,0,1,COVID-19,Séries temporelles / prévision,ZAF,2023-2023
+Smith J,1,1,0,VIH/sida,Simulation / scénarios,MWI|ZAF|ZWE,2023-2023
 Yang Y,1,1,0,VIH/sida,Simulation / scénarios,inconnu,2023-2023
 Cambiano V,1,0,1,VIH/sida,Économique / décisionnel,ZAF|ZMB|ZWE,2023-2023
 Norheim O,1,0,1,Non précisé (infectieux générique),Simulation / scénarios,inconnu,2023-2023
@@ -1439,6 +1429,7 @@ Cohen JA,1,1,0,COVID-19,Simulation / scénarios,ZAF,2023-2023
 Le VP,1,1,0,Non précisé (infectieux générique),Agent / individu-centré,inconnu,2023-2023
 Stevenson MA,1,0,1,Non précisé (infectieux générique),Agent / individu-centré,inconnu,2023-2023
 Genisca AE,1,1,0,Ebola / filovirus,Apprentissage automatique / IA,COD|COG|LBR,2022-2022
+Domínguez-Rodríguez S,1,1,0,VIH/sida,Apprentissage automatique / IA,MLI|MOZ|ZAF,2022-2022
 Mthethwa N,1,1,0,COVID-19,Économique / décisionnel,ZAF,2022-2022
 Chinhamu K,1,0,1,COVID-19,Économique / décisionnel,ZAF,2022-2022
 Zhang AR,1,1,0,COVID-19,Apprentissage automatique / IA,inconnu,2022-2022
@@ -1476,7 +1467,7 @@ Feizzadeh A,1,0,1,VIH/sida,Compartimental / mécaniste,ZAF,2022-2022
 Benchekroun S,1,1,0,COVID-19,Apprentissage automatique / IA,MAR,2022-2022
 Sreedharan VR,1,0,1,COVID-19,Apprentissage automatique / IA,MAR,2022-2022
 Abdullahi T,1,1,0,Non précisé (infectieux générique),Apprentissage automatique / IA,ZAF,2022-2022
-Kokaliaris C,1,1,0,Schistosomiase,Simulation / scénarios,CIV|KEN|NGA|RWA|TGO|ZWE,2022-2022
+Kokaliaris C,1,1,0,Schistosomiase,Simulation / scénarios,CIV|CMR|COD|COG|KEN|MLI|NGA|RWA|SEN|TGO|UGA|ZWE,2022-2022
 Pisa P,1,0,1,VIH/sida,Apprentissage automatique / IA,ZAF,2022-2022
 Kinyili M,1,1,0,COVID-19,Compartimental / mécaniste,ZAF,2022-2022
 Mukhtar AY,1,0,1,COVID-19,Compartimental / mécaniste,ZAF,2022-2022
@@ -1507,6 +1498,7 @@ Unwin HJT,1,1,0,Non précisé (infectieux générique),Agent / individu-centré,
 Baguelin M,1,0,1,Non précisé (infectieux générique),Agent / individu-centré,inconnu,2022-2022
 Acheampong E,1,1,0,COVID-19,Compartimental / mécaniste,GHA,2022-2022
 Gomes RL,1,0,1,COVID-19,Compartimental / mécaniste,GHA,2022-2022
+Probert WJM,1,1,0,VIH/sida,Simulation / scénarios,ZAF|ZMB,2022-2022
 Li C,1,1,0,COVID-19,Séries temporelles / prévision,inconnu,2022-2022
 Ayisi AL,1,0,1,COVID-19,Séries temporelles / prévision,inconnu,2022-2022
 Schäferhoff M,1,1,0,Non précisé (infectieux générique),Simulation / scénarios,KEN|ZAF,2022-2022
@@ -1527,6 +1519,7 @@ Jijón S,1,1,0,COVID-19,Compartimental / mécaniste,EGY,2022-2022
 El-Kassas M,1,0,1,COVID-19,Compartimental / mécaniste,EGY,2022-2022
 Diarra M,1,1,0,COVID-19,Simulation / scénarios,SEN|TUN,2022-2022
 Miled SB,1,0,1,COVID-19,Simulation / scénarios,SEN|TUN,2022-2022
+Streeck H,1,1,0,VIH/sida,Apprentissage automatique / IA,KEN|NGA|TZA|UGA,2022-2022
 Mabaso SD,1,0,1,Paludisme,Spatial / cartographie du risque,SWZ,2022-2022
 Schmedes SE,1,1,0,Paludisme,Apprentissage automatique / IA,AGO,2022-2022
 Rogier E,1,0,1,Paludisme,Apprentissage automatique / IA,AGO,2022-2022
@@ -1641,6 +1634,8 @@ Fielding K,1,0,1,Tuberculose,Régression / prédiction statistique,BWA|ZAF,2021-
 Hendrickx DM,1,1,0,VIH/sida,Agent / individu-centré,ZAF,2021-2021
 Vandamme AM,1,0,1,VIH/sida,Agent / individu-centré,ZAF,2021-2021
 Manda S,1,0,1,COVID-19,Séries temporelles / prévision,ZAF,2021-2021
+Blassel L,1,1,0,VIH/sida,Apprentissage automatique / IA,inconnu,2021-2021
+Rouveau N,1,1,0,VIH/sida,Compartimental / mécaniste,CIV|MLI,2021-2021
 Dembek ZF,1,1,0,COVID-19,Compartimental / mécaniste,inconnu,2021-2021
 Wu A,1,0,1,COVID-19,Compartimental / mécaniste,inconnu,2021-2021
 Njau J,1,1,0,Paludisme,Compartimental / mécaniste,ZAF,2021-2021
@@ -1725,6 +1720,7 @@ Khan I,1,0,1,COVID-19,Compartimental / mécaniste,NER|NGA,2021-2021
 Schlüter JC,1,1,0,COVID-19,Agent / individu-centré,inconnu,2021-2021
 Wacker B,1,0,1,COVID-19,Agent / individu-centré,inconnu,2021-2021
 Brand SPC,1,1,0,COVID-19,Compartimental / mécaniste,KEN,2021-2021
+Thomas R,1,1,0,VIH/sida,Économique / décisionnel,ZAF|ZMB,2021-2021
 Dashtbali M,1,1,0,COVID-19,Compartimental / mécaniste,inconnu,2021-2021
 Mirzaie M,1,0,1,COVID-19,Compartimental / mécaniste,inconnu,2021-2021
 Rodriguez PJ,1,1,0,VIH/sida,Économique / décisionnel,KEN|ZAF,2021-2021
@@ -1826,6 +1822,7 @@ Dwomoh D,1,1,0,COVID-19,Compartimental / mécaniste,GHA,2021-2021
 Bosomprah S,1,0,1,COVID-19,Compartimental / mécaniste,GHA,2021-2021
 Zahid MN,1,1,0,COVID-19,Séries temporelles / prévision,inconnu,2021-2021
 Perna S,1,0,1,COVID-19,Séries temporelles / prévision,inconnu,2021-2021
+Saidi O,1,1,0,COVID-19,Compartimental / mécaniste,TUN,2021-2021
 Gebremeskel AA,1,1,0,COVID-19,Compartimental / mécaniste,ETH,2021-2021
 Atsbaha HA,1,0,1,COVID-19,Compartimental / mécaniste,ETH,2021-2021
 Dugan E,1,1,0,Hépatites,Simulation / scénarios,inconnu,2021-2021
@@ -2018,6 +2015,8 @@ Gubbins S,1,1,0,Non précisé (infectieux générique),Compartimental / mécanis
 Cortiñas Abrahantes J,1,0,1,Non précisé (infectieux générique),Compartimental / mécaniste,inconnu,2020-2020
 Stokes JE,1,1,0,Non précisé (infectieux générique),Compartimental / mécaniste,inconnu,2020-2020
 Sanders C,1,0,1,Non précisé (infectieux générique),Compartimental / mécaniste,inconnu,2020-2020
+Clark A,1,1,0,COVID-19,Simulation / scénarios,inconnu,2020-2020
+Nikolov M,1,0,1,Paludisme,Agent / individu-centré,inconnu,2020-2020
 Sabeti PC,1,0,1,Ebola / filovirus,Régression / prédiction statistique,SLE,2019-2019
 Aaron M,1,0,1,Paludisme,Séries temporelles / prévision,ZAF,2019-2019
 Worden L,1,1,0,Ebola / filovirus,Séries temporelles / prévision,COD|COG,2019-2019
@@ -2062,8 +2061,8 @@ Sekamatte M,1,1,0,Fièvre de la vallée du Rift,Agent / individu-centré,UGA,201
 Riad MH,1,1,0,Ebola / filovirus,Compartimental / mécaniste,UGA,2019-2019
 Alary M,1,0,1,VIH/sida,Économique / décisionnel,CIV,2019-2019
 Ouattara EN,1,1,0,VIH/sida,Économique / décisionnel,CIV,2019-2019
-Jansen van Vuren P,1,1,0,Ebola / filovirus,Phylodynamique / génomique,ZAF,2019-2019
-Paweska JT,1,0,1,Ebola / filovirus,Phylodynamique / génomique,ZAF,2019-2019
+Jansen van Vuren P,1,1,0,Ebola / filovirus,Phylodynamique / génomique,SLE|ZAF,2019-2019
+Paweska JT,1,0,1,Ebola / filovirus,Phylodynamique / génomique,SLE|ZAF,2019-2019
 Hood G,1,0,1,VIH/sida,Simulation / scénarios,inconnu,2019-2019
 Hart WS,1,1,0,Ebola / filovirus,Séries temporelles / prévision,inconnu,2019-2019
 Arifin SMN,1,1,0,Méningite,Économique / décisionnel,MDG|NER,2019-2019
@@ -2158,6 +2157,7 @@ Fisman DN,1,0,1,Ebola / filovirus,Séries temporelles / prévision,inconnu,2018-
 Moukam Kakmeni FM,1,1,0,Paludisme,Compartimental / mécaniste,CMR|KEN|MOZ,2018-2018
 Shcherbacheva A,1,1,0,Paludisme,Agent / individu-centré,TZA,2018-2018
 Killeen GF,1,0,1,Paludisme,Agent / individu-centré,TZA,2018-2018
+Stevens ER,1,1,0,VIH/sida,Économique / décisionnel,SWZ,2018-2018
 Jones-Konneh TEC,1,1,0,Ebola / filovirus,Agent / individu-centré,inconnu,2018-2018
 Egawa S,1,0,1,Ebola / filovirus,Agent / individu-centré,inconnu,2018-2018
 De Neve JW,1,1,0,Helminthiases,Simulation / scénarios,MDG,2018-2018
@@ -2212,6 +2212,7 @@ Fowkes FJI,1,0,1,Paludisme,Compartimental / mécaniste,inconnu,2018-2018
 Lemey P,1,0,1,Ebola / filovirus,Phylodynamique / génomique,inconnu,2018-2018
 Kaabi B,1,1,0,Leishmaniose,Compartimental / mécaniste,TUN,2018-2018
 Zhioua E,1,0,1,Leishmaniose,Compartimental / mécaniste,TUN,2018-2018
+Iuliano AD,1,1,0,Grippe,Simulation / scénarios,KEN|ZAF,2018-2018
 Moualeu DP,1,1,0,Tuberculose,Compartimental / mécaniste,CMR,2018-2018
 Temgoua A,1,0,1,Tuberculose,Compartimental / mécaniste,CMR,2018-2018
 Glunt KD,1,1,0,Paludisme,Compartimental / mécaniste,CIV|ZAF,2018-2018
@@ -2224,12 +2225,14 @@ Brickley EB,1,1,0,Paludisme,Régression / prédiction statistique,TZA,2017-2017
 Duffy PE,1,0,1,Paludisme,Régression / prédiction statistique,TZA,2017-2017
 Olive MM,1,1,0,Fièvre de la vallée du Rift,Compartimental / mécaniste,MDG,2017-2017
 Chevalier V,1,0,1,Fièvre de la vallée du Rift,Compartimental / mécaniste,MDG,2017-2017
+Sharma A,1,1,0,Tuberculose,Compartimental / mécaniste,ZAF,2017-2017
 Davies MA,1,0,1,VIH/sida,Compartimental / mécaniste,ZAF,2017-2017
 Bai D,1,1,0,VIH/sida,Régression / prédiction statistique,ZAF,2017-2017
 Moodley J,1,0,1,VIH/sida,Régression / prédiction statistique,ZAF,2017-2017
 Sewe MO,1,1,0,Paludisme,Séries temporelles / prévision,KEN,2017-2017
 Rocklöv J,1,0,1,Paludisme,Séries temporelles / prévision,KEN,2017-2017
 Trentini F,1,1,0,Rougeole,Compartimental / mécaniste,inconnu,2017-2017
+Nakagawa F,1,1,0,VIH/sida,Simulation / scénarios,inconnu,2017-2017
 Li Q,1,1,0,Ebola / filovirus,Compartimental / mécaniste,inconnu,2017-2017
 Wang K,1,0,1,Ebola / filovirus,Compartimental / mécaniste,inconnu,2017-2017
 Talmoudi K,1,1,0,Leishmaniose,Séries temporelles / prévision,TUN,2017-2017
@@ -2363,6 +2366,7 @@ Gachohi JM,1,1,0,Fièvre de la vallée du Rift,Compartimental / mécaniste,KEN,2
 N'gattia AK,1,1,0,Grippe,Séries temporelles / prévision,CIV,2016-2016
 Tiembré I,1,0,1,Grippe,Séries temporelles / prévision,CIV,2016-2016
 Linthicum KJ,1,0,1,Fièvre de la vallée du Rift,Agent / individu-centré,inconnu,2016-2016
+Kanyangarara M,1,1,0,Paludisme,Spatial / cartographie du risque,ZWE,2016-2016
 Macherera M,1,1,0,Paludisme,Séries temporelles / prévision,ZAF|ZWE,2016-2016
 Chimbari MJ,1,0,1,Paludisme,Séries temporelles / prévision,ZAF|ZWE,2016-2016
 Brown GD,1,1,0,Ebola / filovirus,Compartimental / mécaniste,inconnu,2016-2016
@@ -2394,7 +2398,6 @@ Fraser I,1,1,0,Hépatites,Économique / décisionnel,ZAF,2016-2016
 Stander T,1,0,1,Hépatites,Économique / décisionnel,ZAF,2016-2016
 Rubaihayo J,1,1,0,VIH/sida,Séries temporelles / prévision,UGA,2016-2016
 Makumbi F,1,0,1,VIH/sida,Séries temporelles / prévision,UGA,2016-2016
-Njeuhmeli E,1,0,1,VIH/sida,Compartimental / mécaniste,TZA,2016-2016
 Do TS,1,1,0,Ebola / filovirus,Compartimental / mécaniste,inconnu,2016-2016
 Lee YS,1,0,1,Ebola / filovirus,Compartimental / mécaniste,inconnu,2016-2016
 Hermans SM,1,1,0,Tuberculose,Compartimental / mécaniste,UGA|ZAF,2016-2016
@@ -2414,7 +2417,6 @@ Mashonjowa E,1,0,1,Paludisme,Compartimental / mécaniste,ZWE,2016-2016
 Switkes J,1,1,0,Fièvre CCHF,Compartimental / mécaniste,UGA,2016-2016
 Nakakawa J,1,0,1,Fièvre CCHF,Compartimental / mécaniste,UGA,2016-2016
 Otsuki S,1,1,0,Ebola / filovirus,Simulation / scénarios,inconnu,2016-2016
-Kiskowski M,1,1,0,Ebola / filovirus,Agent / individu-centré,inconnu,2016-2016
 Grébaut P,1,1,0,Trypanosomiase,Agent / individu-centré,inconnu,2016-2016
 Bousquet F,1,0,1,Trypanosomiase,Agent / individu-centré,inconnu,2016-2016
 Kozak R,1,1,0,Ebola / filovirus,Compartimental / mécaniste,inconnu,2016-2016
@@ -2528,3 +2530,6 @@ Smith TA,1,0,1,Paludisme,Simulation / scénarios,inconnu,2015-2015
 Robinson LJ,1,1,0,Paludisme,Compartimental / mécaniste,inconnu,2015-2015
 Mueller I,1,0,1,Paludisme,Compartimental / mécaniste,inconnu,2015-2015
 Torr SJ,1,0,1,Trypanosomiase,Simulation / scénarios,ZAF,2015-2015
+Monteiro JF,1,1,0,VIH/sida,Agent / individu-centré,inconnu,2015-2015
+Marshall BD,1,0,1,VIH/sida,Agent / individu-centré,inconnu,2015-2015
+Reiner RC,1,1,0,Paludisme,Agent / individu-centré,SWZ,2015-2015
