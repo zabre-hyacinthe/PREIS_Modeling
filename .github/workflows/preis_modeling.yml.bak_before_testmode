@@ -1,0 +1,109 @@
+name: PREIS Modeling Daily Pipeline
+
+# Rythme : tous les jours 05:30 UTC (08:30 EAT). Tout tourne dans le nuage (Python standard + pandas) : aucun PC requis.
+# Même mécanique que PREIS AI Tracker : simulation par défaut ; envoi réel seulement si la variable de dépôt PREIS_ALERTS_LIVE = true ;
+# destinataires réels UNIQUEMENT dans le secret ALERT_RECIPIENTS_CSV (dépôt public : jamais dans un fichier) ; paliers immediate (chaque jour), weekly (lundi), monthly (le 1er).
+on:
+  schedule:
+    - cron: "30 5 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Simulation (true) ou envoi reel (false)"
+        default: "true"
+      since:
+        description: "Collecte depuis cette date (AAAA-MM-JJ). Vide = incremental (30 jours)"
+        default: ""
+      full_refresh:
+        description: "true = recollecte complete depuis 2015"
+        default: "false"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: preis-modeling
+  cancel-in-progress: false
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      SMTP_USER: ${{ secrets.SMTP_USER }}
+      SMTP_PASS: ${{ secrets.SMTP_PASS }}
+      ALERT_FROM: ${{ secrets.ALERT_FROM }}
+      SMTP_HOST: smtp.gmail.com
+      SMTP_PORT: "465"
+      PYTHONIOENCODING: utf-8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Installer pandas
+        run: pip install -r requirements.txt
+
+      - name: Tests (regles, parseur Europe PMC)
+        run: |
+          python tests/test_rules.py
+          python tests/test_fetch_parse.py
+
+      - name: Determiner mode et paliers
+        id: mode
+        run: |
+          DRY="true"
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then DRY="${{ github.event.inputs.dry_run }}";
+          elif [ "${{ vars.PREIS_ALERTS_LIVE }}" = "true" ]; then DRY="false"; fi
+          T="immediate"; [ "$(date -u +%u)" = "1" ] && T="$T,weekly"; [ "$(date -u +%d)" = "01" ] && T="$T,monthly"
+          echo "dry=$DRY" >> "$GITHUB_OUTPUT"; echo "tiers=$T" >> "$GITHUB_OUTPUT"
+          echo "Mode simulation: $DRY | paliers: $T"
+
+      - name: Collecte Europe PMC (incrementale)
+        run: |
+          if [ "${{ github.event.inputs.full_refresh }}" = "true" ] || [ ! -f results/articles_v3_raw.csv ]; then
+            python tracker/fetch_europepmc.py --start 2015-01-01
+          else
+            S="${{ github.event.inputs.since }}"; [ -z "$S" ] && S="$(date -u -d '30 days ago' +%F)"
+            python tracker/fetch_europepmc.py --since "$S"
+          fi
+
+      - name: Classification, preuve, registre
+        run: |
+          python tracker/build_tracker.py
+          python tracker/export_hub.py
+          python tracker/build_alerts.py
+          python tracker/build_prisma_flow.py
+          python tracker/build_convergence_modellers.py
+          python tracker/backtest.py
+
+      - name: Charger les destinataires reels (secret)
+        env:
+          RECIP: ${{ secrets.ALERT_RECIPIENTS_CSV }}
+        run: |
+          if [ -n "$RECIP" ]; then
+            echo "$RECIP" | grep -oE '[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]+' | sort -u | while read -r m; do echo "::add-mask::$m"; done
+            printf '%s\n' "$RECIP" > "$RUNNER_TEMP/recipients.csv"; echo "PREIS_RECIPIENTS_PATH=$RUNNER_TEMP/recipients.csv" >> "$GITHUB_ENV"
+          fi
+
+      - name: Envoi des alertes (ou simulation)
+        env:
+          PREIS_DRY_RUN: ${{ steps.mode.outputs.dry }}
+          PREIS_TIERS: ${{ steps.mode.outputs.tiers }}
+        run: python tracker/send_alerts.py
+
+      - name: Resume (sans adresses)
+        run: |
+          echo "### PREIS-Modeling - $(date -u +%F)" >> "$GITHUB_STEP_SUMMARY"
+          python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json; q=json.load(open('results/quality_report.json'))
+          print('Articles:', q.get('universe_articles'), '| retenus:', q.get('review_status')); print('Preuve:', q.get('by_evidence_tier'))
+          PY
+
+      - name: Publier les donnees (pour le tableau de bord et le HUB)
+        run: |
+          git config user.name "preis-modeling-bot"; git config user.email "actions@users.noreply.github.com"
+          git add -f results/articles_v3_raw.csv results/model_tracker_v3.csv results/quality_report.json hub_export data/alerting/alert_candidates.csv results/screening_decisions.csv data/derived data/backtest config/search_protocol_v4.json
+          [ -f data/outputs/alerting/alert_log.csv ] && git add -f data/outputs/alerting/alert_log.csv || true
+          git diff --cached --quiet || git commit -m "data update $(date -u +%F)"
+          git pull --rebase origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}"

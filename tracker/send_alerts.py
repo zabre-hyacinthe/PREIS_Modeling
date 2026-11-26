@@ -102,11 +102,13 @@ def main():
     dry = os.environ.get("PREIS_DRY_RUN", "true").lower() != "false"
     run_tiers = [t for t in os.environ.get("PREIS_TIERS", "immediate").split(",") if t]
     contact = os.environ.get("PREIS_CONTACT", "")
+    test = os.environ.get("PREIS_TEST_SEND", "false").lower() == "true"   # envoi d'essai : 5 alertes max/destinataire, sans journal ni baseline
+    if test: run_tiers = ["immediate", "weekly", "monthly"]
     C = pd.read_csv(os.path.join(root, "data", "alerting", "alert_candidates.csv"), dtype=str, keep_default_na=False)
     C["priority_score"] = C.priority_score.astype(int)
     L = pd.read_csv(LOG, dtype=str, keep_default_na=False) if os.path.exists(LOG) else pd.DataFrame(columns=["record_id", "sent_on", "tier", "rcpt"])
     if "rcpt" not in L.columns: L["rcpt"] = "all"
-    first_run = not os.path.exists(LOG)
+    first_run = (not os.path.exists(LOG)) and not test
     today = dt.date.today().isoformat()
     outdir = os.path.join(root, "data", "outputs", "alerting", "preview_" + today); os.makedirs(outdir, exist_ok=True)
     if first_run and not dry:
@@ -114,7 +116,7 @@ def main():
         pd.DataFrame(dict(record_id=C.record_id, sent_on=today, tier="baseline", rcpt="all")).to_csv(LOG, index=False)
         print("BASELINE : %d publications marquees comme deja vues, aucun envoi." % len(C)); return
     base = set(L[L.rcpt == "all"].record_id)
-    N = C[~C.record_id.isin(base)]
+    N = C if test else C[~C.record_id.isin(base)]
     rp = os.environ.get("PREIS_RECIPIENTS_PATH", "")
     profs = [profile(r) for r in csv.DictReader(open(rp, encoding="utf-8-sig"))] if rp and os.path.exists(rp) else []
     profs = [p for p in profs if p["email"]]
@@ -122,7 +124,7 @@ def main():
     # apercus : un par audience par defaut (sans adresse), pour verifier le routage en simulation
     previews = profs if profs else [profile(dict(email="apercu", audience=a)) for a in DEFAULTS]
     for i, p in enumerate(previews):
-        seen = set(L[L.rcpt == rcpt_hash(p["email"])].record_id)
+        seen = set() if test else set(L[L.rcpt == rcpt_hash(p["email"])].record_id)
         M = route(N[~N.record_id.isin(seen)], p, run_tiers)
         print("  audience %-10s -> %d alerte(s)" % (p["audience"], len(M)))
         if len(M):
@@ -134,13 +136,18 @@ def main():
     with smtplib.SMTP_SSL(os.environ.get("SMTP_HOST", "smtp.gmail.com"), int(os.environ.get("SMTP_PORT", "465")), context=ctx) as s:
         s.login(os.environ["SMTP_USER"], os.environ["SMTP_PASS"])
         for p in profs:
-            h = rcpt_hash(p["email"]); seen = set(L[L.rcpt == h].record_id)
+            h = rcpt_hash(p["email"]); seen = set() if test else set(L[L.rcpt == h].record_id)
             M = route(N[~N.record_id.isin(seen)], p, run_tiers)
+            if test: M = M.sort_values("priority_score", ascending=False).head(5)
             if M.empty: continue
             subj, body, text = build_message(M, p, today, contact)
+            if test: subj = "[TEST] " + subj
             m = EmailMessage(); m["Subject"] = subj; m["From"] = os.environ.get("ALERT_FROM", os.environ["SMTP_USER"]); m["To"] = p["email"]
             m.set_content(text); m.add_alternative(body, subtype="html"); s.send_message(m)
             sent.append(pd.DataFrame(dict(record_id=M.record_id, sent_on=today, tier=M.alert_tier, rcpt=h)))
+            if test: sent.pop()   # essai : rien dans le journal anti-doublons
+    if test:
+        print("ENVOI D'ESSAI termine : journal et baseline non modifies"); return
     if sent:
         pd.concat([L] + sent).to_csv(LOG, index=False)
     print("envoi termine : %d destinataire(s) servis, journal mis a jour" % len(sent))

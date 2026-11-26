@@ -17,6 +17,9 @@ on:
       full_refresh:
         description: "true = recollecte complete depuis 2015"
         default: "false"
+      test_send:
+        description: "true = ENVOI D'ESSAI (5 alertes max par destinataire, prefixe [TEST], sans journal) ; exige dry_run=false"
+        default: "false"
 
 permissions:
   contents: write
@@ -90,6 +93,7 @@ jobs:
         env:
           PREIS_DRY_RUN: ${{ steps.mode.outputs.dry }}
           PREIS_TIERS: ${{ steps.mode.outputs.tiers }}
+          PREIS_TEST_SEND: ${{ github.event.inputs.test_send }}
         run: python tracker/send_alerts.py
 
       - name: Resume (sans adresses)
