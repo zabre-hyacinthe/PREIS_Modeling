@@ -32,7 +32,7 @@ epmc_id,pmid,doi,title,decision_code
 42913160,42913160,10.1016/j.compbiolchem.2026.109503,Lassa fever prediction using data from Nigeria's national surveillance registry.,A_REVOIR
 42764366,42764366,10.1186/s12942-026-00487-1,"Influence of spatial connectivity on the spread of Mpox in Maï-Ndombe province, Democratic Republic of the Congo, 2025.",INCLUS
 42099707,42099707,10.3389/frai.2026.1778800,The use of artificial intelligence based modelling techniques in One Health-related infectious disease studies in Sub-Saharan Africa: a review.,E7
-42545332,42545332,10.1094/pdis-05-26-1013-re,Southerly migration of wheat stripe rust race 142E30A+ into South Africa.,A_REVOIR
+42545332,42545332,10.1094/pdis-05-26-1013-re,Southerly Migration of Wheat Stripe Rust Race 142E30A+ into South Africa.,A_REVOIR
 41088099,41088099,10.1186/s12889-025-24633-9,Prevalence and factors associated with HIV drug resistance among adult persons living with HIV/AIDS in nine countries of Sub-Saharan Africa using population-based HIV impact assessments: 2015-2019.,INCLUS
 42272612,42272612,10.4102/jphia.v17i1.1703,Prediction of measles elimination in Côte d'Ivoire by 2030.,INCLUS
 41602030,41602030,10.3389/fpubh.2025.1745257,"Prevalence and associated factors of human haemorrhagic fevers in Senegal: a comprehensive analysis of Hantaan, Crimean-Congo haemorrhagic fever and Rift Valley fever.",E5
@@ -3634,3 +3634,4 @@ epmc_id,pmid,doi,title,decision_code
 30526729,30526729,10.4269/ajtmh.17-0546,Evaluating Response Time in Zanzibar's Malaria Elimination Case-Based Surveillance-Response System.,E4
 27410687,27410687,10.1371/journal.pone.0156776,Voluntary Medical Male Circumcision for HIV Prevention in Swaziland: Modeling the Impact of Age Targeting.,INCLUS
 26714110,26714110,10.7554/elife.09520,Mapping residual transmission for malaria elimination.,INCLUS
+43093070,43093070,10.3390/pathogens15111165,Comparative Histopathology of Yellow Fever in New and Old World Non-Human Primates: Hepatic and Extrahepatic Lesions in Susceptible Species.,E7

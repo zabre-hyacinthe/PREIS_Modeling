@@ -1,5 +1,5 @@
 {
- "universe_articles": 3640,
+ "universe_articles": 3641,
  "duplicates_removed": 5,
  "v1_rows": 0,
  "v2_predictive_models": 1914,
@@ -61,7 +61,7 @@
  "input_source": "Europe PMC v3 (auteurs, preprints)",
  "review_status": {
   "retenu (règles, non validé humain)": 1679,
-  "hors périmètre": 1145,
+  "hors périmètre": 1146,
   "candidat à revoir (humain)": 811
  },
  "by_evidence_tier": {

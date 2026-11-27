@@ -1,372 +1,372 @@
 module,source,report_id,report_date,geo_level,geo_name,geo_code,indicator,value,value_type,signal_level,provisional,source_url,extracted_at
-modeling,"PREIS-Modeling (Europe PMC, V10)",2015-Agent / individu-centré,2015-12-31,continent,Afrique,AFR,n_modeles_Agent / individu-centré,8,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2015-Compartimental / mécaniste,2015-12-31,continent,Afrique,AFR,n_modeles_Compartimental / mécaniste,40,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2015-Phylodynamique / génomique,2015-12-31,continent,Afrique,AFR,n_modeles_Phylodynamique / génomique,3,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2015-Régression / prédiction statistique,2015-12-31,continent,Afrique,AFR,n_modeles_Régression / prédiction statistique,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2015-Simulation / scénarios,2015-12-31,continent,Afrique,AFR,n_modeles_Simulation / scénarios,7,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2015-Spatial / cartographie du risque,2015-12-31,continent,Afrique,AFR,n_modeles_Spatial / cartographie du risque,4,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2015-Séries temporelles / prévision,2015-12-31,continent,Afrique,AFR,n_modeles_Séries temporelles / prévision,2,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2015-Économique / décisionnel,2015-12-31,continent,Afrique,AFR,n_modeles_Économique / décisionnel,5,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2016-Agent / individu-centré,2016-12-31,continent,Afrique,AFR,n_modeles_Agent / individu-centré,9,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2016-Apprentissage automatique / IA,2016-12-31,continent,Afrique,AFR,n_modeles_Apprentissage automatique / IA,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2016-Compartimental / mécaniste,2016-12-31,continent,Afrique,AFR,n_modeles_Compartimental / mécaniste,39,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2016-Phylodynamique / génomique,2016-12-31,continent,Afrique,AFR,n_modeles_Phylodynamique / génomique,3,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2016-Régression / prédiction statistique,2016-12-31,continent,Afrique,AFR,n_modeles_Régression / prédiction statistique,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2016-Simulation / scénarios,2016-12-31,continent,Afrique,AFR,n_modeles_Simulation / scénarios,12,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2016-Spatial / cartographie du risque,2016-12-31,continent,Afrique,AFR,n_modeles_Spatial / cartographie du risque,7,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2016-Séries temporelles / prévision,2016-12-31,continent,Afrique,AFR,n_modeles_Séries temporelles / prévision,9,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2016-Économique / décisionnel,2016-12-31,continent,Afrique,AFR,n_modeles_Économique / décisionnel,8,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2017-Agent / individu-centré,2017-12-31,continent,Afrique,AFR,n_modeles_Agent / individu-centré,7,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2017-Compartimental / mécaniste,2017-12-31,continent,Afrique,AFR,n_modeles_Compartimental / mécaniste,26,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2017-Phylodynamique / génomique,2017-12-31,continent,Afrique,AFR,n_modeles_Phylodynamique / génomique,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2017-Régression / prédiction statistique,2017-12-31,continent,Afrique,AFR,n_modeles_Régression / prédiction statistique,3,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2017-Simulation / scénarios,2017-12-31,continent,Afrique,AFR,n_modeles_Simulation / scénarios,11,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2017-Spatial / cartographie du risque,2017-12-31,continent,Afrique,AFR,n_modeles_Spatial / cartographie du risque,2,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2017-Séries temporelles / prévision,2017-12-31,continent,Afrique,AFR,n_modeles_Séries temporelles / prévision,8,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2017-Économique / décisionnel,2017-12-31,continent,Afrique,AFR,n_modeles_Économique / décisionnel,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2018-Agent / individu-centré,2018-12-31,continent,Afrique,AFR,n_modeles_Agent / individu-centré,9,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2018-Apprentissage automatique / IA,2018-12-31,continent,Afrique,AFR,n_modeles_Apprentissage automatique / IA,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2018-Compartimental / mécaniste,2018-12-31,continent,Afrique,AFR,n_modeles_Compartimental / mécaniste,33,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2018-Phylodynamique / génomique,2018-12-31,continent,Afrique,AFR,n_modeles_Phylodynamique / génomique,3,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2018-Simulation / scénarios,2018-12-31,continent,Afrique,AFR,n_modeles_Simulation / scénarios,8,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2018-Spatial / cartographie du risque,2018-12-31,continent,Afrique,AFR,n_modeles_Spatial / cartographie du risque,3,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2018-Séries temporelles / prévision,2018-12-31,continent,Afrique,AFR,n_modeles_Séries temporelles / prévision,5,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2018-Économique / décisionnel,2018-12-31,continent,Afrique,AFR,n_modeles_Économique / décisionnel,8,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2019-Agent / individu-centré,2019-12-31,continent,Afrique,AFR,n_modeles_Agent / individu-centré,14,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2019-Apprentissage automatique / IA,2019-12-31,continent,Afrique,AFR,n_modeles_Apprentissage automatique / IA,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2019-Compartimental / mécaniste,2019-12-31,continent,Afrique,AFR,n_modeles_Compartimental / mécaniste,25,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2019-Phylodynamique / génomique,2019-12-31,continent,Afrique,AFR,n_modeles_Phylodynamique / génomique,3,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2019-Régression / prédiction statistique,2019-12-31,continent,Afrique,AFR,n_modeles_Régression / prédiction statistique,2,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2019-Simulation / scénarios,2019-12-31,continent,Afrique,AFR,n_modeles_Simulation / scénarios,11,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2019-Séries temporelles / prévision,2019-12-31,continent,Afrique,AFR,n_modeles_Séries temporelles / prévision,15,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2019-Économique / décisionnel,2019-12-31,continent,Afrique,AFR,n_modeles_Économique / décisionnel,10,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2020-Agent / individu-centré,2020-12-31,continent,Afrique,AFR,n_modeles_Agent / individu-centré,4,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2020-Apprentissage automatique / IA,2020-12-31,continent,Afrique,AFR,n_modeles_Apprentissage automatique / IA,7,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2020-Compartimental / mécaniste,2020-12-31,continent,Afrique,AFR,n_modeles_Compartimental / mécaniste,48,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2020-Phylodynamique / génomique,2020-12-31,continent,Afrique,AFR,n_modeles_Phylodynamique / génomique,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2020-Régression / prédiction statistique,2020-12-31,continent,Afrique,AFR,n_modeles_Régression / prédiction statistique,4,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2020-Simulation / scénarios,2020-12-31,continent,Afrique,AFR,n_modeles_Simulation / scénarios,11,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2020-Spatial / cartographie du risque,2020-12-31,continent,Afrique,AFR,n_modeles_Spatial / cartographie du risque,6,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2020-Séries temporelles / prévision,2020-12-31,continent,Afrique,AFR,n_modeles_Séries temporelles / prévision,11,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2020-Économique / décisionnel,2020-12-31,continent,Afrique,AFR,n_modeles_Économique / décisionnel,6,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2021-Agent / individu-centré,2021-12-31,continent,Afrique,AFR,n_modeles_Agent / individu-centré,6,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2021-Apprentissage automatique / IA,2021-12-31,continent,Afrique,AFR,n_modeles_Apprentissage automatique / IA,11,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2021-Compartimental / mécaniste,2021-12-31,continent,Afrique,AFR,n_modeles_Compartimental / mécaniste,57,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2021-Projection de charge / tendances,2021-12-31,continent,Afrique,AFR,n_modeles_Projection de charge / tendances,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2021-Régression / prédiction statistique,2021-12-31,continent,Afrique,AFR,n_modeles_Régression / prédiction statistique,3,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2021-Simulation / scénarios,2021-12-31,continent,Afrique,AFR,n_modeles_Simulation / scénarios,10,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2021-Spatial / cartographie du risque,2021-12-31,continent,Afrique,AFR,n_modeles_Spatial / cartographie du risque,4,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2021-Séries temporelles / prévision,2021-12-31,continent,Afrique,AFR,n_modeles_Séries temporelles / prévision,22,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2021-Économique / décisionnel,2021-12-31,continent,Afrique,AFR,n_modeles_Économique / décisionnel,17,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2022-Agent / individu-centré,2022-12-31,continent,Afrique,AFR,n_modeles_Agent / individu-centré,9,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2022-Apprentissage automatique / IA,2022-12-31,continent,Afrique,AFR,n_modeles_Apprentissage automatique / IA,23,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2022-Compartimental / mécaniste,2022-12-31,continent,Afrique,AFR,n_modeles_Compartimental / mécaniste,45,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2022-Phylodynamique / génomique,2022-12-31,continent,Afrique,AFR,n_modeles_Phylodynamique / génomique,2,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2022-Régression / prédiction statistique,2022-12-31,continent,Afrique,AFR,n_modeles_Régression / prédiction statistique,4,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2022-Simulation / scénarios,2022-12-31,continent,Afrique,AFR,n_modeles_Simulation / scénarios,11,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2022-Spatial / cartographie du risque,2022-12-31,continent,Afrique,AFR,n_modeles_Spatial / cartographie du risque,4,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2022-Séries temporelles / prévision,2022-12-31,continent,Afrique,AFR,n_modeles_Séries temporelles / prévision,15,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2022-Économique / décisionnel,2022-12-31,continent,Afrique,AFR,n_modeles_Économique / décisionnel,6,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2023-Agent / individu-centré,2023-12-31,continent,Afrique,AFR,n_modeles_Agent / individu-centré,7,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2023-Apprentissage automatique / IA,2023-12-31,continent,Afrique,AFR,n_modeles_Apprentissage automatique / IA,27,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2023-Compartimental / mécaniste,2023-12-31,continent,Afrique,AFR,n_modeles_Compartimental / mécaniste,37,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2023-Phylodynamique / génomique,2023-12-31,continent,Afrique,AFR,n_modeles_Phylodynamique / génomique,2,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2023-Régression / prédiction statistique,2023-12-31,continent,Afrique,AFR,n_modeles_Régression / prédiction statistique,4,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2023-Simulation / scénarios,2023-12-31,continent,Afrique,AFR,n_modeles_Simulation / scénarios,11,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2023-Spatial / cartographie du risque,2023-12-31,continent,Afrique,AFR,n_modeles_Spatial / cartographie du risque,5,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2023-Séries temporelles / prévision,2023-12-31,continent,Afrique,AFR,n_modeles_Séries temporelles / prévision,13,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2023-Économique / décisionnel,2023-12-31,continent,Afrique,AFR,n_modeles_Économique / décisionnel,14,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2024-Agent / individu-centré,2024-12-31,continent,Afrique,AFR,n_modeles_Agent / individu-centré,4,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2024-Apprentissage automatique / IA,2024-12-31,continent,Afrique,AFR,n_modeles_Apprentissage automatique / IA,34,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2024-Compartimental / mécaniste,2024-12-31,continent,Afrique,AFR,n_modeles_Compartimental / mécaniste,33,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2024-Phylodynamique / génomique,2024-12-31,continent,Afrique,AFR,n_modeles_Phylodynamique / génomique,2,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2024-Projection de charge / tendances,2024-12-31,continent,Afrique,AFR,n_modeles_Projection de charge / tendances,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2024-Régression / prédiction statistique,2024-12-31,continent,Afrique,AFR,n_modeles_Régression / prédiction statistique,3,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2024-Simulation / scénarios,2024-12-31,continent,Afrique,AFR,n_modeles_Simulation / scénarios,19,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2024-Spatial / cartographie du risque,2024-12-31,continent,Afrique,AFR,n_modeles_Spatial / cartographie du risque,10,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2024-Séries temporelles / prévision,2024-12-31,continent,Afrique,AFR,n_modeles_Séries temporelles / prévision,11,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2024-Économique / décisionnel,2024-12-31,continent,Afrique,AFR,n_modeles_Économique / décisionnel,14,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2025-Agent / individu-centré,2025-12-31,continent,Afrique,AFR,n_modeles_Agent / individu-centré,6,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2025-Apprentissage automatique / IA,2025-12-31,continent,Afrique,AFR,n_modeles_Apprentissage automatique / IA,35,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2025-Compartimental / mécaniste,2025-12-31,continent,Afrique,AFR,n_modeles_Compartimental / mécaniste,38,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2025-Phylodynamique / génomique,2025-12-31,continent,Afrique,AFR,n_modeles_Phylodynamique / génomique,5,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2025-Régression / prédiction statistique,2025-12-31,continent,Afrique,AFR,n_modeles_Régression / prédiction statistique,9,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2025-Simulation / scénarios,2025-12-31,continent,Afrique,AFR,n_modeles_Simulation / scénarios,22,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2025-Spatial / cartographie du risque,2025-12-31,continent,Afrique,AFR,n_modeles_Spatial / cartographie du risque,2,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2025-Séries temporelles / prévision,2025-12-31,continent,Afrique,AFR,n_modeles_Séries temporelles / prévision,29,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2025-Économique / décisionnel,2025-12-31,continent,Afrique,AFR,n_modeles_Économique / décisionnel,12,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2026-Agent / individu-centré,2026-12-31,continent,Afrique,AFR,n_modeles_Agent / individu-centré,12,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2026-Apprentissage automatique / IA,2026-12-31,continent,Afrique,AFR,n_modeles_Apprentissage automatique / IA,35,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2026-Compartimental / mécaniste,2026-12-31,continent,Afrique,AFR,n_modeles_Compartimental / mécaniste,48,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2026-Phylodynamique / génomique,2026-12-31,continent,Afrique,AFR,n_modeles_Phylodynamique / génomique,2,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2026-Projection de charge / tendances,2026-12-31,continent,Afrique,AFR,n_modeles_Projection de charge / tendances,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2026-Régression / prédiction statistique,2026-12-31,continent,Afrique,AFR,n_modeles_Régression / prédiction statistique,5,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2026-Simulation / scénarios,2026-12-31,continent,Afrique,AFR,n_modeles_Simulation / scénarios,13,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2026-Spatial / cartographie du risque,2026-12-31,continent,Afrique,AFR,n_modeles_Spatial / cartographie du risque,6,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2026-Séries temporelles / prévision,2026-12-31,continent,Afrique,AFR,n_modeles_Séries temporelles / prévision,26,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2026-Économique / décisionnel,2026-12-31,continent,Afrique,AFR,n_modeles_Économique / décisionnel,13,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2027-Compartimental / mécaniste,2027-12-31,continent,Afrique,AFR,n_modeles_Compartimental / mécaniste,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",AGO-Fièvre jaune,2026-11-26,country,Angola,AGO,n_modeles_Fièvre jaune,2,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",AGO-Paludisme,2026-11-26,country,Angola,AGO,n_modeles_Paludisme,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",BDI-Mpox,2026-11-26,country,Burundi,BDI,n_modeles_Mpox,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",BDI-Rougeole,2026-11-26,country,Burundi,BDI,n_modeles_Rougeole,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",BDI-Tuberculose,2026-11-26,country,Burundi,BDI,n_modeles_Tuberculose,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",BEN-Paludisme,2026-11-26,country,Benin,BEN,n_modeles_Paludisme,5,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",BEN-VIH/sida,2026-11-26,country,Benin,BEN,n_modeles_VIH/sida,2,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",BFA-Dengue,2026-11-26,country,Burkina Faso,BFA,n_modeles_Dengue,2,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",BFA-Méningite,2026-11-26,country,Burkina Faso,BFA,n_modeles_Méningite,2,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",BFA-Non précisé (infectieux générique),2026-11-26,country,Burkina Faso,BFA,n_modeles_Non précisé (infectieux générique),1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",BFA-Paludisme,2026-11-26,country,Burkina Faso,BFA,n_modeles_Paludisme,13,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",BFA-VIH/sida,2026-11-26,country,Burkina Faso,BFA,n_modeles_VIH/sida,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",BWA-Tuberculose,2026-11-26,country,Botswana,BWA,n_modeles_Tuberculose,2,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",BWA-VIH/sida,2026-11-26,country,Botswana,BWA,n_modeles_VIH/sida,3,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",CAF-Rage,2026-11-26,country,Central African Republic,CAF,n_modeles_Rage,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",CIV-COVID-19,2026-11-26,country,Côte d'Ivoire,CIV,n_modeles_COVID-19,2,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",CIV-Grippe,2026-11-26,country,Côte d'Ivoire,CIV,n_modeles_Grippe,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",CIV-Helminthiases,2026-11-26,country,Côte d'Ivoire,CIV,n_modeles_Helminthiases,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",CIV-Non précisé (infectieux générique),2026-11-26,country,Côte d'Ivoire,CIV,n_modeles_Non précisé (infectieux générique),1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",CIV-Paludisme,2026-11-26,country,Côte d'Ivoire,CIV,n_modeles_Paludisme,2,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",CIV-Rougeole,2026-11-26,country,Côte d'Ivoire,CIV,n_modeles_Rougeole,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",CIV-Schistosomiase,2026-11-26,country,Côte d'Ivoire,CIV,n_modeles_Schistosomiase,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",CIV-Trypanosomiase,2026-11-26,country,Côte d'Ivoire,CIV,n_modeles_Trypanosomiase,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",CIV-VIH/sida,2026-11-26,country,Côte d'Ivoire,CIV,n_modeles_VIH/sida,3,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",CMR-COVID-19,2026-11-26,country,Cameroon,CMR,n_modeles_COVID-19,5,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",CMR-Choléra,2026-11-26,country,Cameroon,CMR,n_modeles_Choléra,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",CMR-Grippe,2026-11-26,country,Cameroon,CMR,n_modeles_Grippe,3,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",CMR-Non précisé (infectieux générique),2026-11-26,country,Cameroon,CMR,n_modeles_Non précisé (infectieux générique),2,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",CMR-Paludisme,2026-11-26,country,Cameroon,CMR,n_modeles_Paludisme,3,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",CMR-Trypanosomiase,2026-11-26,country,Cameroon,CMR,n_modeles_Trypanosomiase,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",CMR-Tuberculose,2026-11-26,country,Cameroon,CMR,n_modeles_Tuberculose,2,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",CMR-Typhoïde,2026-11-26,country,Cameroon,CMR,n_modeles_Typhoïde,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",CMR-VIH/sida,2026-11-26,country,Cameroon,CMR,n_modeles_VIH/sida,6,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",COD-Ebola / filovirus,2026-11-26,country,DR Congo,COD,n_modeles_Ebola / filovirus,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",COD-Trypanosomiase,2026-11-26,country,DR Congo,COD,n_modeles_Trypanosomiase,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",CPV-VIH/sida,2026-11-26,country,Cabo Verde,CPV,n_modeles_VIH/sida,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",DJI-Paludisme,2026-11-26,country,Djibouti,DJI,n_modeles_Paludisme,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",DZA-COVID-19,2026-11-26,country,Algeria,DZA,n_modeles_COVID-19,5,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",DZA-Leishmaniose,2026-11-26,country,Algeria,DZA,n_modeles_Leishmaniose,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",DZA-Tuberculose,2026-11-26,country,Algeria,DZA,n_modeles_Tuberculose,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",EGY-COVID-19,2026-11-26,country,Egypt,EGY,n_modeles_COVID-19,11,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",EGY-Ebola / filovirus,2026-11-26,country,Egypt,EGY,n_modeles_Ebola / filovirus,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",EGY-Grippe,2026-11-26,country,Egypt,EGY,n_modeles_Grippe,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",EGY-Hépatites,2026-11-26,country,Egypt,EGY,n_modeles_Hépatites,8,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",EGY-Infections respiratoires,2026-11-26,country,Egypt,EGY,n_modeles_Infections respiratoires,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",EGY-Tuberculose,2026-11-26,country,Egypt,EGY,n_modeles_Tuberculose,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",EGY-VIH/sida,2026-11-26,country,Egypt,EGY,n_modeles_VIH/sida,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",ERI-Paludisme,2026-11-26,country,Eritrea,ERI,n_modeles_Paludisme,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",ETH-Anthrax,2026-11-26,country,Ethiopia,ETH,n_modeles_Anthrax,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",ETH-COVID-19,2026-11-26,country,Ethiopia,ETH,n_modeles_COVID-19,9,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",ETH-Choléra,2026-11-26,country,Ethiopia,ETH,n_modeles_Choléra,2,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",ETH-Helminthiases,2026-11-26,country,Ethiopia,ETH,n_modeles_Helminthiases,2,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",ETH-Hépatites,2026-11-26,country,Ethiopia,ETH,n_modeles_Hépatites,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",ETH-Non précisé (infectieux générique),2026-11-26,country,Ethiopia,ETH,n_modeles_Non précisé (infectieux générique),5,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",ETH-Paludisme,2026-11-26,country,Ethiopia,ETH,n_modeles_Paludisme,11,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",ETH-Rougeole,2026-11-26,country,Ethiopia,ETH,n_modeles_Rougeole,3,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",ETH-Résistance antimicrobienne,2026-11-26,country,Ethiopia,ETH,n_modeles_Résistance antimicrobienne,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",ETH-Schistosomiase,2026-11-26,country,Ethiopia,ETH,n_modeles_Schistosomiase,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",ETH-Tuberculose,2026-11-26,country,Ethiopia,ETH,n_modeles_Tuberculose,16,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",ETH-Typhoïde,2026-11-26,country,Ethiopia,ETH,n_modeles_Typhoïde,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",ETH-VIH/sida,2026-11-26,country,Ethiopia,ETH,n_modeles_VIH/sida,11,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",GAB-Paludisme,2026-11-26,country,Gabon,GAB,n_modeles_Paludisme,2,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",GHA-COVID-19,2026-11-26,country,Ghana,GHA,n_modeles_COVID-19,11,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",GHA-Méningite,2026-11-26,country,Ghana,GHA,n_modeles_Méningite,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",GHA-Paludisme,2026-11-26,country,Ghana,GHA,n_modeles_Paludisme,10,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",GHA-Tuberculose,2026-11-26,country,Ghana,GHA,n_modeles_Tuberculose,5,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",GHA-VIH/sida,2026-11-26,country,Ghana,GHA,n_modeles_VIH/sida,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",GIN-Ebola / filovirus,2026-11-26,country,Guinea,GIN,n_modeles_Ebola / filovirus,5,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",GIN-Lassa,2026-11-26,country,Guinea,GIN,n_modeles_Lassa,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",GIN-Non précisé (infectieux générique),2026-11-26,country,Guinea,GIN,n_modeles_Non précisé (infectieux générique),2,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",GIN-Paludisme,2026-11-26,country,Guinea,GIN,n_modeles_Paludisme,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",GIN-Rougeole,2026-11-26,country,Guinea,GIN,n_modeles_Rougeole,2,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",GIN-VIH/sida,2026-11-26,country,Guinea,GIN,n_modeles_VIH/sida,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",GMB-Ebola / filovirus,2026-11-26,country,Gambia,GMB,n_modeles_Ebola / filovirus,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",GMB-Fièvre de la vallée du Rift,2026-11-26,country,Gambia,GMB,n_modeles_Fièvre de la vallée du Rift,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",GMB-Hépatites,2026-11-26,country,Gambia,GMB,n_modeles_Hépatites,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",GMB-Non précisé (infectieux générique),2026-11-26,country,Gambia,GMB,n_modeles_Non précisé (infectieux générique),1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",GMB-Paludisme,2026-11-26,country,Gambia,GMB,n_modeles_Paludisme,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",GMB-Tuberculose,2026-11-26,country,Gambia,GMB,n_modeles_Tuberculose,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",GNB-VIH/sida,2026-11-26,country,Guinea-Bissau,GNB,n_modeles_VIH/sida,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",GNQ-Ebola / filovirus,2026-11-26,country,Equatorial Guinea,GNQ,n_modeles_Ebola / filovirus,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",KEN-COVID-19,2026-11-26,country,Kenya,KEN,n_modeles_COVID-19,9,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",KEN-Fièvre de la vallée du Rift,2026-11-26,country,Kenya,KEN,n_modeles_Fièvre de la vallée du Rift,3,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",KEN-Grippe,2026-11-26,country,Kenya,KEN,n_modeles_Grippe,2,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",KEN-HPV,2026-11-26,country,Kenya,KEN,n_modeles_HPV,2,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",KEN-Helminthiases,2026-11-26,country,Kenya,KEN,n_modeles_Helminthiases,5,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",KEN-Leishmaniose,2026-11-26,country,Kenya,KEN,n_modeles_Leishmaniose,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",KEN-Non précisé (infectieux générique),2026-11-26,country,Kenya,KEN,n_modeles_Non précisé (infectieux générique),1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",KEN-Paludisme,2026-11-26,country,Kenya,KEN,n_modeles_Paludisme,9,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",KEN-Rage,2026-11-26,country,Kenya,KEN,n_modeles_Rage,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",KEN-Schistosomiase,2026-11-26,country,Kenya,KEN,n_modeles_Schistosomiase,2,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",KEN-Trypanosomiase,2026-11-26,country,Kenya,KEN,n_modeles_Trypanosomiase,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",KEN-Tuberculose,2026-11-26,country,Kenya,KEN,n_modeles_Tuberculose,3,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",KEN-Typhoïde,2026-11-26,country,Kenya,KEN,n_modeles_Typhoïde,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",KEN-VIH/sida,2026-11-26,country,Kenya,KEN,n_modeles_VIH/sida,36,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",LBR-COVID-19,2026-11-26,country,Liberia,LBR,n_modeles_COVID-19,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",LBR-Ebola / filovirus,2026-11-26,country,Liberia,LBR,n_modeles_Ebola / filovirus,10,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",LSO-VIH/sida,2026-11-26,country,Lesotho,LSO,n_modeles_VIH/sida,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",MAR-COVID-19,2026-11-26,country,Morocco,MAR,n_modeles_COVID-19,9,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",MAR-Leishmaniose,2026-11-26,country,Morocco,MAR,n_modeles_Leishmaniose,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",MAR-Tuberculose,2026-11-26,country,Morocco,MAR,n_modeles_Tuberculose,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",MAR-VIH/sida,2026-11-26,country,Morocco,MAR,n_modeles_VIH/sida,2,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",MDG-COVID-19,2026-11-26,country,Madagascar,MDG,n_modeles_COVID-19,2,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",MDG-Fièvre de la vallée du Rift,2026-11-26,country,Madagascar,MDG,n_modeles_Fièvre de la vallée du Rift,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",MDG-Helminthiases,2026-11-26,country,Madagascar,MDG,n_modeles_Helminthiases,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",MDG-Paludisme,2026-11-26,country,Madagascar,MDG,n_modeles_Paludisme,2,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",MDG-Peste,2026-11-26,country,Madagascar,MDG,n_modeles_Peste,3,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",MDG-Tuberculose,2026-11-26,country,Madagascar,MDG,n_modeles_Tuberculose,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",MDG-VIH/sida,2026-11-26,country,Madagascar,MDG,n_modeles_VIH/sida,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",MLI-COVID-19,2026-11-26,country,Mali,MLI,n_modeles_COVID-19,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",MLI-Grippe,2026-11-26,country,Mali,MLI,n_modeles_Grippe,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",MLI-Paludisme,2026-11-26,country,Mali,MLI,n_modeles_Paludisme,3,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",MLI-Typhoïde,2026-11-26,country,Mali,MLI,n_modeles_Typhoïde,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",MOZ-Choléra,2026-11-26,country,Mozambique,MOZ,n_modeles_Choléra,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",MOZ-Non précisé (infectieux générique),2026-11-26,country,Mozambique,MOZ,n_modeles_Non précisé (infectieux générique),1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",MOZ-Paludisme,2026-11-26,country,Mozambique,MOZ,n_modeles_Paludisme,4,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",MOZ-Tuberculose,2026-11-26,country,Mozambique,MOZ,n_modeles_Tuberculose,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",MOZ-VIH/sida,2026-11-26,country,Mozambique,MOZ,n_modeles_VIH/sida,2,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",MRT-Fièvre de la vallée du Rift,2026-11-26,country,Mauritania,MRT,n_modeles_Fièvre de la vallée du Rift,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",MWI-COVID-19,2026-11-26,country,Malawi,MWI,n_modeles_COVID-19,3,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",MWI-Choléra,2026-11-26,country,Malawi,MWI,n_modeles_Choléra,2,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",MWI-Non précisé (infectieux générique),2026-11-26,country,Malawi,MWI,n_modeles_Non précisé (infectieux générique),2,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",MWI-Paludisme,2026-11-26,country,Malawi,MWI,n_modeles_Paludisme,2,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",MWI-Polio,2026-11-26,country,Malawi,MWI,n_modeles_Polio,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",MWI-Rougeole,2026-11-26,country,Malawi,MWI,n_modeles_Rougeole,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",MWI-Schistosomiase,2026-11-26,country,Malawi,MWI,n_modeles_Schistosomiase,2,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",MWI-Tuberculose,2026-11-26,country,Malawi,MWI,n_modeles_Tuberculose,4,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",MWI-Typhoïde,2026-11-26,country,Malawi,MWI,n_modeles_Typhoïde,2,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",MWI-VIH/sida,2026-11-26,country,Malawi,MWI,n_modeles_VIH/sida,10,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",NAM-Paludisme,2026-11-26,country,Namibia,NAM,n_modeles_Paludisme,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",NER-Méningite,2026-11-26,country,Niger,NER,n_modeles_Méningite,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",NER-Paludisme,2026-11-26,country,Niger,NER,n_modeles_Paludisme,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",NGA-COVID-19,2026-11-26,country,Nigeria,NGA,n_modeles_COVID-19,22,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",NGA-Choléra,2026-11-26,country,Nigeria,NGA,n_modeles_Choléra,2,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",NGA-Coqueluche,2026-11-26,country,Nigeria,NGA,n_modeles_Coqueluche,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",NGA-Filariose lymphatique,2026-11-26,country,Nigeria,NGA,n_modeles_Filariose lymphatique,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",NGA-Grippe,2026-11-26,country,Nigeria,NGA,n_modeles_Grippe,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",NGA-Helminthiases,2026-11-26,country,Nigeria,NGA,n_modeles_Helminthiases,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",NGA-Hépatites,2026-11-26,country,Nigeria,NGA,n_modeles_Hépatites,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",NGA-Lassa,2026-11-26,country,Nigeria,NGA,n_modeles_Lassa,6,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",NGA-Mpox,2026-11-26,country,Nigeria,NGA,n_modeles_Mpox,2,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",NGA-Non précisé (infectieux générique),2026-11-26,country,Nigeria,NGA,n_modeles_Non précisé (infectieux générique),1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",NGA-Paludisme,2026-11-26,country,Nigeria,NGA,n_modeles_Paludisme,18,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",NGA-Polio,2026-11-26,country,Nigeria,NGA,n_modeles_Polio,6,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",NGA-Rougeole,2026-11-26,country,Nigeria,NGA,n_modeles_Rougeole,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",NGA-Trypanosomiase,2026-11-26,country,Nigeria,NGA,n_modeles_Trypanosomiase,2,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",NGA-Tuberculose,2026-11-26,country,Nigeria,NGA,n_modeles_Tuberculose,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",NGA-VIH/sida,2026-11-26,country,Nigeria,NGA,n_modeles_VIH/sida,4,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",RWA-COVID-19,2026-11-26,country,Rwanda,RWA,n_modeles_COVID-19,3,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",RWA-Paludisme,2026-11-26,country,Rwanda,RWA,n_modeles_Paludisme,4,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",RWA-Schistosomiase,2026-11-26,country,Rwanda,RWA,n_modeles_Schistosomiase,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",RWA-VIH/sida,2026-11-26,country,Rwanda,RWA,n_modeles_VIH/sida,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",SDN-Chikungunya,2026-11-26,country,Sudan,SDN,n_modeles_Chikungunya,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",SDN-Ebola / filovirus,2026-11-26,country,Sudan,SDN,n_modeles_Ebola / filovirus,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",SDN-Paludisme,2026-11-26,country,Sudan,SDN,n_modeles_Paludisme,3,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",SDN-VIH/sida,2026-11-26,country,Sudan,SDN,n_modeles_VIH/sida,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",SEN-COVID-19,2026-11-26,country,Senegal,SEN,n_modeles_COVID-19,3,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",SEN-Chikungunya,2026-11-26,country,Senegal,SEN,n_modeles_Chikungunya,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",SEN-Choléra,2026-11-26,country,Senegal,SEN,n_modeles_Choléra,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",SEN-Paludisme,2026-11-26,country,Senegal,SEN,n_modeles_Paludisme,7,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",SEN-Schistosomiase,2026-11-26,country,Senegal,SEN,n_modeles_Schistosomiase,2,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",SEN-VIH/sida,2026-11-26,country,Senegal,SEN,n_modeles_VIH/sida,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",SLE-COVID-19,2026-11-26,country,Sierra Leone,SLE,n_modeles_COVID-19,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",SLE-Ebola / filovirus,2026-11-26,country,Sierra Leone,SLE,n_modeles_Ebola / filovirus,13,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",SLE-Non précisé (infectieux générique),2026-11-26,country,Sierra Leone,SLE,n_modeles_Non précisé (infectieux générique),2,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",SLE-Paludisme,2026-11-26,country,Sierra Leone,SLE,n_modeles_Paludisme,2,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",SOM-COVID-19,2026-11-26,country,Somalia,SOM,n_modeles_COVID-19,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",SOM-Dengue,2026-11-26,country,Somalia,SOM,n_modeles_Dengue,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",SOM-Tuberculose,2026-11-26,country,Somalia,SOM,n_modeles_Tuberculose,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",SSD-Non précisé (infectieux générique),2026-11-26,country,South Sudan,SSD,n_modeles_Non précisé (infectieux générique),1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",SSD-Paludisme,2026-11-26,country,South Sudan,SSD,n_modeles_Paludisme,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",SWZ-COVID-19,2026-11-26,country,Eswatini,SWZ,n_modeles_COVID-19,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",SWZ-Paludisme,2026-11-26,country,Eswatini,SWZ,n_modeles_Paludisme,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",SWZ-VIH/sida,2026-11-26,country,Eswatini,SWZ,n_modeles_VIH/sida,6,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",TCD-Choléra,2026-11-26,country,Chad,TCD,n_modeles_Choléra,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",TCD-Rage,2026-11-26,country,Chad,TCD,n_modeles_Rage,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",TCD-Trypanosomiase,2026-11-26,country,Chad,TCD,n_modeles_Trypanosomiase,2,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",TGO-Paludisme,2026-11-26,country,Togo,TGO,n_modeles_Paludisme,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",TUN-COVID-19,2026-11-26,country,Tunisia,TUN,n_modeles_COVID-19,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",TUN-Hépatites,2026-11-26,country,Tunisia,TUN,n_modeles_Hépatites,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",TUN-Leishmaniose,2026-11-26,country,Tunisia,TUN,n_modeles_Leishmaniose,2,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",TUN-Non précisé (infectieux générique),2026-11-26,country,Tunisia,TUN,n_modeles_Non précisé (infectieux générique),2,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",TUN-Résistance antimicrobienne,2026-11-26,country,Tunisia,TUN,n_modeles_Résistance antimicrobienne,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",TUN-Tuberculose,2026-11-26,country,Tunisia,TUN,n_modeles_Tuberculose,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",TUN-VIH/sida,2026-11-26,country,Tunisia,TUN,n_modeles_VIH/sida,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",TZA-COVID-19,2026-11-26,country,Tanzania,TZA,n_modeles_COVID-19,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",TZA-Choléra,2026-11-26,country,Tanzania,TZA,n_modeles_Choléra,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",TZA-Hépatites,2026-11-26,country,Tanzania,TZA,n_modeles_Hépatites,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",TZA-Non précisé (infectieux générique),2026-11-26,country,Tanzania,TZA,n_modeles_Non précisé (infectieux générique),1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",TZA-Paludisme,2026-11-26,country,Tanzania,TZA,n_modeles_Paludisme,17,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",TZA-Rage,2026-11-26,country,Tanzania,TZA,n_modeles_Rage,2,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",TZA-Tuberculose,2026-11-26,country,Tanzania,TZA,n_modeles_Tuberculose,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",TZA-VIH/sida,2026-11-26,country,Tanzania,TZA,n_modeles_VIH/sida,9,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",UGA-COVID-19,2026-11-26,country,Uganda,UGA,n_modeles_COVID-19,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",UGA-Ebola / filovirus,2026-11-26,country,Uganda,UGA,n_modeles_Ebola / filovirus,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",UGA-Fièvre de la vallée du Rift,2026-11-26,country,Uganda,UGA,n_modeles_Fièvre de la vallée du Rift,2,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",UGA-Non précisé (infectieux générique),2026-11-26,country,Uganda,UGA,n_modeles_Non précisé (infectieux générique),2,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",UGA-Paludisme,2026-11-26,country,Uganda,UGA,n_modeles_Paludisme,13,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",UGA-Rougeole,2026-11-26,country,Uganda,UGA,n_modeles_Rougeole,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",UGA-Schistosomiase,2026-11-26,country,Uganda,UGA,n_modeles_Schistosomiase,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",UGA-Trypanosomiase,2026-11-26,country,Uganda,UGA,n_modeles_Trypanosomiase,3,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",UGA-Tuberculose,2026-11-26,country,Uganda,UGA,n_modeles_Tuberculose,3,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",UGA-Typhoïde,2026-11-26,country,Uganda,UGA,n_modeles_Typhoïde,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",UGA-VIH/sida,2026-11-26,country,Uganda,UGA,n_modeles_VIH/sida,23,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",ZAF-COVID-19,2026-11-26,country,South Africa,ZAF,n_modeles_COVID-19,40,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",ZAF-Grippe,2026-11-26,country,South Africa,ZAF,n_modeles_Grippe,6,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",ZAF-HPV,2026-11-26,country,South Africa,ZAF,n_modeles_HPV,2,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",ZAF-Hépatites,2026-11-26,country,South Africa,ZAF,n_modeles_Hépatites,3,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",ZAF-Non précisé (infectieux générique),2026-11-26,country,South Africa,ZAF,n_modeles_Non précisé (infectieux générique),6,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",ZAF-Paludisme,2026-11-26,country,South Africa,ZAF,n_modeles_Paludisme,10,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",ZAF-Tuberculose,2026-11-26,country,South Africa,ZAF,n_modeles_Tuberculose,52,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",ZAF-VIH/sida,2026-11-26,country,South Africa,ZAF,n_modeles_VIH/sida,94,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",ZAF-VRS,2026-11-26,country,South Africa,ZAF,n_modeles_VRS,2,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",ZMB-COVID-19,2026-11-26,country,Zambia,ZMB,n_modeles_COVID-19,4,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",ZMB-Non précisé (infectieux générique),2026-11-26,country,Zambia,ZMB,n_modeles_Non précisé (infectieux générique),2,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",ZMB-Paludisme,2026-11-26,country,Zambia,ZMB,n_modeles_Paludisme,8,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",ZMB-Peste,2026-11-26,country,Zambia,ZMB,n_modeles_Peste,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",ZMB-Rougeole,2026-11-26,country,Zambia,ZMB,n_modeles_Rougeole,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",ZMB-Trypanosomiase,2026-11-26,country,Zambia,ZMB,n_modeles_Trypanosomiase,3,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",ZMB-VIH/sida,2026-11-26,country,Zambia,ZMB,n_modeles_VIH/sida,5,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",ZWE-COVID-19,2026-11-26,country,Zimbabwe,ZWE,n_modeles_COVID-19,2,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",ZWE-Choléra,2026-11-26,country,Zimbabwe,ZWE,n_modeles_Choléra,3,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",ZWE-Hépatites,2026-11-26,country,Zimbabwe,ZWE,n_modeles_Hépatites,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",ZWE-Paludisme,2026-11-26,country,Zimbabwe,ZWE,n_modeles_Paludisme,2,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",ZWE-Schistosomiase,2026-11-26,country,Zimbabwe,ZWE,n_modeles_Schistosomiase,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",ZWE-Trypanosomiase,2026-11-26,country,Zimbabwe,ZWE,n_modeles_Trypanosomiase,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",ZWE-VIH/sida,2026-11-26,country,Zimbabwe,ZWE,n_modeles_VIH/sida,7,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2015-T2,2015-12-31,continent,Afrique,AFR,n_modeles_preuve_T2,50,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2015-T3,2015-12-31,continent,Afrique,AFR,n_modeles_preuve_T3,19,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2015-T4,2015-12-31,continent,Afrique,AFR,n_modeles_preuve_T4,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2016-T2,2016-12-31,continent,Afrique,AFR,n_modeles_preuve_T2,76,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2016-T3,2016-12-31,continent,Afrique,AFR,n_modeles_preuve_T3,12,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2016-T4,2016-12-31,continent,Afrique,AFR,n_modeles_preuve_T4,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2017-T2,2017-12-31,continent,Afrique,AFR,n_modeles_preuve_T2,43,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2017-T3,2017-12-31,continent,Afrique,AFR,n_modeles_preuve_T3,15,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2017-T4,2017-12-31,continent,Afrique,AFR,n_modeles_preuve_T4,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2018-T2,2018-12-31,continent,Afrique,AFR,n_modeles_preuve_T2,46,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2018-T3,2018-12-31,continent,Afrique,AFR,n_modeles_preuve_T3,23,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2018-T4,2018-12-31,continent,Afrique,AFR,n_modeles_preuve_T4,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2019-T2,2019-12-31,continent,Afrique,AFR,n_modeles_preuve_T2,53,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2019-T3,2019-12-31,continent,Afrique,AFR,n_modeles_preuve_T3,21,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2019-T4,2019-12-31,continent,Afrique,AFR,n_modeles_preuve_T4,7,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2020-T2,2020-12-31,continent,Afrique,AFR,n_modeles_preuve_T2,75,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2020-T3,2020-12-31,continent,Afrique,AFR,n_modeles_preuve_T3,18,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2020-T4,2020-12-31,continent,Afrique,AFR,n_modeles_preuve_T4,5,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2021-T2,2021-12-31,continent,Afrique,AFR,n_modeles_preuve_T2,92,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2021-T3,2021-12-31,continent,Afrique,AFR,n_modeles_preuve_T3,36,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2021-T4,2021-12-31,continent,Afrique,AFR,n_modeles_preuve_T4,3,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2022-T2,2022-12-31,continent,Afrique,AFR,n_modeles_preuve_T2,77,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2022-T3,2022-12-31,continent,Afrique,AFR,n_modeles_preuve_T3,35,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2022-T4,2022-12-31,continent,Afrique,AFR,n_modeles_preuve_T4,7,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2023-T2,2023-12-31,continent,Afrique,AFR,n_modeles_preuve_T2,72,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2023-T3,2023-12-31,continent,Afrique,AFR,n_modeles_preuve_T3,44,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2023-T4,2023-12-31,continent,Afrique,AFR,n_modeles_preuve_T4,4,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2024-T2,2024-12-31,continent,Afrique,AFR,n_modeles_preuve_T2,76,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2024-T3,2024-12-31,continent,Afrique,AFR,n_modeles_preuve_T3,54,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2024-T4,2024-12-31,continent,Afrique,AFR,n_modeles_preuve_T4,1,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2025-T2,2025-12-31,continent,Afrique,AFR,n_modeles_preuve_T2,78,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2025-T3,2025-12-31,continent,Afrique,AFR,n_modeles_preuve_T3,72,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2025-T4,2025-12-31,continent,Afrique,AFR,n_modeles_preuve_T4,8,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2026-T2,2026-12-31,continent,Afrique,AFR,n_modeles_preuve_T2,72,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2026-T3,2026-12-31,continent,Afrique,AFR,n_modeles_preuve_T3,68,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2026-T4,2026-12-31,continent,Afrique,AFR,n_modeles_preuve_T4,21,count,info,True,,2026-11-26T22:24:17Z
-modeling,"PREIS-Modeling (Europe PMC, V10)",2027-T3,2027-12-31,continent,Afrique,AFR,n_modeles_preuve_T3,1,count,info,True,,2026-11-26T22:24:17Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2015-Agent / individu-centré,2015-12-31,continent,Afrique,AFR,n_modeles_Agent / individu-centré,8,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2015-Compartimental / mécaniste,2015-12-31,continent,Afrique,AFR,n_modeles_Compartimental / mécaniste,40,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2015-Phylodynamique / génomique,2015-12-31,continent,Afrique,AFR,n_modeles_Phylodynamique / génomique,3,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2015-Régression / prédiction statistique,2015-12-31,continent,Afrique,AFR,n_modeles_Régression / prédiction statistique,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2015-Simulation / scénarios,2015-12-31,continent,Afrique,AFR,n_modeles_Simulation / scénarios,7,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2015-Spatial / cartographie du risque,2015-12-31,continent,Afrique,AFR,n_modeles_Spatial / cartographie du risque,4,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2015-Séries temporelles / prévision,2015-12-31,continent,Afrique,AFR,n_modeles_Séries temporelles / prévision,2,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2015-Économique / décisionnel,2015-12-31,continent,Afrique,AFR,n_modeles_Économique / décisionnel,5,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2016-Agent / individu-centré,2016-12-31,continent,Afrique,AFR,n_modeles_Agent / individu-centré,9,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2016-Apprentissage automatique / IA,2016-12-31,continent,Afrique,AFR,n_modeles_Apprentissage automatique / IA,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2016-Compartimental / mécaniste,2016-12-31,continent,Afrique,AFR,n_modeles_Compartimental / mécaniste,39,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2016-Phylodynamique / génomique,2016-12-31,continent,Afrique,AFR,n_modeles_Phylodynamique / génomique,3,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2016-Régression / prédiction statistique,2016-12-31,continent,Afrique,AFR,n_modeles_Régression / prédiction statistique,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2016-Simulation / scénarios,2016-12-31,continent,Afrique,AFR,n_modeles_Simulation / scénarios,12,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2016-Spatial / cartographie du risque,2016-12-31,continent,Afrique,AFR,n_modeles_Spatial / cartographie du risque,7,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2016-Séries temporelles / prévision,2016-12-31,continent,Afrique,AFR,n_modeles_Séries temporelles / prévision,9,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2016-Économique / décisionnel,2016-12-31,continent,Afrique,AFR,n_modeles_Économique / décisionnel,8,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2017-Agent / individu-centré,2017-12-31,continent,Afrique,AFR,n_modeles_Agent / individu-centré,7,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2017-Compartimental / mécaniste,2017-12-31,continent,Afrique,AFR,n_modeles_Compartimental / mécaniste,26,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2017-Phylodynamique / génomique,2017-12-31,continent,Afrique,AFR,n_modeles_Phylodynamique / génomique,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2017-Régression / prédiction statistique,2017-12-31,continent,Afrique,AFR,n_modeles_Régression / prédiction statistique,3,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2017-Simulation / scénarios,2017-12-31,continent,Afrique,AFR,n_modeles_Simulation / scénarios,11,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2017-Spatial / cartographie du risque,2017-12-31,continent,Afrique,AFR,n_modeles_Spatial / cartographie du risque,2,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2017-Séries temporelles / prévision,2017-12-31,continent,Afrique,AFR,n_modeles_Séries temporelles / prévision,8,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2017-Économique / décisionnel,2017-12-31,continent,Afrique,AFR,n_modeles_Économique / décisionnel,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2018-Agent / individu-centré,2018-12-31,continent,Afrique,AFR,n_modeles_Agent / individu-centré,9,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2018-Apprentissage automatique / IA,2018-12-31,continent,Afrique,AFR,n_modeles_Apprentissage automatique / IA,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2018-Compartimental / mécaniste,2018-12-31,continent,Afrique,AFR,n_modeles_Compartimental / mécaniste,33,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2018-Phylodynamique / génomique,2018-12-31,continent,Afrique,AFR,n_modeles_Phylodynamique / génomique,3,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2018-Simulation / scénarios,2018-12-31,continent,Afrique,AFR,n_modeles_Simulation / scénarios,8,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2018-Spatial / cartographie du risque,2018-12-31,continent,Afrique,AFR,n_modeles_Spatial / cartographie du risque,3,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2018-Séries temporelles / prévision,2018-12-31,continent,Afrique,AFR,n_modeles_Séries temporelles / prévision,5,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2018-Économique / décisionnel,2018-12-31,continent,Afrique,AFR,n_modeles_Économique / décisionnel,8,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2019-Agent / individu-centré,2019-12-31,continent,Afrique,AFR,n_modeles_Agent / individu-centré,14,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2019-Apprentissage automatique / IA,2019-12-31,continent,Afrique,AFR,n_modeles_Apprentissage automatique / IA,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2019-Compartimental / mécaniste,2019-12-31,continent,Afrique,AFR,n_modeles_Compartimental / mécaniste,25,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2019-Phylodynamique / génomique,2019-12-31,continent,Afrique,AFR,n_modeles_Phylodynamique / génomique,3,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2019-Régression / prédiction statistique,2019-12-31,continent,Afrique,AFR,n_modeles_Régression / prédiction statistique,2,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2019-Simulation / scénarios,2019-12-31,continent,Afrique,AFR,n_modeles_Simulation / scénarios,11,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2019-Séries temporelles / prévision,2019-12-31,continent,Afrique,AFR,n_modeles_Séries temporelles / prévision,15,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2019-Économique / décisionnel,2019-12-31,continent,Afrique,AFR,n_modeles_Économique / décisionnel,10,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2020-Agent / individu-centré,2020-12-31,continent,Afrique,AFR,n_modeles_Agent / individu-centré,4,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2020-Apprentissage automatique / IA,2020-12-31,continent,Afrique,AFR,n_modeles_Apprentissage automatique / IA,7,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2020-Compartimental / mécaniste,2020-12-31,continent,Afrique,AFR,n_modeles_Compartimental / mécaniste,48,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2020-Phylodynamique / génomique,2020-12-31,continent,Afrique,AFR,n_modeles_Phylodynamique / génomique,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2020-Régression / prédiction statistique,2020-12-31,continent,Afrique,AFR,n_modeles_Régression / prédiction statistique,4,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2020-Simulation / scénarios,2020-12-31,continent,Afrique,AFR,n_modeles_Simulation / scénarios,11,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2020-Spatial / cartographie du risque,2020-12-31,continent,Afrique,AFR,n_modeles_Spatial / cartographie du risque,6,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2020-Séries temporelles / prévision,2020-12-31,continent,Afrique,AFR,n_modeles_Séries temporelles / prévision,11,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2020-Économique / décisionnel,2020-12-31,continent,Afrique,AFR,n_modeles_Économique / décisionnel,6,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2021-Agent / individu-centré,2021-12-31,continent,Afrique,AFR,n_modeles_Agent / individu-centré,6,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2021-Apprentissage automatique / IA,2021-12-31,continent,Afrique,AFR,n_modeles_Apprentissage automatique / IA,11,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2021-Compartimental / mécaniste,2021-12-31,continent,Afrique,AFR,n_modeles_Compartimental / mécaniste,57,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2021-Projection de charge / tendances,2021-12-31,continent,Afrique,AFR,n_modeles_Projection de charge / tendances,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2021-Régression / prédiction statistique,2021-12-31,continent,Afrique,AFR,n_modeles_Régression / prédiction statistique,3,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2021-Simulation / scénarios,2021-12-31,continent,Afrique,AFR,n_modeles_Simulation / scénarios,10,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2021-Spatial / cartographie du risque,2021-12-31,continent,Afrique,AFR,n_modeles_Spatial / cartographie du risque,4,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2021-Séries temporelles / prévision,2021-12-31,continent,Afrique,AFR,n_modeles_Séries temporelles / prévision,22,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2021-Économique / décisionnel,2021-12-31,continent,Afrique,AFR,n_modeles_Économique / décisionnel,17,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2022-Agent / individu-centré,2022-12-31,continent,Afrique,AFR,n_modeles_Agent / individu-centré,9,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2022-Apprentissage automatique / IA,2022-12-31,continent,Afrique,AFR,n_modeles_Apprentissage automatique / IA,23,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2022-Compartimental / mécaniste,2022-12-31,continent,Afrique,AFR,n_modeles_Compartimental / mécaniste,45,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2022-Phylodynamique / génomique,2022-12-31,continent,Afrique,AFR,n_modeles_Phylodynamique / génomique,2,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2022-Régression / prédiction statistique,2022-12-31,continent,Afrique,AFR,n_modeles_Régression / prédiction statistique,4,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2022-Simulation / scénarios,2022-12-31,continent,Afrique,AFR,n_modeles_Simulation / scénarios,11,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2022-Spatial / cartographie du risque,2022-12-31,continent,Afrique,AFR,n_modeles_Spatial / cartographie du risque,4,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2022-Séries temporelles / prévision,2022-12-31,continent,Afrique,AFR,n_modeles_Séries temporelles / prévision,15,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2022-Économique / décisionnel,2022-12-31,continent,Afrique,AFR,n_modeles_Économique / décisionnel,6,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2023-Agent / individu-centré,2023-12-31,continent,Afrique,AFR,n_modeles_Agent / individu-centré,7,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2023-Apprentissage automatique / IA,2023-12-31,continent,Afrique,AFR,n_modeles_Apprentissage automatique / IA,27,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2023-Compartimental / mécaniste,2023-12-31,continent,Afrique,AFR,n_modeles_Compartimental / mécaniste,37,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2023-Phylodynamique / génomique,2023-12-31,continent,Afrique,AFR,n_modeles_Phylodynamique / génomique,2,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2023-Régression / prédiction statistique,2023-12-31,continent,Afrique,AFR,n_modeles_Régression / prédiction statistique,4,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2023-Simulation / scénarios,2023-12-31,continent,Afrique,AFR,n_modeles_Simulation / scénarios,11,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2023-Spatial / cartographie du risque,2023-12-31,continent,Afrique,AFR,n_modeles_Spatial / cartographie du risque,5,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2023-Séries temporelles / prévision,2023-12-31,continent,Afrique,AFR,n_modeles_Séries temporelles / prévision,13,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2023-Économique / décisionnel,2023-12-31,continent,Afrique,AFR,n_modeles_Économique / décisionnel,14,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2024-Agent / individu-centré,2024-12-31,continent,Afrique,AFR,n_modeles_Agent / individu-centré,4,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2024-Apprentissage automatique / IA,2024-12-31,continent,Afrique,AFR,n_modeles_Apprentissage automatique / IA,34,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2024-Compartimental / mécaniste,2024-12-31,continent,Afrique,AFR,n_modeles_Compartimental / mécaniste,33,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2024-Phylodynamique / génomique,2024-12-31,continent,Afrique,AFR,n_modeles_Phylodynamique / génomique,2,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2024-Projection de charge / tendances,2024-12-31,continent,Afrique,AFR,n_modeles_Projection de charge / tendances,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2024-Régression / prédiction statistique,2024-12-31,continent,Afrique,AFR,n_modeles_Régression / prédiction statistique,3,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2024-Simulation / scénarios,2024-12-31,continent,Afrique,AFR,n_modeles_Simulation / scénarios,19,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2024-Spatial / cartographie du risque,2024-12-31,continent,Afrique,AFR,n_modeles_Spatial / cartographie du risque,10,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2024-Séries temporelles / prévision,2024-12-31,continent,Afrique,AFR,n_modeles_Séries temporelles / prévision,11,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2024-Économique / décisionnel,2024-12-31,continent,Afrique,AFR,n_modeles_Économique / décisionnel,14,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2025-Agent / individu-centré,2025-12-31,continent,Afrique,AFR,n_modeles_Agent / individu-centré,6,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2025-Apprentissage automatique / IA,2025-12-31,continent,Afrique,AFR,n_modeles_Apprentissage automatique / IA,35,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2025-Compartimental / mécaniste,2025-12-31,continent,Afrique,AFR,n_modeles_Compartimental / mécaniste,38,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2025-Phylodynamique / génomique,2025-12-31,continent,Afrique,AFR,n_modeles_Phylodynamique / génomique,5,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2025-Régression / prédiction statistique,2025-12-31,continent,Afrique,AFR,n_modeles_Régression / prédiction statistique,9,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2025-Simulation / scénarios,2025-12-31,continent,Afrique,AFR,n_modeles_Simulation / scénarios,22,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2025-Spatial / cartographie du risque,2025-12-31,continent,Afrique,AFR,n_modeles_Spatial / cartographie du risque,2,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2025-Séries temporelles / prévision,2025-12-31,continent,Afrique,AFR,n_modeles_Séries temporelles / prévision,29,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2025-Économique / décisionnel,2025-12-31,continent,Afrique,AFR,n_modeles_Économique / décisionnel,12,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2026-Agent / individu-centré,2026-12-31,continent,Afrique,AFR,n_modeles_Agent / individu-centré,12,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2026-Apprentissage automatique / IA,2026-12-31,continent,Afrique,AFR,n_modeles_Apprentissage automatique / IA,35,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2026-Compartimental / mécaniste,2026-12-31,continent,Afrique,AFR,n_modeles_Compartimental / mécaniste,48,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2026-Phylodynamique / génomique,2026-12-31,continent,Afrique,AFR,n_modeles_Phylodynamique / génomique,2,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2026-Projection de charge / tendances,2026-12-31,continent,Afrique,AFR,n_modeles_Projection de charge / tendances,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2026-Régression / prédiction statistique,2026-12-31,continent,Afrique,AFR,n_modeles_Régression / prédiction statistique,5,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2026-Simulation / scénarios,2026-12-31,continent,Afrique,AFR,n_modeles_Simulation / scénarios,13,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2026-Spatial / cartographie du risque,2026-12-31,continent,Afrique,AFR,n_modeles_Spatial / cartographie du risque,6,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2026-Séries temporelles / prévision,2026-12-31,continent,Afrique,AFR,n_modeles_Séries temporelles / prévision,26,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2026-Économique / décisionnel,2026-12-31,continent,Afrique,AFR,n_modeles_Économique / décisionnel,13,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2027-Compartimental / mécaniste,2027-12-31,continent,Afrique,AFR,n_modeles_Compartimental / mécaniste,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",AGO-Fièvre jaune,2026-11-27,country,Angola,AGO,n_modeles_Fièvre jaune,2,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",AGO-Paludisme,2026-11-27,country,Angola,AGO,n_modeles_Paludisme,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",BDI-Mpox,2026-11-27,country,Burundi,BDI,n_modeles_Mpox,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",BDI-Rougeole,2026-11-27,country,Burundi,BDI,n_modeles_Rougeole,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",BDI-Tuberculose,2026-11-27,country,Burundi,BDI,n_modeles_Tuberculose,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",BEN-Paludisme,2026-11-27,country,Benin,BEN,n_modeles_Paludisme,5,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",BEN-VIH/sida,2026-11-27,country,Benin,BEN,n_modeles_VIH/sida,2,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",BFA-Dengue,2026-11-27,country,Burkina Faso,BFA,n_modeles_Dengue,2,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",BFA-Méningite,2026-11-27,country,Burkina Faso,BFA,n_modeles_Méningite,2,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",BFA-Non précisé (infectieux générique),2026-11-27,country,Burkina Faso,BFA,n_modeles_Non précisé (infectieux générique),1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",BFA-Paludisme,2026-11-27,country,Burkina Faso,BFA,n_modeles_Paludisme,13,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",BFA-VIH/sida,2026-11-27,country,Burkina Faso,BFA,n_modeles_VIH/sida,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",BWA-Tuberculose,2026-11-27,country,Botswana,BWA,n_modeles_Tuberculose,2,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",BWA-VIH/sida,2026-11-27,country,Botswana,BWA,n_modeles_VIH/sida,3,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",CAF-Rage,2026-11-27,country,Central African Republic,CAF,n_modeles_Rage,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",CIV-COVID-19,2026-11-27,country,Côte d'Ivoire,CIV,n_modeles_COVID-19,2,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",CIV-Grippe,2026-11-27,country,Côte d'Ivoire,CIV,n_modeles_Grippe,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",CIV-Helminthiases,2026-11-27,country,Côte d'Ivoire,CIV,n_modeles_Helminthiases,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",CIV-Non précisé (infectieux générique),2026-11-27,country,Côte d'Ivoire,CIV,n_modeles_Non précisé (infectieux générique),1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",CIV-Paludisme,2026-11-27,country,Côte d'Ivoire,CIV,n_modeles_Paludisme,2,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",CIV-Rougeole,2026-11-27,country,Côte d'Ivoire,CIV,n_modeles_Rougeole,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",CIV-Schistosomiase,2026-11-27,country,Côte d'Ivoire,CIV,n_modeles_Schistosomiase,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",CIV-Trypanosomiase,2026-11-27,country,Côte d'Ivoire,CIV,n_modeles_Trypanosomiase,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",CIV-VIH/sida,2026-11-27,country,Côte d'Ivoire,CIV,n_modeles_VIH/sida,3,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",CMR-COVID-19,2026-11-27,country,Cameroon,CMR,n_modeles_COVID-19,5,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",CMR-Choléra,2026-11-27,country,Cameroon,CMR,n_modeles_Choléra,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",CMR-Grippe,2026-11-27,country,Cameroon,CMR,n_modeles_Grippe,3,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",CMR-Non précisé (infectieux générique),2026-11-27,country,Cameroon,CMR,n_modeles_Non précisé (infectieux générique),2,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",CMR-Paludisme,2026-11-27,country,Cameroon,CMR,n_modeles_Paludisme,3,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",CMR-Trypanosomiase,2026-11-27,country,Cameroon,CMR,n_modeles_Trypanosomiase,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",CMR-Tuberculose,2026-11-27,country,Cameroon,CMR,n_modeles_Tuberculose,2,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",CMR-Typhoïde,2026-11-27,country,Cameroon,CMR,n_modeles_Typhoïde,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",CMR-VIH/sida,2026-11-27,country,Cameroon,CMR,n_modeles_VIH/sida,6,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",COD-Ebola / filovirus,2026-11-27,country,DR Congo,COD,n_modeles_Ebola / filovirus,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",COD-Trypanosomiase,2026-11-27,country,DR Congo,COD,n_modeles_Trypanosomiase,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",CPV-VIH/sida,2026-11-27,country,Cabo Verde,CPV,n_modeles_VIH/sida,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",DJI-Paludisme,2026-11-27,country,Djibouti,DJI,n_modeles_Paludisme,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",DZA-COVID-19,2026-11-27,country,Algeria,DZA,n_modeles_COVID-19,5,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",DZA-Leishmaniose,2026-11-27,country,Algeria,DZA,n_modeles_Leishmaniose,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",DZA-Tuberculose,2026-11-27,country,Algeria,DZA,n_modeles_Tuberculose,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",EGY-COVID-19,2026-11-27,country,Egypt,EGY,n_modeles_COVID-19,11,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",EGY-Ebola / filovirus,2026-11-27,country,Egypt,EGY,n_modeles_Ebola / filovirus,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",EGY-Grippe,2026-11-27,country,Egypt,EGY,n_modeles_Grippe,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",EGY-Hépatites,2026-11-27,country,Egypt,EGY,n_modeles_Hépatites,8,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",EGY-Infections respiratoires,2026-11-27,country,Egypt,EGY,n_modeles_Infections respiratoires,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",EGY-Tuberculose,2026-11-27,country,Egypt,EGY,n_modeles_Tuberculose,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",EGY-VIH/sida,2026-11-27,country,Egypt,EGY,n_modeles_VIH/sida,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",ERI-Paludisme,2026-11-27,country,Eritrea,ERI,n_modeles_Paludisme,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",ETH-Anthrax,2026-11-27,country,Ethiopia,ETH,n_modeles_Anthrax,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",ETH-COVID-19,2026-11-27,country,Ethiopia,ETH,n_modeles_COVID-19,9,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",ETH-Choléra,2026-11-27,country,Ethiopia,ETH,n_modeles_Choléra,2,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",ETH-Helminthiases,2026-11-27,country,Ethiopia,ETH,n_modeles_Helminthiases,2,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",ETH-Hépatites,2026-11-27,country,Ethiopia,ETH,n_modeles_Hépatites,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",ETH-Non précisé (infectieux générique),2026-11-27,country,Ethiopia,ETH,n_modeles_Non précisé (infectieux générique),5,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",ETH-Paludisme,2026-11-27,country,Ethiopia,ETH,n_modeles_Paludisme,11,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",ETH-Rougeole,2026-11-27,country,Ethiopia,ETH,n_modeles_Rougeole,3,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",ETH-Résistance antimicrobienne,2026-11-27,country,Ethiopia,ETH,n_modeles_Résistance antimicrobienne,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",ETH-Schistosomiase,2026-11-27,country,Ethiopia,ETH,n_modeles_Schistosomiase,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",ETH-Tuberculose,2026-11-27,country,Ethiopia,ETH,n_modeles_Tuberculose,16,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",ETH-Typhoïde,2026-11-27,country,Ethiopia,ETH,n_modeles_Typhoïde,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",ETH-VIH/sida,2026-11-27,country,Ethiopia,ETH,n_modeles_VIH/sida,11,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",GAB-Paludisme,2026-11-27,country,Gabon,GAB,n_modeles_Paludisme,2,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",GHA-COVID-19,2026-11-27,country,Ghana,GHA,n_modeles_COVID-19,11,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",GHA-Méningite,2026-11-27,country,Ghana,GHA,n_modeles_Méningite,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",GHA-Paludisme,2026-11-27,country,Ghana,GHA,n_modeles_Paludisme,10,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",GHA-Tuberculose,2026-11-27,country,Ghana,GHA,n_modeles_Tuberculose,5,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",GHA-VIH/sida,2026-11-27,country,Ghana,GHA,n_modeles_VIH/sida,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",GIN-Ebola / filovirus,2026-11-27,country,Guinea,GIN,n_modeles_Ebola / filovirus,5,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",GIN-Lassa,2026-11-27,country,Guinea,GIN,n_modeles_Lassa,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",GIN-Non précisé (infectieux générique),2026-11-27,country,Guinea,GIN,n_modeles_Non précisé (infectieux générique),2,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",GIN-Paludisme,2026-11-27,country,Guinea,GIN,n_modeles_Paludisme,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",GIN-Rougeole,2026-11-27,country,Guinea,GIN,n_modeles_Rougeole,2,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",GIN-VIH/sida,2026-11-27,country,Guinea,GIN,n_modeles_VIH/sida,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",GMB-Ebola / filovirus,2026-11-27,country,Gambia,GMB,n_modeles_Ebola / filovirus,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",GMB-Fièvre de la vallée du Rift,2026-11-27,country,Gambia,GMB,n_modeles_Fièvre de la vallée du Rift,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",GMB-Hépatites,2026-11-27,country,Gambia,GMB,n_modeles_Hépatites,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",GMB-Non précisé (infectieux générique),2026-11-27,country,Gambia,GMB,n_modeles_Non précisé (infectieux générique),1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",GMB-Paludisme,2026-11-27,country,Gambia,GMB,n_modeles_Paludisme,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",GMB-Tuberculose,2026-11-27,country,Gambia,GMB,n_modeles_Tuberculose,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",GNB-VIH/sida,2026-11-27,country,Guinea-Bissau,GNB,n_modeles_VIH/sida,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",GNQ-Ebola / filovirus,2026-11-27,country,Equatorial Guinea,GNQ,n_modeles_Ebola / filovirus,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",KEN-COVID-19,2026-11-27,country,Kenya,KEN,n_modeles_COVID-19,9,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",KEN-Fièvre de la vallée du Rift,2026-11-27,country,Kenya,KEN,n_modeles_Fièvre de la vallée du Rift,3,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",KEN-Grippe,2026-11-27,country,Kenya,KEN,n_modeles_Grippe,2,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",KEN-HPV,2026-11-27,country,Kenya,KEN,n_modeles_HPV,2,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",KEN-Helminthiases,2026-11-27,country,Kenya,KEN,n_modeles_Helminthiases,5,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",KEN-Leishmaniose,2026-11-27,country,Kenya,KEN,n_modeles_Leishmaniose,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",KEN-Non précisé (infectieux générique),2026-11-27,country,Kenya,KEN,n_modeles_Non précisé (infectieux générique),1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",KEN-Paludisme,2026-11-27,country,Kenya,KEN,n_modeles_Paludisme,9,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",KEN-Rage,2026-11-27,country,Kenya,KEN,n_modeles_Rage,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",KEN-Schistosomiase,2026-11-27,country,Kenya,KEN,n_modeles_Schistosomiase,2,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",KEN-Trypanosomiase,2026-11-27,country,Kenya,KEN,n_modeles_Trypanosomiase,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",KEN-Tuberculose,2026-11-27,country,Kenya,KEN,n_modeles_Tuberculose,3,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",KEN-Typhoïde,2026-11-27,country,Kenya,KEN,n_modeles_Typhoïde,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",KEN-VIH/sida,2026-11-27,country,Kenya,KEN,n_modeles_VIH/sida,36,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",LBR-COVID-19,2026-11-27,country,Liberia,LBR,n_modeles_COVID-19,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",LBR-Ebola / filovirus,2026-11-27,country,Liberia,LBR,n_modeles_Ebola / filovirus,10,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",LSO-VIH/sida,2026-11-27,country,Lesotho,LSO,n_modeles_VIH/sida,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",MAR-COVID-19,2026-11-27,country,Morocco,MAR,n_modeles_COVID-19,9,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",MAR-Leishmaniose,2026-11-27,country,Morocco,MAR,n_modeles_Leishmaniose,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",MAR-Tuberculose,2026-11-27,country,Morocco,MAR,n_modeles_Tuberculose,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",MAR-VIH/sida,2026-11-27,country,Morocco,MAR,n_modeles_VIH/sida,2,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",MDG-COVID-19,2026-11-27,country,Madagascar,MDG,n_modeles_COVID-19,2,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",MDG-Fièvre de la vallée du Rift,2026-11-27,country,Madagascar,MDG,n_modeles_Fièvre de la vallée du Rift,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",MDG-Helminthiases,2026-11-27,country,Madagascar,MDG,n_modeles_Helminthiases,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",MDG-Paludisme,2026-11-27,country,Madagascar,MDG,n_modeles_Paludisme,2,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",MDG-Peste,2026-11-27,country,Madagascar,MDG,n_modeles_Peste,3,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",MDG-Tuberculose,2026-11-27,country,Madagascar,MDG,n_modeles_Tuberculose,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",MDG-VIH/sida,2026-11-27,country,Madagascar,MDG,n_modeles_VIH/sida,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",MLI-COVID-19,2026-11-27,country,Mali,MLI,n_modeles_COVID-19,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",MLI-Grippe,2026-11-27,country,Mali,MLI,n_modeles_Grippe,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",MLI-Paludisme,2026-11-27,country,Mali,MLI,n_modeles_Paludisme,3,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",MLI-Typhoïde,2026-11-27,country,Mali,MLI,n_modeles_Typhoïde,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",MOZ-Choléra,2026-11-27,country,Mozambique,MOZ,n_modeles_Choléra,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",MOZ-Non précisé (infectieux générique),2026-11-27,country,Mozambique,MOZ,n_modeles_Non précisé (infectieux générique),1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",MOZ-Paludisme,2026-11-27,country,Mozambique,MOZ,n_modeles_Paludisme,4,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",MOZ-Tuberculose,2026-11-27,country,Mozambique,MOZ,n_modeles_Tuberculose,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",MOZ-VIH/sida,2026-11-27,country,Mozambique,MOZ,n_modeles_VIH/sida,2,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",MRT-Fièvre de la vallée du Rift,2026-11-27,country,Mauritania,MRT,n_modeles_Fièvre de la vallée du Rift,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",MWI-COVID-19,2026-11-27,country,Malawi,MWI,n_modeles_COVID-19,3,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",MWI-Choléra,2026-11-27,country,Malawi,MWI,n_modeles_Choléra,2,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",MWI-Non précisé (infectieux générique),2026-11-27,country,Malawi,MWI,n_modeles_Non précisé (infectieux générique),2,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",MWI-Paludisme,2026-11-27,country,Malawi,MWI,n_modeles_Paludisme,2,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",MWI-Polio,2026-11-27,country,Malawi,MWI,n_modeles_Polio,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",MWI-Rougeole,2026-11-27,country,Malawi,MWI,n_modeles_Rougeole,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",MWI-Schistosomiase,2026-11-27,country,Malawi,MWI,n_modeles_Schistosomiase,2,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",MWI-Tuberculose,2026-11-27,country,Malawi,MWI,n_modeles_Tuberculose,4,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",MWI-Typhoïde,2026-11-27,country,Malawi,MWI,n_modeles_Typhoïde,2,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",MWI-VIH/sida,2026-11-27,country,Malawi,MWI,n_modeles_VIH/sida,10,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",NAM-Paludisme,2026-11-27,country,Namibia,NAM,n_modeles_Paludisme,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",NER-Méningite,2026-11-27,country,Niger,NER,n_modeles_Méningite,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",NER-Paludisme,2026-11-27,country,Niger,NER,n_modeles_Paludisme,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",NGA-COVID-19,2026-11-27,country,Nigeria,NGA,n_modeles_COVID-19,22,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",NGA-Choléra,2026-11-27,country,Nigeria,NGA,n_modeles_Choléra,2,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",NGA-Coqueluche,2026-11-27,country,Nigeria,NGA,n_modeles_Coqueluche,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",NGA-Filariose lymphatique,2026-11-27,country,Nigeria,NGA,n_modeles_Filariose lymphatique,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",NGA-Grippe,2026-11-27,country,Nigeria,NGA,n_modeles_Grippe,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",NGA-Helminthiases,2026-11-27,country,Nigeria,NGA,n_modeles_Helminthiases,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",NGA-Hépatites,2026-11-27,country,Nigeria,NGA,n_modeles_Hépatites,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",NGA-Lassa,2026-11-27,country,Nigeria,NGA,n_modeles_Lassa,6,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",NGA-Mpox,2026-11-27,country,Nigeria,NGA,n_modeles_Mpox,2,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",NGA-Non précisé (infectieux générique),2026-11-27,country,Nigeria,NGA,n_modeles_Non précisé (infectieux générique),1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",NGA-Paludisme,2026-11-27,country,Nigeria,NGA,n_modeles_Paludisme,18,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",NGA-Polio,2026-11-27,country,Nigeria,NGA,n_modeles_Polio,6,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",NGA-Rougeole,2026-11-27,country,Nigeria,NGA,n_modeles_Rougeole,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",NGA-Trypanosomiase,2026-11-27,country,Nigeria,NGA,n_modeles_Trypanosomiase,2,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",NGA-Tuberculose,2026-11-27,country,Nigeria,NGA,n_modeles_Tuberculose,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",NGA-VIH/sida,2026-11-27,country,Nigeria,NGA,n_modeles_VIH/sida,4,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",RWA-COVID-19,2026-11-27,country,Rwanda,RWA,n_modeles_COVID-19,3,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",RWA-Paludisme,2026-11-27,country,Rwanda,RWA,n_modeles_Paludisme,4,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",RWA-Schistosomiase,2026-11-27,country,Rwanda,RWA,n_modeles_Schistosomiase,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",RWA-VIH/sida,2026-11-27,country,Rwanda,RWA,n_modeles_VIH/sida,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",SDN-Chikungunya,2026-11-27,country,Sudan,SDN,n_modeles_Chikungunya,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",SDN-Ebola / filovirus,2026-11-27,country,Sudan,SDN,n_modeles_Ebola / filovirus,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",SDN-Paludisme,2026-11-27,country,Sudan,SDN,n_modeles_Paludisme,3,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",SDN-VIH/sida,2026-11-27,country,Sudan,SDN,n_modeles_VIH/sida,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",SEN-COVID-19,2026-11-27,country,Senegal,SEN,n_modeles_COVID-19,3,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",SEN-Chikungunya,2026-11-27,country,Senegal,SEN,n_modeles_Chikungunya,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",SEN-Choléra,2026-11-27,country,Senegal,SEN,n_modeles_Choléra,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",SEN-Paludisme,2026-11-27,country,Senegal,SEN,n_modeles_Paludisme,7,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",SEN-Schistosomiase,2026-11-27,country,Senegal,SEN,n_modeles_Schistosomiase,2,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",SEN-VIH/sida,2026-11-27,country,Senegal,SEN,n_modeles_VIH/sida,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",SLE-COVID-19,2026-11-27,country,Sierra Leone,SLE,n_modeles_COVID-19,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",SLE-Ebola / filovirus,2026-11-27,country,Sierra Leone,SLE,n_modeles_Ebola / filovirus,13,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",SLE-Non précisé (infectieux générique),2026-11-27,country,Sierra Leone,SLE,n_modeles_Non précisé (infectieux générique),2,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",SLE-Paludisme,2026-11-27,country,Sierra Leone,SLE,n_modeles_Paludisme,2,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",SOM-COVID-19,2026-11-27,country,Somalia,SOM,n_modeles_COVID-19,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",SOM-Dengue,2026-11-27,country,Somalia,SOM,n_modeles_Dengue,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",SOM-Tuberculose,2026-11-27,country,Somalia,SOM,n_modeles_Tuberculose,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",SSD-Non précisé (infectieux générique),2026-11-27,country,South Sudan,SSD,n_modeles_Non précisé (infectieux générique),1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",SSD-Paludisme,2026-11-27,country,South Sudan,SSD,n_modeles_Paludisme,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",SWZ-COVID-19,2026-11-27,country,Eswatini,SWZ,n_modeles_COVID-19,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",SWZ-Paludisme,2026-11-27,country,Eswatini,SWZ,n_modeles_Paludisme,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",SWZ-VIH/sida,2026-11-27,country,Eswatini,SWZ,n_modeles_VIH/sida,6,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",TCD-Choléra,2026-11-27,country,Chad,TCD,n_modeles_Choléra,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",TCD-Rage,2026-11-27,country,Chad,TCD,n_modeles_Rage,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",TCD-Trypanosomiase,2026-11-27,country,Chad,TCD,n_modeles_Trypanosomiase,2,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",TGO-Paludisme,2026-11-27,country,Togo,TGO,n_modeles_Paludisme,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",TUN-COVID-19,2026-11-27,country,Tunisia,TUN,n_modeles_COVID-19,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",TUN-Hépatites,2026-11-27,country,Tunisia,TUN,n_modeles_Hépatites,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",TUN-Leishmaniose,2026-11-27,country,Tunisia,TUN,n_modeles_Leishmaniose,2,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",TUN-Non précisé (infectieux générique),2026-11-27,country,Tunisia,TUN,n_modeles_Non précisé (infectieux générique),2,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",TUN-Résistance antimicrobienne,2026-11-27,country,Tunisia,TUN,n_modeles_Résistance antimicrobienne,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",TUN-Tuberculose,2026-11-27,country,Tunisia,TUN,n_modeles_Tuberculose,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",TUN-VIH/sida,2026-11-27,country,Tunisia,TUN,n_modeles_VIH/sida,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",TZA-COVID-19,2026-11-27,country,Tanzania,TZA,n_modeles_COVID-19,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",TZA-Choléra,2026-11-27,country,Tanzania,TZA,n_modeles_Choléra,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",TZA-Hépatites,2026-11-27,country,Tanzania,TZA,n_modeles_Hépatites,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",TZA-Non précisé (infectieux générique),2026-11-27,country,Tanzania,TZA,n_modeles_Non précisé (infectieux générique),1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",TZA-Paludisme,2026-11-27,country,Tanzania,TZA,n_modeles_Paludisme,17,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",TZA-Rage,2026-11-27,country,Tanzania,TZA,n_modeles_Rage,2,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",TZA-Tuberculose,2026-11-27,country,Tanzania,TZA,n_modeles_Tuberculose,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",TZA-VIH/sida,2026-11-27,country,Tanzania,TZA,n_modeles_VIH/sida,9,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",UGA-COVID-19,2026-11-27,country,Uganda,UGA,n_modeles_COVID-19,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",UGA-Ebola / filovirus,2026-11-27,country,Uganda,UGA,n_modeles_Ebola / filovirus,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",UGA-Fièvre de la vallée du Rift,2026-11-27,country,Uganda,UGA,n_modeles_Fièvre de la vallée du Rift,2,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",UGA-Non précisé (infectieux générique),2026-11-27,country,Uganda,UGA,n_modeles_Non précisé (infectieux générique),2,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",UGA-Paludisme,2026-11-27,country,Uganda,UGA,n_modeles_Paludisme,13,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",UGA-Rougeole,2026-11-27,country,Uganda,UGA,n_modeles_Rougeole,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",UGA-Schistosomiase,2026-11-27,country,Uganda,UGA,n_modeles_Schistosomiase,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",UGA-Trypanosomiase,2026-11-27,country,Uganda,UGA,n_modeles_Trypanosomiase,3,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",UGA-Tuberculose,2026-11-27,country,Uganda,UGA,n_modeles_Tuberculose,3,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",UGA-Typhoïde,2026-11-27,country,Uganda,UGA,n_modeles_Typhoïde,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",UGA-VIH/sida,2026-11-27,country,Uganda,UGA,n_modeles_VIH/sida,23,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",ZAF-COVID-19,2026-11-27,country,South Africa,ZAF,n_modeles_COVID-19,40,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",ZAF-Grippe,2026-11-27,country,South Africa,ZAF,n_modeles_Grippe,6,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",ZAF-HPV,2026-11-27,country,South Africa,ZAF,n_modeles_HPV,2,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",ZAF-Hépatites,2026-11-27,country,South Africa,ZAF,n_modeles_Hépatites,3,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",ZAF-Non précisé (infectieux générique),2026-11-27,country,South Africa,ZAF,n_modeles_Non précisé (infectieux générique),6,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",ZAF-Paludisme,2026-11-27,country,South Africa,ZAF,n_modeles_Paludisme,10,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",ZAF-Tuberculose,2026-11-27,country,South Africa,ZAF,n_modeles_Tuberculose,52,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",ZAF-VIH/sida,2026-11-27,country,South Africa,ZAF,n_modeles_VIH/sida,94,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",ZAF-VRS,2026-11-27,country,South Africa,ZAF,n_modeles_VRS,2,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",ZMB-COVID-19,2026-11-27,country,Zambia,ZMB,n_modeles_COVID-19,4,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",ZMB-Non précisé (infectieux générique),2026-11-27,country,Zambia,ZMB,n_modeles_Non précisé (infectieux générique),2,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",ZMB-Paludisme,2026-11-27,country,Zambia,ZMB,n_modeles_Paludisme,8,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",ZMB-Peste,2026-11-27,country,Zambia,ZMB,n_modeles_Peste,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",ZMB-Rougeole,2026-11-27,country,Zambia,ZMB,n_modeles_Rougeole,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",ZMB-Trypanosomiase,2026-11-27,country,Zambia,ZMB,n_modeles_Trypanosomiase,3,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",ZMB-VIH/sida,2026-11-27,country,Zambia,ZMB,n_modeles_VIH/sida,5,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",ZWE-COVID-19,2026-11-27,country,Zimbabwe,ZWE,n_modeles_COVID-19,2,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",ZWE-Choléra,2026-11-27,country,Zimbabwe,ZWE,n_modeles_Choléra,3,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",ZWE-Hépatites,2026-11-27,country,Zimbabwe,ZWE,n_modeles_Hépatites,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",ZWE-Paludisme,2026-11-27,country,Zimbabwe,ZWE,n_modeles_Paludisme,2,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",ZWE-Schistosomiase,2026-11-27,country,Zimbabwe,ZWE,n_modeles_Schistosomiase,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",ZWE-Trypanosomiase,2026-11-27,country,Zimbabwe,ZWE,n_modeles_Trypanosomiase,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",ZWE-VIH/sida,2026-11-27,country,Zimbabwe,ZWE,n_modeles_VIH/sida,7,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2015-T2,2015-12-31,continent,Afrique,AFR,n_modeles_preuve_T2,50,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2015-T3,2015-12-31,continent,Afrique,AFR,n_modeles_preuve_T3,19,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2015-T4,2015-12-31,continent,Afrique,AFR,n_modeles_preuve_T4,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2016-T2,2016-12-31,continent,Afrique,AFR,n_modeles_preuve_T2,76,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2016-T3,2016-12-31,continent,Afrique,AFR,n_modeles_preuve_T3,12,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2016-T4,2016-12-31,continent,Afrique,AFR,n_modeles_preuve_T4,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2017-T2,2017-12-31,continent,Afrique,AFR,n_modeles_preuve_T2,43,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2017-T3,2017-12-31,continent,Afrique,AFR,n_modeles_preuve_T3,15,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2017-T4,2017-12-31,continent,Afrique,AFR,n_modeles_preuve_T4,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2018-T2,2018-12-31,continent,Afrique,AFR,n_modeles_preuve_T2,46,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2018-T3,2018-12-31,continent,Afrique,AFR,n_modeles_preuve_T3,23,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2018-T4,2018-12-31,continent,Afrique,AFR,n_modeles_preuve_T4,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2019-T2,2019-12-31,continent,Afrique,AFR,n_modeles_preuve_T2,53,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2019-T3,2019-12-31,continent,Afrique,AFR,n_modeles_preuve_T3,21,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2019-T4,2019-12-31,continent,Afrique,AFR,n_modeles_preuve_T4,7,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2020-T2,2020-12-31,continent,Afrique,AFR,n_modeles_preuve_T2,75,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2020-T3,2020-12-31,continent,Afrique,AFR,n_modeles_preuve_T3,18,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2020-T4,2020-12-31,continent,Afrique,AFR,n_modeles_preuve_T4,5,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2021-T2,2021-12-31,continent,Afrique,AFR,n_modeles_preuve_T2,92,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2021-T3,2021-12-31,continent,Afrique,AFR,n_modeles_preuve_T3,36,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2021-T4,2021-12-31,continent,Afrique,AFR,n_modeles_preuve_T4,3,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2022-T2,2022-12-31,continent,Afrique,AFR,n_modeles_preuve_T2,77,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2022-T3,2022-12-31,continent,Afrique,AFR,n_modeles_preuve_T3,35,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2022-T4,2022-12-31,continent,Afrique,AFR,n_modeles_preuve_T4,7,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2023-T2,2023-12-31,continent,Afrique,AFR,n_modeles_preuve_T2,72,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2023-T3,2023-12-31,continent,Afrique,AFR,n_modeles_preuve_T3,44,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2023-T4,2023-12-31,continent,Afrique,AFR,n_modeles_preuve_T4,4,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2024-T2,2024-12-31,continent,Afrique,AFR,n_modeles_preuve_T2,76,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2024-T3,2024-12-31,continent,Afrique,AFR,n_modeles_preuve_T3,54,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2024-T4,2024-12-31,continent,Afrique,AFR,n_modeles_preuve_T4,1,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2025-T2,2025-12-31,continent,Afrique,AFR,n_modeles_preuve_T2,78,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2025-T3,2025-12-31,continent,Afrique,AFR,n_modeles_preuve_T3,72,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2025-T4,2025-12-31,continent,Afrique,AFR,n_modeles_preuve_T4,8,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2026-T2,2026-12-31,continent,Afrique,AFR,n_modeles_preuve_T2,72,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2026-T3,2026-12-31,continent,Afrique,AFR,n_modeles_preuve_T3,68,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2026-T4,2026-12-31,continent,Afrique,AFR,n_modeles_preuve_T4,21,count,info,True,,2026-11-27T15:27:25Z
+modeling,"PREIS-Modeling (Europe PMC, V10)",2027-T3,2027-12-31,continent,Afrique,AFR,n_modeles_preuve_T3,1,count,info,True,,2026-11-27T15:27:25Z
